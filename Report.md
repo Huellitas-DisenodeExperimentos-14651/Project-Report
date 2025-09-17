@@ -734,6 +734,54 @@ Ante los riesgos asociados a la informalidad y el exceso de publicaciones en red
 
 ## 2.2. Entrevistas
 
+<div align="justify">
+
+### 2.2.1. Diseño de entrevistas
+
+Como parte de la validación del modelo de negocio de Adopta!, se realizaron entrevistas semiestructuradas dirigidas a dos segmentos principales: protectores o rescatistas que gestionan animales en situación de abandono, y personas interesadas en adoptar mascotas.
+
+**Segmento 1: Adoptantes**
+
+#### Datos generales
+- ¿Cuál es tu nombre?  
+- ¿Qué edad tienes?  
+- ¿En qué distrito resides?  
+- ¿Cuál es tu ocupación?  
+- ¿Vives solo/a o con tu familia?  
+
+#### Motivaciones y comportamientos
+- ¿Qué te motivó a considerar la adopción de una mascota?  
+- ¿Has adoptado antes? ¿Cómo fue tu experiencia?  
+- ¿Qué tipo de mascota te gustaría adoptar (raza, edad, tamaño)?  
+- ¿Qué medios utilizas para buscar mascotas en adopción?  
+- ¿Qué aspectos valoras más antes de adoptar (salud, comportamiento, historia)?  
+
+#### Miedos, expectativas y canales
+- ¿Qué dudas o miedos tienes respecto al proceso de adopción?  
+- ¿Qué haría que confíes plenamente en una plataforma digital de adopción?  
+- ¿Qué redes sociales o plataformas digitales usas con más frecuencia?  
+- ¿Te gustaría recibir seguimiento post-adopción o apoyo luego de adoptar?  
+
+**Segmento 2: Protectores**
+
+### Datos generales
+- ¿Cuál es tu nombre?  
+- ¿Cuánto tiempo dedicas al rescate o protección animal?  
+- ¿Trabajas de forma independiente o vinculado a un refugio?  
+- ¿Cuál es el número promedio de animales que rescatas por mes?  
+
+### Operaciones y herramientas
+- ¿Cómo gestionas actualmente los procesos de adopción?  
+- ¿Qué medios utilizas para difundir los casos?  
+- ¿Qué información sueles recopilar del animal antes de darlo en adopción?  
+- ¿Qué dificultades enfrentas para encontrar adoptantes responsables?  
+- ¿Has usado alguna plataforma web o app para este fin?  
+
+### Expectativas
+- ¿Qué funcionalidades digitales serían útiles para ti (seguimiento, historial, etc.)?  
+- ¿Qué tipo de soporte o incentivo te motivaría a usar una nueva plataforma?  
+- ¿Cuáles son tus principales frustraciones en el proceso de adopción?  
+- ¿Qué esperas de los adoptantes para garantizar el bienestar del animal?  
 
 ### 2.2.2. Registro de entrevistas
 
@@ -741,6 +789,7 @@ Ante los riesgos asociados a la informalidad y el exceso de publicaciones en red
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. *Needfinding*
+Luego de identificar los segmentos objetivo —protectores de animales y personas interesadas en adoptar— se llevaron a cabo entrevistas con representantes de ambos grupos, con el propósito de recopilar información clave sobre sus emociones, motivaciones, expectativas y necesidades. Esta sección presentará los esquemas de User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping.
 
 ### 2.3.1. *User Personas*
 
