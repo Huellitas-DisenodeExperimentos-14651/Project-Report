@@ -578,12 +578,159 @@ En esta sección se identifican los segmentos de clientes objetivo de *Huellitas
 
 ## 2.1. Competidores
 
-### 2.1.1. Análisis competitivo
+<div align="justify">
 
+Tras un análisis del mercado, se identificaron tres plataformas tecnológicas con funcionalidades similares a Huellitas Conectadas, la propuesta orientada a la adopción responsable de mascotas:
+</div>
+
+**Competidores identificados:**
+
+<div align="justify">
+
+* ***WUF***
+Es una plataforma peruana orientada a la adopción responsable y al bienestar animal, reconocida por su trabajo en visibilizar la problemática del abandono y promover la tenencia responsable. WUF se caracteriza por contar con un proceso de adopción estructurado, brindar seguimiento a los adoptantes y fomentar la concientización a través de campañas digitales, programas educativos y alianzas estratégicas con empresas y medios de comunicación.
+</div>
+
+<br>
+<div align="justify">
+
+* ***Wukta***
+Es una plataforma enfocada en la adopción de mascotas y en la construcción de una comunidad pet-friendly activa. Wukta busca generar un espacio de colaboración donde rescatistas, refugios y adoptantes puedan interactuar de manera cercana. Se distingue por impulsar contenido educativo sobre el cuidado responsable de los animales, promover valores de respeto y bienestar, y facilitar conexiones directas que fortalecen la red de apoyo entre quienes buscan dar o recibir un hogar a una mascota.
+</div>
+
+<br>
+<div align="justify">
+
+* ***Voz Animal Perú***
+Es una organización dedicada al rescate activo de animales en situación de abandono, con un fuerte énfasis en campañas de esterilización y educación sobre la tenencia responsable. Voz Animal Perú se ha consolidado como un actor clave en la protección animal al promover iniciativas de alto impacto social que buscan involucrar directamente a la comunidad.
+</div>
+
+### 2.1.1. Análisis competitivo
+<table>
+    <thead>
+        <tr>
+            <th colspan="6">Competitive Analysis Landscape</th>
+        </tr>
+        <tr>
+            <th colspan="6">Este análisis busca identificar a los principales competidores de Adopta! y definir estrategias que permitan diferenciar la propuesta de valor en el sector de adopción animal.</th>
+        </tr>
+        <tr>
+            <th colspan="2">Nombre</th>
+            <th>Adopta!</th>
+            <th>WUF</th>
+            <th>Wukta</th>
+            <th>Voz Animal Perú</th>
+        </tr>
+        <tr>
+            <th colspan="2">Logo</th>
+            <th><img src="Images/chapter2/adopta.png" alt="Logo Adopta!"></th>
+            <th><img src="Images/chapter2/wuf.png" alt="Logo WUF"></th>
+            <th><img src="Images/chapter2/wukta.png" alt="Logo Wukta"></th>
+            <th><img src="Images/chapter2/vozanimal.png" alt="Logo Voz Animal Perú"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2" align="justify">Perfil</td>
+            <td align="justify">Overview</td>
+            <td align="justify">Plataforma digital que facilita adopciones responsables, brindando fichas con información médica clara y confiable, además de herramientas de gestión para refugios y rescatistas.</td>
+            <td align="justify">ONG consolidada que promueve adopciones, campañas de esterilización y programas educativos, respaldada por alianzas corporativas.</td>
+            <td align="justify">Plataforma web que conecta adoptantes con rescatistas y albergues a través de perfiles digitales de mascotas.</td>
+            <td align="justify">ONG enfocada en rescate, rehabilitación y adopción de animales abandonados, con fuerte presencia en redes sociales y campañas de sensibilización.</td>
+        </tr>
+        <tr>
+            <td align="justify">Ventaja competitiva</td>
+            <td align="justify">Información médica transparente y centralizada, junto con herramientas digitales simples que fortalecen la confianza y aceleran el proceso de adopción.</td>
+            <td align="justify">Reconocimiento institucional, confianza pública y red de aliados estratégicos.</td>
+            <td align="justify">Interfaz simple, rápida y enfocada en digitalización para facilitar la conexión entre adoptantes y rescatistas.</td>
+            <td align="justify">Alto compromiso social, rescates directos y campañas virales que movilizan a la comunidad.</td>
+        </tr>
+        <tr>
+            <td rowspan="5" align="justify">Perfil de Marketing</td>
+            <td align="justify">Mercado Objetivo</td>
+            <td align="justify">Adoptantes responsables en Lima Metropolitana y protectores/refugios independientes.</td>
+            <td align="justify">Público general sensibilizado con la causa animal y potenciales donantes.</td>
+            <td align="justify">Adoptantes y albergues (formales o informales) que buscan visibilidad digital.</td>
+            <td align="justify">Familias, voluntarios y activistas interesados en el bienestar animal.</td>
+        </tr>
+        <tr>
+            <td align="justify">Estrategias de Marketing</td>
+            <td align="justify">Campañas en redes sociales, difusión de historias de adopción y alianzas con influencers y veterinarias.</td>
+            <td align="justify">Campañas masivas en medios, presencia en eventos y merchandising solidario.</td>
+            <td align="justify">Difusión digital mediante redes sociales, blog y convenios con refugios.</td>
+            <td align="justify">Activismo digital, publicaciones emocionales y campañas virales en redes.</td>
+        </tr>
+        <tr>
+            <td align="justify">Productos & Servicios</td>
+            <td align="justify">Plataforma digital con fichas de mascotas, gestión de refugios, guías de donación y sistema de agendamiento.</td>
+            <td align="justify">Adopciones, apadrinamiento, donaciones, campañas de esterilización y educación.</td>
+            <td align="justify">Publicación de mascotas en adopción, contacto directo vía web, registro básico.</td>
+            <td align="justify">Rescate y rehabilitación, campañas de salud, adopciones y denuncias de maltrato.</td>
+        </tr>
+        <tr>
+            <td align="justify">Precios & Costos</td>
+            <td align="justify">Gratuito para adoptantes. Planes premium futuros para refugios y rescatistas.</td>
+            <td align="justify">Gratuito, financiado mediante donaciones y auspiciadores.</td>
+            <td align="justify">Gratuito; sostenibilidad basada en convenios con refugios y protectores.</td>
+            <td align="justify">Gratuito; depende de donaciones puntuales y voluntariado.</td>
+        </tr>
+        <tr>
+            <td align="justify">Canales de distribución</td>
+            <td align="justify">Plataforma web adaptativa; app móvil en desarrollo.</td>
+            <td align="justify">Web optimizada, con presencia activa en Instagram y Facebook.</td>
+            <td align="justify">Plataforma web responsive; sin aplicación móvil.</td>
+            <td align="justify">Redes sociales (Facebook, Instagram) y sitio web básico.</td>
+        </tr>
+        <tr>
+            <td rowspan="4" align="justify">Análisis SWOT</td>
+            <td align="justify">Fortalezas</td>
+            <td align="justify">Transparencia, centralización de información y experiencia de usuario enfocada en confianza.</td>
+            <td align="justify">Marca reconocida, aliados corporativos y confianza del público.</td>
+            <td align="justify">Simplicidad en la adopción y fuerte enfoque digital.</td>
+            <td align="justify">Gran alcance en redes sociales, reputación positiva y activismo fuerte.</td>
+        </tr>
+        <tr>
+            <td align="justify">Debilidades</td>
+            <td align="justify">Nueva marca que requiere posicionarse y generar confianza.</td>
+            <td align="justify">Puede resultar impersonal al no involucrar directamente a refugios en cada proceso.</td>
+            <td align="justify">Poca personalización y falta de garantías en seguimiento post-adopción.</td>
+            <td align="justify">Saturación de casos y baja trazabilidad en algunos rescates.</td>
+        </tr>
+        <tr>
+            <td align="justify">Oportunidades</td>
+            <td align="justify">Mayor interés en adopción responsable y digitalización del proceso. Posibilidad de alianzas con veterinarias y expansión regional.</td>
+            <td align="justify">Escalar a provincias, lanzar app propia e incluir nuevas funcionalidades online.</td>
+            <td align="justify">Desarrollar seguimiento post-adopción y ampliar alianzas con marcas afines.</td>
+            <td align="justify">Profesionalizar procesos y ampliar su red de apoyo comunitario.</td>
+        </tr>
+        <tr>
+            <td align="justify">Amenazas</td>
+            <td align="justify">Desconfianza inicial y saturación del mercado de adopción informal.</td>
+            <td align="justify">Aparición de plataformas más tecnológicas y descentralizadas.</td>
+            <td align="justify">Competencia alta y baja rentabilidad.</td>
+            <td align="justify">Volatilidad de donaciones y alta dependencia del voluntariado.</td>
+        </tr>
+    </tbody>
+</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+Para consolidarse frente a la competencia y alcanzar un posicionamiento sólido en el mercado limeño, **Adopta!** pondrá en marcha estrategias basadas en sus ventajas competitivas y en la identificación de oportunidades que aún no han sido cubiertas por otras organizaciones.  
 
+### Estrategia de diferenciación tecnológica
+La plataforma web de **Adopta!** facilitará la interacción entre adoptantes y protectores, priorizando la transparencia y el bienestar animal. Se proyecta la incorporación progresiva de herramientas como historial médico digital y alertas de seguimiento, lo que marcará una diferencia frente a iniciativas como Voz Animal o Wukta.  
+
+### Alianzas estratégicas 
+En el mediano plazo, se buscará establecer convenios con clínicas veterinarias y refugios formalmente constituidos, con el objetivo de fortalecer la credibilidad de los perfiles de adopción y brindar acceso a servicios veterinarios con costos preferenciales. Estas alianzas se implementarán de manera gradual en las siguientes fases de la plataforma.  
+
+### Campañas digitales con enfoque educativo y emocional
+Las redes sociales serán un canal clave para sensibilizar sobre la adopción responsable. Se dará prioridad a contenidos educativos, testimonios de adopciones exitosas y material visual que refuerce el vínculo entre los usuarios y los animales, ampliando el impacto de la plataforma.  
+
+### Captación y fidelización de protectores
+**Adopta!** ofrece a los protectores herramientas digitales para publicar perfiles de animales y gestionar solicitudes de adopción. También se contempla el uso de incentivos no monetarios, como reconocimientos digitales o apoyo en la difusión de campañas, para fortalecer su compromiso.  
+
+### Gestión de riesgos y validación de adopciones
+Ante los riesgos asociados a la informalidad y el exceso de publicaciones en redes sociales, **Adopta!** implementará un sistema de validación y seguimiento para cada proceso de adopción, reforzando la confianza de la comunidad y previniendo devoluciones o casos de maltrato.  
 
 ## 2.2. Entrevistas
 
