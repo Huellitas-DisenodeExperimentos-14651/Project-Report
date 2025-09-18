@@ -786,6 +786,88 @@ Como parte de la validación del modelo de negocio de Adopta!, se realizaron ent
 ### 2.2.2. Registro de entrevistas
 
 
+<div align="justify">
+
+Se realizarán tres entrevistas por cada segmento, alcanzando un total de seis en conjunto. Cada una se presentará en formato MP4 y será individual, dado que las preguntas y respuestas difieren según el perfil de cada entrevistado.
+
+**Segmento Objetivo #1: Personal de Refugios y Rescatistas de Animales (Administradores, Cuidadores y Voluntarios)**
+
+
+
+**Segmento Objetivo #2: Adoptantes Potenciales (Personas interesadas en adoptar animales)**
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Álvaro</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Acero</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>24 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>La Molina</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Instagram, TikTok, Facebook</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Siempre me han gustado los perros y ahora que vivo solo quiero compañía. Además, me motiva la idea de darle un hogar a un perrito que lo necesite.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Me preocupa que el perrito tenga enfermedades que no me informen desde el inicio o que luego no se adapte a vivir en un departamento.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular, laptop</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Christian Espinoza</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="Images/chapter2/AlvaroAcero.png" alt="Álvaro Acero"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/EawCTTHMUWxFh29ohhHwO8ABWlcGJZHV-KMcEBqkhroo4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=piEtME" title="Title">Ver Entrevista</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>3:03 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Álvaro Acero, estudiante de Ingeniería Industrial de 24 años que reside en La Molina y vive solo, busca adoptar un perro mediano, joven pero no cachorro, como compañía en su departamento. Nunca ha adoptado antes, pero ha tenido mascotas en casa de sus padres. Utiliza principalmente Instagram, TikTok y Facebook para buscar información sobre adopciones. Valora principalmente la salud, el comportamiento y la historia del animal, y espera que la plataforma digital ofrezca información clara, validación de refugios y seguimiento post-adopción. Manifiesta interés en recibir apoyo inicial tras la adopción para garantizar la adaptación y el cuidado del perrito.</td>
+  </tr>
+</tbody>
+</table>
+
+
+</div>
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. *Needfinding*
