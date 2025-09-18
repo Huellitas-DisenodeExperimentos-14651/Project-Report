@@ -792,24 +792,98 @@ Como parte de la validación del modelo de negocio de Adopta!, se realizaron ent
 Luego de identificar los segmentos objetivo —protectores de animales y personas interesadas en adoptar— se llevaron a cabo entrevistas con representantes de ambos grupos, con el propósito de recopilar información clave sobre sus emociones, motivaciones, expectativas y necesidades. Esta sección presentará los esquemas de User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping.
 
 ### 2.3.1. *User Personas*
+Se muestran los perfiles de User Persona diseñados para cada público objetivo, construidos con base en las características de los usuarios ideales de cada segmento.
+
+**Segmento Objetivo #1: Personal de Refugios y Rescatistas de Animales (Administradores, Cuidadores y Voluntarios)**
+
+![User Persona 1](<Images/chapter2/Romina García.png>)
+
+**Segmento Objetivo #2: Adoptantes Potenciales (Personas interesadas en adoptar animales)**
+
+![User Persona 2](<Images/chapter2/Sofía Salazar.png>)
 
 
 ### 2.3.2. *User Task Matrix*
+La elaboración de la matriz de tareas se basó en dos segmentos clave definidos a partir del análisis de entrevistas: los productores rurales tradicionales y aquellos tecnificados que cultivan productos de alto valor.
+
+<b>Romina García (Rescatista)</b><br>
+<div align="center">
+
+| **TAREA DEL USUARIO**                              | **Frecuencia** | **Relevancia** |
+|-----------------------------------------------------|----------------|----------------|
+| Publicar animales rescatados en la plataforma       |     Alta       |      Alta      |
+| Revisar y responder solicitudes de adopción         |     Alta       |      Alta      |
+| Hacer seguimiento post-adopción a adoptantes        |     Media      |      Alta      |
+| Organizar información médica de los animales        |     Media      |      Alta      |
+| Difundir casos urgentes en redes sociales           |     Alta       |      Media     |
+| Validar perfiles de adoptantes responsables         |     Media      |      Alta      |
+| Coordinar con veterinarias o refugios aliados       |     Baja       |      Media     |
+| Gestionar el historial de cada animal rescatado     |     Media      |      Alta      |
+
+</div><br><br>
+
+<b>Sofía Salazar (Adoptante potencial)</b><br>
+<div align="center">
+
+| **TAREA DEL USUARIO**                              | **Frecuencia** | **Relevancia** |
+|-----------------------------------------------------|----------------|----------------|
+| Buscar publicaciones de mascotas disponibles        |     Alta       |      Alta      |
+| Revisar información médica e historial del animal   |     Media      |      Alta      |
+| Completar el formulario de adopción                 |     Media      |      Alta      |
+| Agendar visitas a refugios o con protectores        |     Media      |      Media     |
+| Comunicarse con el protector o rescatista           |     Alta       |      Alta      |
+| Recibir notificaciones sobre el proceso de adopción |     Alta       |      Media     |
+| Consultar consejos o contenido educativo            |     Media      |      Media     |
+| Participar en seguimiento post-adopción             |     Baja       |      Alta      |
 
 
 </div><br><br>
 
 ### 2.3.3. *User Journey Mapping*
 
+#### User Journey: Romina García, Protectora Independiente  
+
+| **Fase del Journey**      | **Acción**                                                        | **Herramientas / Canales**      | **Emoción**             | **Punto de Dolor**                                                     |
+|----------------------------|-------------------------------------------------------------------|---------------------------------|-------------------------|------------------------------------------------------------------------|
+| **Rescate**                | Encuentra un animal en situación crítica y busca darle auxilio    | Calle, red de voluntarios       | 🟡 Preocupada            | Carece de apoyo logístico y atención veterinaria inmediata             |
+| **Evaluación del Animal**  | Lo lleva a un veterinario o cubre gastos con recursos propios     | Clínica veterinaria, WhatsApp   | 🟠 Estresada             | Altos costos, ausencia de historial médico, gestión poco estructurada  |
+| **Difusión para Adopción** | Comparte fotos e historia en redes sociales                      | Instagram, Facebook, Telegram   | 🟡 Esperanzada           | Alcance limitado, respuestas poco confiables o comentarios negativos  |
+| **Filtrado de Adoptantes** | Revisa mensajes y aplica filtros con entrevistas o formularios    | Google Forms, llamadas, WhatsApp| 🟠 Ansiosa               | Dificultad para validar identidad e intenciones de adoptantes          |
+| **Adopción Final**         | Coordina entrega en punto acordado y da seguimiento inicial      | WhatsApp                        | 🟢 Satisfecha (a veces)  | Algunos adoptantes incumplen compromisos o desaparecen                 |
+| **Contacto Posterior**     | Intenta mantener comunicación sin un sistema formal              | Mensajes directos, recordatorios| 🟠 Frustrada             | Falta de continuidad, pérdida de contacto y riesgo de abandono         |
+
+#### User Journey: Sofía Salazar, Adoptante Potencial  
+
+| **Fase del Journey**       | **Acción**                                                        | **Herramientas / Canales**      | **Emoción**             | **Punto de Dolor**                                                      |
+|-----------------------------|-------------------------------------------------------------------|---------------------------------|-------------------------|-------------------------------------------------------------------------|
+| **Motivación Inicial**      | Decide adoptar una mascota por amor y compromiso personal         | Conversaciones, redes sociales  | 🟢 Entusiasmada          | No sabe cómo iniciar el proceso ni a qué refugios acudir                |
+| **Búsqueda**                | Explora perfiles de animales en distintas redes sociales          | Instagram, TikTok, Facebook     | 🟡 Interesada            | Información incompleta, poca claridad médica o de antecedentes          |
+| **Contacto con Protectores**| Envía mensajes privados o completa formularios de adopción        | DM, WhatsApp, Google Forms      | 🟠 Insegura              | Duda de la seriedad de la plataforma y recibe respuestas tardías        |
+| **Toma de Decisión**        | Evalúa qué mascota adoptar según fotos e historias breves         | Redes sociales, chats           | 🟡 Dudosa                | Carece de orientación experta o acompañamiento durante la elección      |
+| **Adopción**                | Coordina encuentro y recibe a la mascota                         | WhatsApp                        | 🟢 Emocionada            | En algunos casos no hay contrato ni garantía sobre la salud del animal  |
+| **Etapa Posterior**         | Busca orientación o apoyo en caso de problemas                   | Chats, grupos, redes            | 🟠 Agobiada              | No recibe respuesta ni soporte de seguimiento post-adopción             |
 
 
 ### 2.3.4. *Empathy Mapping*
 
+**Empathy map 1 - Segmento de: Personal de Refugios y Rescatistas de Animales (Administradores, Cuidadores y Voluntarios)**
 
+![Empathy Map 1](<Images/chapter2/Empathy map1.png>)
+
+**Empathy map 2 - Segmento de: Adoptantes Potenciales (Personas interesadas en adoptar animales)**
+
+![Empathy Map 2](<Images/chapter2/Empathy map2.png>)
 
 
 ### 2.3.5. *As-is Scenario Mapping*
 
+**As-is Scenario map 1 - Segmento de: Personal de Refugios y Rescatistas de Animales (Administradores, Cuidadores y Voluntarios)**
+
+![As-is Scenario map 1](<Images/chapter2/asiss1.png>)
+
+**As-is Scenario map 2 - Segmento de: Adoptantes Potenciales (Personas interesadas en adoptar animales)**
+
+![As-is Scenario map 2](<Images/chapter2/asiss2.png>)
 
 
 ## 2.4. *Ubiquitous Language*
@@ -831,6 +905,142 @@ A continuación, se presentan los términos propios del dominio del negocio:
 
 
 <div style="page-break-after: always;"></div>
+
+# Capítulo III: Requirements Specification
+
+## 3.1. *To-Be Scenario Mapping*
+
+**To-Be Scenario map 1 - Segmento de: Personal de Refugios y Rescatistas de Animales (Administradores, Cuidadores y Voluntarios)**
+
+![As-is Scenario map 1](<Images/chapter2/tob1.png>)
+
+**To-Be Scenario map 2 - Segmento de: Adoptantes Potenciales (Personas interesadas en adoptar animales)**
+
+![To-Be Scenario map 2](<Images/chapter2/tob2.png>)
+
+## 3.2. *User Stories*
+
+## 3.3. *Product Backlog*
+
+## 3.4. *Impact Mapping*
+
+El impact map es una herramienta estratégica que ayuda a alinear el desarrollo de una aplicación con los objetivos empresariales. Parte de un objetivo clave, identifica los comportamientos esperados de los usuarios, define las acciones necesarias dentro de la app y determina las funcionalidades que las habilitan. Esto permite evaluar el impacto de cada característica y construir un plan de acción enfocado, asegurando que cada mejora contribuya directamente al logro de metas.
+
+# Capítulo IV: *Product Design*
+
+## 4.1. *Style Guidelines*
+### 4.1.1. *General Style Guidelines*
+
+### 4.1.2. *Web Style Guidelines*
+
+### 4.1.3. *Mobile Style Guidelines*
+
+#### 4.1.3.1 *iOS Mobile Style Guidelines*
+
+#### 4.1.3.2 *Android Mobile Style Guidelines*
+
+## 4.2. *Information Architecture*
+### 4.2.1. *Organization Systems*
+
+### 4.2.2. *Labeling Systems*
+
+### 4.2.3. *SEO Tags and Meta Tags*
+
+### 4.2.4. *Searching Systems*
+
+### 4.2.5. *Navigation Systems*
+
+## 4.3. *Landing Page UI Design*
+### 4.3.1. *Landing Page Wireframe*
+
+### 4.3.2. *Landing Page Mock-up*
+
+
+## 4.4. *Mobile Applications UX/UI Design*
+### 4.4.1. *Mobile Applications Wireframes*
+
+### 4.4.2. *Mobile Applications Wireflow Diagrams*
+
+### 4.4.3. *Mobile Applications Mock-ups*
+
+### 4.4.4. *Mobile Applications User Flow Diagrams*
+
+
+## 4.5. *Mobile Applications Prototyping*
+### 4.5.1. *Android Mobile Applications Prototyping*
+
+### 4.5.2. *iOS Mobile Applications Prototyping*
+
+## 4.6. *Web Applications UX/UI Design*
+### 4.6.1. *Web Applications Wireframes*
+
+
+### 4.6.2. *Web Applications Wireflow Diagrams*
+
+
+### 4.6.3. *Web Applications Mock-ups*
+
+
+### 4.6.4. *Web Applications User Flow Diagrams*
+
+
+## 4.7. *Web Applications Prototyping*
+
+
+## 4.8. *Domain-Driven Software Architecture*
+### 4.8.1. *Software Architecture Context Diagram*
+
+
+### 4.8.2. *Software Architecture Container Diagrams*
+
+
+### 4.8.3. *Software Architecture Components Diagrams*
+
+
+## 4.9. *Software Object-Oriented Design*
+### 4.9.1. *Class Diagrams*
+
+
+### 4.9.2. *Class Dictionary*
+
+
+
+## 4.10. *Database Design*
+### 4.10.1. *Relational/Non-Relational Database Diagram*
+
+
+# Capítulo V: *Product Implementation*
+## 5.1. *Software Configuration Management*
+### 5.1.1. *Software Development Environment Configuration*
+
+
+### 5.1.2. *Source Code Management*
+
+### 5.1.3. *Source Code Style Guide & Conventions*
+
+### 5.1.4. *Software Deployment Configuration*
+
+
+## 5.2. *Product Implementation & Deployment*
+### 5.2.1. *Sprint Backlogs*
+
+
+### 5.2.2. *Implemented Landing Page Evidence*
+
+### 5.2.3. *Implemented Frontend-Web Application Evidence*
+
+### 5.2.4. *Acuerdo de Servicio - SaaS*
+
+### 5.2.5. *Implemented Native-Mobile Application Evidence*
+
+### 5.2.6. *Implemented RESTful API and/or Serverless Backend Evidence*
+
+### 5.2.7. *RESTful API Documentation*
+
+### 5.2.8. *Team Collaboration Insights*
+
+## 5.3. *Video About-the-Product*
+
 
 
 
