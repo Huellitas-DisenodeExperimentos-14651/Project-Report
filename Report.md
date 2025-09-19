@@ -1557,6 +1557,9 @@ La arquitectura de información (IA) en **Huellitas Conectadas** busca reducir l
 ### 4.2.1. Organization Systems
 Nuestro objetivo con **Huellitas Conectadas** es ofrecer una experiencia clara, accesible y emocionalmente conectada en nuestra página web y aplicación móvil. La estructura visual está diseñada para responder a las necesidades de nuestros dos segmentos clave: **adoptantes y voluntarios solidarios**.
 
+
+📌 **Sistema de adoptante**
+
 Este sistema está pensado para personas comprometidas con el bienestar animal.
 
 - En **Inicio**, se presenta una galería de animales en adopción con perfiles destacados, mostrando fotos, historias breves y datos relevantes como edad, tamaño y estado de salud, permitiendo una conexión inmediata. También se incluyen llamados a la acción para apadrinar o colaborar, destacando casos urgentes o especiales.
@@ -1564,9 +1567,13 @@ Este sistema está pensado para personas comprometidas con el bienestar animal.
 - En **Perfil**, los usuarios gestionan sus solicitudes de adopción y notificaciones personalizadas.
 - La estructura incluye accesos a **ubicaciones de donación** que priorizan la facilidad y la confianza en cada aporte.
 
-📌 **Sistema de adoptante**
 
+ <p align="center">
+    <img src="images/chapter4/Adoptante_System.png" alt="foto-system" width="850px"/>
+</p>
 ---
+
+📌 **Sistema de refugio/rescatista**
 
 Este segmento está diseñado para apoyar a **refugios y rescatistas**.
 
@@ -1577,7 +1584,10 @@ Este segmento está diseñado para apoyar a **refugios y rescatistas**.
 
 Con estas herramientas, **Huellitas Conectadas** busca reducir la carga administrativa y aumentar la efectividad de quienes están al frente del rescate y cuidado de animales.
 
-📌 **Sistema de refugio/rescatista**
+
+  <p align="center">
+    <img src="images/chapter4/Refugio_System.png" alt="foto-system" width="850px"/>
+</p>
 
 ---
 
