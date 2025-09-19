@@ -1658,7 +1658,7 @@ Con estas herramientas, **Huellitas Conectadas** busca reducir la carga administ
 
 
   <p align="center">
-    <img src="./Images/chapter4/Refugio_system.png alt="foto-system" width="650px"/>
+    <img src="./Images/chapter4/Refugio_system.png" alt="foto-system" width="650px"/>
 </p>
 
 ---
