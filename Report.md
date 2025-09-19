@@ -1549,16 +1549,122 @@ El impact map es una herramienta estratégica que ayuda a alinear el desarrollo 
 
 #### 4.1.3.2 *Android Mobile Style Guidelines*
 
-## 4.2. *Information Architecture*
-### 4.2.1. *Organization Systems*
+## 4.2. Information Architecture
+La arquitectura de información (IA) en **Huellitas Conectadas** busca reducir la carga cognitiva, facilitar el descubrimiento de funcionalidades y guiar al usuario en su journey de adopción o gestión de refugio. Se articula en cinco pilares:
 
-### 4.2.2. *Labeling Systems*
+---
 
-### 4.2.3. *SEO Tags and Meta Tags*
+### 4.2.1. Organization Systems
+Nuestro objetivo con **Huellitas Conectadas** es ofrecer una experiencia clara, accesible y emocionalmente conectada en nuestra página web y aplicación móvil. La estructura visual está diseñada para responder a las necesidades de nuestros dos segmentos clave: **adoptantes y voluntarios solidarios**.
 
-### 4.2.4. *Searching Systems*
+📌 **Sistema de adoptante**
+Este sistema está pensado para personas comprometidas con el bienestar animal.
 
-### 4.2.5. *Navigation Systems*
+- En **Inicio**, se presenta una galería de animales en adopción con perfiles destacados, mostrando fotos, historias breves y datos relevantes como edad, tamaño y estado de salud, permitiendo una conexión inmediata. También se incluyen llamados a la acción para apadrinar o colaborar, destacando casos urgentes o especiales.
+- La sección de **Adopciones** permite aplicar filtros por ubicación, tipo de mascota, edad y necesidades especiales. Cada ficha de animal incluye un botón de **"Solicitar Adopción"** y una estimación del tiempo de respuesta de los refugios.
+- En **Perfil**, los usuarios gestionan sus solicitudes de adopción y notificaciones personalizadas.
+- La estructura incluye accesos a **ubicaciones de donación** que priorizan la facilidad y la confianza en cada aporte.
+
+ <p align="center">
+    <img src="images/chapter4/Adoptante_System.png" alt="foto-system" width="850px"/>
+</p>
+---
+
+📌 **Sistema de refugio/rescatista**
+Este segmento está diseñado para apoyar a **refugios y rescatistas**.
+
+- En **Inicio**, pueden destacar animales recién rescatados o en busca urgente de hogar.
+- En **Publicaciones**, los refugios crean y editan fichas de adopción, agregando estado de salud, vacunas, comportamiento e imágenes/videos.
+- La sección de **Gestión de Adopciones** brinda herramientas para hacer seguimiento de solicitudes, ordenarlas por estado (pendiente, en proceso, finalizada) y registrar observaciones.
+- En **Perfil**, los refugios configuran información de contacto, ubicación, redes sociales y métodos de recepción de donaciones.
+
+Con estas herramientas, **Huellitas Conectadas** busca reducir la carga administrativa y aumentar la efectividad de quienes están al frente del rescate y cuidado de animales.
+
+  <p align="center">
+    <img src="images/chapter4/Refugio_System.png" alt="foto-system" width="850px"/>
+</p>
+
+---
+
+### 4.2.2. Labeling Systems
+El equipo de **Huellitas Conectadas** optó por utilizar etiquetas claras, sencillas y coherentes con el propósito social de la plataforma.
+
+- **Inicio**: Casos destacados de animales en busca de adopción. Incluye nombre, edad, raza y estado de salud.
+- **Adopciones**: Catálogo completo de animales disponibles. Filtros por tipo, tamaño, edad, ubicación o necesidades especiales.
+- **Donaciones**: Opciones de apoyo (monetarias o insumos) con información clara sobre el destino de los aportes.
+- **Publicaciones**: Imágenes, videos y descripciones detalladas con posibilidad de edición.
+- **Perfil**: Personalización de experiencia: datos de contacto, foto de perfil, preferencias, notificaciones, métodos de donación.
+
+---
+
+### 4.2.3. SEO Tags and Meta Tags
+
+**Inicio**
+- Title: Huellitas Conectadas - Adopta con Amor
+- Meta Description: Descubre casos destacados de animales en busca de hogar. Conoce su historia y ayuda a transformar vidas con un solo clic.
+- Keywords: adopción animal, casos urgentes, refugios, rescatistas, animales en adopción
+- Author: Equipo de Huellitas Conectadas
+
+**Adopciones**
+- Title: Animales en Adopción - Huellitas Conectadas
+- Meta Description: Explora nuestro catálogo de animales disponibles para adopción. Filtra por características y encuentra a tu nuevo mejor amigo.
+- Keywords: adopciones, perros en adopción, gatos en adopción, filtro por edad, filtro por ubicación
+- Author: Equipo de Huellitas Conectadas
+
+**Donaciones**
+- Title: Ayuda a un Refugio - Donaciones en Huellitas Conectadas
+- Meta Description: Dona insumos o dinero para apoyar a refugios y rescatistas. Conoce sus necesidades y colabora desde donde estés.
+- Keywords: donaciones, ayuda a animales, insumos para refugios, apoyar rescatistas, apadrina un animal
+- Author: Equipo de Huellitas Conectadas
+
+**Publicaciones**
+- Title: Historias y Rescates - Blog de Huellitas Conectadas
+- Meta Description: Lee historias reales de rescate, adopción y solidaridad. Comparte contenido y mantente al día con nuestras novedades.
+- Keywords: historias de rescate, publicaciones de animales, adopciones exitosas, contenido solidario
+- Author: Equipo de Huellitas Conectadas
+
+**Perfil**
+- Title: Tu Perfil en Huellitas Conectadas
+- Meta Description: Personaliza tu perfil, gestiona tus datos y recibe notificaciones sobre adopciones y campañas. Un espacio solo para ti.
+- Keywords: perfil de usuario, configuración de cuenta, notificaciones, preferencias de adopción, gestión de donaciones
+- Author: Equipo de Huellitas Conectadas
+
+---
+
+### 4.2.4. Searching Systems
+El sistema de búsqueda de **Huellitas Conectadas** está diseñado para facilitar la exploración de animales en adopción, oportunidades de ayuda y contenido relevante.
+
+**Opciones de Búsqueda Generales**
+- **Barra de Búsqueda**: Disponible en todas las secciones principales, acepta palabras clave (nombre, especie, ubicación, refugio).
+- **Búsqueda Avanzada**: Filtros por tamaño, edad, estado de salud, tipo de ayuda o zona geográfica.
+
+**Filtros por Sección**
+- **Adopciones**: Tipo de animal, tamaño, edad, ubicación, necesidades especiales.
+- **Donaciones**: Tipo de donación, refugio destinatario, urgencia.
+- **Publicaciones**: Nombre del animal, tipo de publicación, fecha, refugio.
+- **Perfil**: Actividad reciente, notificaciones, configuraciones.
+
+**Presentación de Datos**
+- **Diseño**: Resultados en tarjetas visuales con fotos e información clave.
+- **Interactividad**: Vista detallada con opciones de acción inmediata (adoptar, donar, contactar).
+
+---
+
+### 4.2.5. Navigation Systems
+La navegación en **Huellitas Conectadas** ha sido diseñada para que cualquier persona —ya sea rescatista, adoptante o donante— pueda moverse por la plataforma de forma fluida.
+
+**Estructura Principal**
+- Menú superior fijo: Inicio, Adopciones, Donaciones, Publicaciones, Perfil.
+- Iconos representativos (huella para Adopciones, caja de regalo para Donaciones, etc.).
+
+**Accesibilidad y Usabilidad**
+- Navegación por tarjetas con resúmenes de animales o publicaciones.
+- Enlaces contextuales dentro de cada ficha hacia contenido relacionado.
+- Botones, indicadores de progreso y colores distintivos para guiar al usuario.
+
+**Filtros y Búsqueda Avanzada**
+- Filtros desplegables en Adopciones y Donaciones.
+- Barra de búsqueda global con resultados dinámicos en tiempo real.
 
 ## 4.3. *Landing Page UI Design*
 ### 4.3.1. *Landing Page Wireframe*
