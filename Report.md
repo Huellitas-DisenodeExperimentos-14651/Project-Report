@@ -1548,7 +1548,7 @@ El diseño web es una parte fundamental de nuestro proyecto. Debe ser consistent
 **“Huellitas Conectadas”** busca transmitir empatía, ternura y compromiso con el bienestar animal. El nombre surge de nuestro deseo de tender un puente entre adoptantes, refugios y rescatistas, conectando a las mascotas en situación de vulnerabilidad con hogares responsables. Representa una comunidad unida por el amor a los animales, la acción solidaria y la tecnología como herramienta de cambio positivo.
 
 <p align="center">
-    <img src="images/chapter4/logo.png" alt="foto-system" width="550px"/>
+    <img src="./Images/chapter4/logo.png" alt="foto-system" width="650px"/>
 </p>
 
 ---
@@ -1569,16 +1569,16 @@ El diseño web es una parte fundamental de nuestro proyecto. Debe ser consistent
   Elegimos *Open Sans* para todo el landing y la interfaz porque transmite claridad y modernidad, manteniendo una excelente legibilidad en cualquier dispositivo. Su estilo limpio y amigable crea una experiencia accesible para todos los usuarios, alineándose con los valores de confianza y cercanía de nuestra plataforma.
 
 <p align="center">
-    <img src="images/chapter4/sans-typo.png" alt="foto-system" width="650px"/>
+    <img src="./Images/chapter4/sans-typo.png" alt="foto-system" width="650px"/>
 </p>
 ---
 
 **Buttons:**
 - Estilo minimalista con esquinas redondeadas.
 - Colores principales extraídos de la paleta:
-  
+
 <p align="center">
-    <img src="images/chapter4/buttons.png" alt="foto-system" width="650px"/>
+    <img src="./Images/chapter4/buttons.png" alt="foto-system" width="650px"/>
 </p>
 ---
 
@@ -1593,7 +1593,7 @@ La selección de la paleta de colores de **Huellitas Conectadas** se fundamenta 
 - 🏜️ Arena: **#DDB892**
 
 <p align="center">
-    <img src="images/chapter4/colors.png" alt="foto-system" width="650px"/>
+    <img src="./Images/chapter4/Colors.png" alt="foto-system" width="650px"/>
 </p>
 
 Estos colores transmiten **calidez, confianza y naturaleza**, reforzando la empatía y el propósito social de la startup.
@@ -1612,7 +1612,7 @@ Estos colores transmiten **calidez, confianza y naturaleza**, reforzando la empa
 - **Experiencia unificada:** Adoptantes, refugios y rescatistas deben percibir una misma identidad coherente en todas las páginas y dispositivos.
 
 <p align="center">
-    <img src="images/chapter4/WebStyle_Guide.png" alt="foto-system" width="650px"/>
+    <img src="./Images/chapter4/WebStyle_Guide.png" alt="foto-system" width="650px"/>
 </p>
 
 ### 4.1.3. *Mobile Style Guidelines*
@@ -1641,7 +1641,7 @@ Este sistema está pensado para personas comprometidas con el bienestar animal.
 
 
  <p align="center">
-    <img src="images/chapter4/Adoptante_System.png" alt="foto-system" width="850px"/>
+    <img src="./Images/chapter4/Adoptante_system.png" alt="foto-system" width="650px"/>
 </p>
 ---
 
@@ -1658,7 +1658,7 @@ Con estas herramientas, **Huellitas Conectadas** busca reducir la carga administ
 
 
   <p align="center">
-    <img src="images/chapter4/Refugio_System.png" alt="foto-system" width="850px"/>
+    <img src="./Images/chapter4/Refugio_system.png alt="foto-system" width="650px"/>
 </p>
 
 ---
