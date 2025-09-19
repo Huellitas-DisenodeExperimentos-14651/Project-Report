@@ -1002,11 +1002,539 @@ A continuación, se presentan los términos propios del dominio del negocio:
 
 ## 3.2. *User Stories*
 
+***Epics***
+
+<table>
+  <thead>
+    <tr>
+      <th>EPIC (ID)</th>
+      <th>Título</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>01</td>
+      <td>Experiencia del Usuario en la Landing Page</td>
+      <td>Como visitante de la plataforma <b>Adopta!</b>, quiero tener una experiencia de usuario fluida y agradable al interactuar con la landing page, para que pueda comprender rápidamente la misión de la plataforma, registrarme sin complicaciones, explorar las mascotas disponibles para adopción y acceder a información útil, incluyendo preguntas frecuentes y políticas de privacidad.</td>
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>Búsqueda y Filtrado de Mascotas</td>
+      <td>Como usuario adoptante, quiero poder buscar y filtrar mascotas disponibles para adopción basadas en criterios como tamaño, tipo de mascota, necesidades especiales, ubicación y otros factores, para encontrar la mascota que mejor se adapte a mis necesidades y espacio en casa.</td>
+    </tr>
+    <tr>
+      <td>03</td>
+      <td>Gestión de Solicitudes de Adopción</td>
+      <td>Como adoptante, quiero poder completar y gestionar mis solicitudes de adopción, proporcionando información sobre mi hogar, experiencia con animales y otros factores importantes, para que la plataforma pueda procesar mi solicitud y contactar con los refugios o rescatistas para organizar la visita.</td>
+    </tr>
+    <tr>
+      <td>04</td>
+      <td>Gestión del Perfil de Usuario</td>
+      <td>Como usuario de <b>Adopta!</b>, quiero poder crear y gestionar mi perfil, que incluya mis datos personales, información sobre mis mascotas actuales (si las tengo) y mis preferencias de adopción, para asegurarme de que mis solicitudes y comunicaciones sean claras y efectivas.</td>
+    </tr>
+    <tr>
+      <td>05</td>
+      <td>Publicación de Mascotas</td>
+      <td>Como refugio o rescatista, quiero poder registrar y publicar información sobre las mascotas disponibles para adopción, incluyendo fotos, descripciones emocionales, historial médico y necesidades especiales, para ayudar a que las mascotas encuentren un hogar adecuado.</td>
+    </tr>
+    <tr>
+      <td>06</td>
+      <td>Gestión de Visitas y Aprobación de Adopción</td>
+      <td>Como refugio o rescatista, quiero poder gestionar las visitas de los adoptantes a las mascotas, programar citas y realizar la aprobación de la adopción, para asegurarme de que las mascotas estén en un ambiente adecuado y con adoptantes responsables.</td>
+    </tr>
+    <tr>
+      <td>07</td>
+      <td>Notificaciones de Estado de Solicitud</td>
+      <td>Como adoptante, quiero recibir notificaciones sobre el estado de mi solicitud de adopción, incluyendo cuando mi solicitud ha sido recibida, procesada o aprobada, para estar al tanto del progreso y saber cuándo puedo esperar una respuesta.</td>
+    </tr>
+    <tr>
+      <td>08</td>
+      <td>Seguridad y Protección de Datos</td>
+      <td>Como usuario de <b>Adopta!</b>, quiero que la plataforma garantice la seguridad de mis datos personales, incluidos los datos de adopción y mis interacciones, para que pueda confiar en que mi información está protegida durante todo el proceso de adopción.</td>
+    </tr>
+    <tr>
+      <td>09</td>
+      <td>Gestión de Feedback y Reseñas</td>
+      <td>Como adoptante, quiero poder dejar reseñas y comentarios sobre las mascotas adoptadas y el proceso de adopción, para compartir mi experiencia con otros usuarios y mejorar la transparencia de la plataforma.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Desarrollo de Funcionalidades</td>
+      <td>Como equipo de desarrollo, queremos implementar funcionalidades clave en la plataforma, como el sistema de adopción, gestión de perfiles, notificaciones y seguridad de datos, para garantizar una experiencia fluida y segura para todos los usuarios de <b>Adopta!</b>.</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Implementación de Verificación de Identidad</td>
+      <td>Como desarrollador, quiero implementar un sistema de verificación de identidad para refugios y adoptantes (como Onfido o soluciones locales), para asegurarme de que los usuarios sean quienes dicen ser y garantizar la seguridad en las adopciones.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+***User Stories***
+
+<table>
+  <thead>
+    <tr>
+      <th>Storie ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Acceptance Criteria</th>
+      <th>Epic ID</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>01</td>
+      <td>Registro de cuenta</td>
+      <td>Como usuario, quiero crear una cuenta para ingresar a la aplicación.</td>
+      <td>
+        Escenario 1: Registro correcto<br>
+        Given el usuario ha ingresado datos válidos.<br>
+        When presiona "Registrarse".<br>
+        Then la cuenta debe ser creada exitosamente y el usuario redirigido a la página principal.<br><br>
+        Escenario 2: Registro incorrecto<br>
+        Given que el usuario no ha ingresado todos los datos obligatorios.<br>
+        When presiona "Registrarse".<br>
+        Then el sistema muestra un mensaje de error indicando los campos faltantes.
+      </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>Iniciar sesión</td>
+      <td>Como usuario, quiero iniciar sesión para acceder a mis funciones.</td>
+      <td>
+        Escenario 1: Login exitoso<br>
+        Given el usuario ha ingresado un correo y contraseña válidos.<br>
+        When presiona "Iniciar sesión".<br>
+        Then el usuario accede a su perfil.<br><br>
+        Escenario 2: Login fallido<br>
+        Given que el usuario ingresa un correo o contraseña incorrectos.<br>
+        When presiona "Iniciar sesión".<br>
+        Then el sistema muestra un mensaje de error indicando los datos incorrectos.
+      </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>03</td>
+      <td>Recuperar contraseña</td>
+      <td>Como usuario, quiero recuperar mi contraseña en caso de olvidarla.</td>
+      <td>
+        Escenario 1: Solicitud de recuperación exitosa<br>
+        Given que el usuario ha olvidado su contraseña.<br>
+        When presiona "¿Olvidaste tu contraseña?".<br>
+        Then se envía un correo con las instrucciones para recuperar la contraseña.<br><br>
+        Escenario 2: Correo no registrado<br>
+        Given que el correo proporcionado no está registrado.<br>
+        When presiona "¿Olvidaste tu contraseña?".<br>
+        Then el sistema muestra un mensaje indicando que el correo no está asociado a una cuenta.
+      </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>04</td>
+      <td>Buscar mascotas</td>
+      <td>Como adoptante, quiero buscar mascotas por filtros para encontrar una adecuada.</td>
+      <td>
+        Escenario 1: Filtro de búsqueda exitoso<br>
+        Given que el usuario accede a la sección de búsqueda.<br>
+        When aplica los filtros.<br>
+        Then se muestran mascotas que cumplen con los criterios seleccionados.<br><br>
+        Escenario 2: No se encuentran resultados<br>
+        Given que el usuario aplica filtros muy específicos.<br>
+        When presiona "Buscar".<br>
+        Then el sistema muestra un mensaje indicando que no se encontraron resultados.
+      </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>05</td>
+      <td>Ver perfil de mascota</td>
+      <td>Como adoptante, quiero ver información detallada de una mascota.</td>
+      <td>
+        Escenario 1: Visualización de perfil<br>
+        Given que el usuario selecciona una mascota.<br>
+        When accede al perfil de la mascota.<br>
+        Then el perfil muestra información detallada como edad, raza, comportamiento e historial médico.
+      </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>06</td>
+      <td>Guardar mascota favorita</td>
+      <td>Como adoptante, quiero guardar mascotas favoritas para revisarlas luego.</td>
+      <td>
+        Escenario 1: Agregar a favoritos<br>
+        Given que el usuario visualiza una mascota.<br>
+        When presiona "Favorito".<br>
+        Then la mascota se guarda en su lista de favoritos.<br><br>
+        Escenario 2: Mascota ya en favoritos<br>
+        Given que la mascota ya está en la lista de favoritos.<br>
+        When presiona "Favorito" nuevamente.<br>
+        Then el sistema muestra un mensaje indicando que ya está en la lista de favoritos.
+      </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>07</td>
+      <td>Solicitar adopción</td>
+      <td>Como adoptante, quiero enviar una solicitud para adoptar una mascota.</td>
+      <td>
+        Escenario 1: Solicitud enviada exitosamente<br>
+        Given que el usuario ha completado el formulario de solicitud.<br>
+        When presiona "Enviar solicitud".<br>
+        Then la solicitud es enviada al refugio con los datos del adoptante.<br><br>
+        Escenario 2: Solicitud incompleta<br>
+        Given que el usuario no ha completado todos los campos obligatorios del formulario.<br>
+        When presiona "Enviar solicitud".<br>
+        Then el sistema muestra un mensaje de error solicitando completar los campos faltantes.
+      </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>08</td>
+      <td>Editar perfil del adoptante</td>
+      <td>Como usuario, quiero editar mis datos personales.</td>
+      <td>
+        Escenario 1: Edición exitosa<br>
+        Given que el usuario está autenticado.<br>
+        When modifica su información.<br>
+        When presiona "Guardar cambios".<br>
+        Then los cambios se guardan correctamente y se muestra un mensaje de confirmación.<br><br>
+        Escenario 2: Edición fallida<br>
+        Given que el usuario ha intentado ingresar datos inválidos.<br>
+        When presiona "Guardar cambios".<br>
+        Then el sistema muestra un mensaje de error indicando los datos incorrectos.
+      </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>09</td>
+      <td>Registrarse como refugio</td>
+      <td>Como refugio, quiero registrarme para publicar mascotas.</td>
+      <td>
+        Escenario 1: Registro exitoso<br>
+        Given que el usuario ha ingresado los datos del refugio.<br>
+        When presiona "Registrarse".<br>
+        Then se crea su cuenta con el rol de refugio y es redirigido a su panel.<br><br>
+        Escenario 2: Registro fallido<br>
+        Given que el usuario no ha ingresado todos los datos obligatorios.<br>
+        When presiona "Registrarse".<br>
+        Then el sistema muestra un mensaje de error indicando los campos faltantes.
+      </td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Registrarse como adoptante</td>
+      <td>Como adoptante, quiero registrarme para solicitar la adopción de mascotas.</td>
+      <td>
+        Escenario 1: Registro exitoso<br>
+        Given que el usuario ha ingresado los datos requeridos como adoptante.<br>
+        When presiona "Registrarse".<br>
+        Then se crea su cuenta con el rol de adoptante y es redirigido a su panel.<br><br>
+        Escenario 2: Registro fallido<br>
+        Given que el usuario no ha ingresado todos los datos obligatorios.<br>
+        When presiona "Registrarse".<br>
+        Then el sistema muestra un mensaje de error indicando los campos faltantes.
+      </td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Registrarse como rescatista</td>
+      <td>Como rescatista, quiero registrarme para publicar mascotas que están en búsqueda de adopción.</td>
+      <td>
+        Escenario 1: Registro exitoso<br>
+        Given que el usuario ha ingresado los datos requeridos como rescatista.<br>
+        When presiona "Registrarse".<br>
+        Then se crea su cuenta con el rol de rescatista y es redirigido a su panel.<br><br>
+        Escenario 2: Registro fallido<br>
+        Given que el usuario no ha ingresado todos los datos obligatorios.<br>
+        When presiona "Registrarse".<br>
+        Then el sistema muestra un mensaje de error indicando los campos faltantes.
+      </td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Publicar mascota en adopción</td>
+      <td>Como refugio, quiero registrar mascotas disponibles para adopción.</td>
+      <td>
+        Escenario 1: Publicación exitosa<br>
+        Given que el refugio está autenticado.<br>
+        When completa el formulario de nueva mascota.<br>
+        When presiona "Publicar".<br>
+        Then la mascota aparece publicada en la plataforma.<br><br>
+        Escenario 2: Publicación fallida<br>
+        Given que el refugio ha dejado campos obligatorios vacíos.<br>
+        When presiona "Publicar".<br>
+        Then el sistema muestra un mensaje de error solicitando completar los campos faltantes.
+      </td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Editar información de mascota</td>
+      <td>Como refugio, quiero editar los datos de una mascota publicada.</td>
+      <td>
+        Escenario 1: Edición exitosa<br>
+        Given que el refugio accede a su panel.<br>
+        When modifica los datos de una mascota.<br>
+        Then los cambios se guardan correctamente y se muestra un mensaje de confirmación.
+      </td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Ver solicitudes de adopción</td>
+      <td>Como refugio, quiero ver solicitudes de adopción recibidas.</td>
+      <td>
+        Escenario 1: Visualizar solicitudes<br>
+        Given que el refugio tiene mascotas publicadas.<br>
+        When accede a su panel de solicitudes.<br>
+        Then ve la lista de interesados con su información.
+      </td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Responder solicitud de adopción</td>
+      <td>Como refugio, quiero aceptar o rechazar solicitudes recibidas.</td>
+      <td>
+        Escenario 1: Aceptar solicitud<br>
+        Given que el refugio ha revisado una solicitud de adopción.<br>
+        When presiona "Aceptar".<br>
+        Then el adoptante es notificado y la solicitud cambia de estado a "Aceptada".<br><br>
+        Escenario 2: Rechazar solicitud<br>
+        Given que el refugio ha revisado una solicitud de adopción.<br>
+        When presiona "Rechazar".<br>
+        Then el adoptante es notificado y la solicitud cambia de estado a "Rechazada".
+      </td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Ver historial médico de mascota</td>
+      <td>Como adoptante, quiero ver el historial médico de una mascota.</td>
+      <td>
+        Escenario 1: Acceso al historial<br>
+        Given que el usuario accede al perfil de la mascota.<br>
+        When navega a la sección de salud.<br>
+        Then se muestra el historial médico disponible.
+      </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Ver mascotas adoptadas</td>
+      <td>Como refugio, quiero ver un historial de mascotas adoptadas.</td>
+      <td>
+        Escenario 1: Historial de adopciones<br>
+        Given que el refugio ha aprobado adopciones.<br>
+        When accede a su historial.<br>
+        Then ve una lista de mascotas adoptadas con fecha y adoptante.
+      </td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Gestionar usuarios (admin)</td>
+      <td>Como administrador, quiero gestionar cuentas de usuarios.</td>
+      <td>
+        Escenario 1: Acceso a gestión<br>
+        Given que el administrador ha iniciado sesión.<br>
+        When entra al módulo de gestión.<br>
+        Then puede ver, editar o eliminar cuentas según su rol.
+      </td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Ver recomendaciones de adopción</td>
+      <td>Como adoptante, quiero recibir recomendaciones de mascotas según mi perfil.</td>
+      <td>
+        Escenario 1: Recomendación automática<br>
+        Given que el usuario ha completado su perfil.<br>
+        When accede a la página de inicio.<br>
+        Then se muestran recomendaciones personalizadas basadas en sus preferencias y búsquedas.
+      </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Ver preferencias de adopción</td>
+      <td>Como adoptante, quiero poder actualizar mis preferencias de adopción.</td>
+      <td>
+        Escenario 1: Actualización exitosa<br>
+        Given que el usuario está autenticado.<br>
+        When actualiza sus preferencias.<br>
+        Then el sistema guarda los cambios y muestra un mensaje de confirmación.
+      </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Ver detalles de solicitud</td>
+      <td>Como adoptante, quiero ver detalles sobre el estado de mi solicitud.</td>
+      <td>
+        Escenario 1: Solicitud aceptada<br>
+        Given que el adoptante tiene una solicitud aceptada.<br>
+        When accede a la solicitud.<br>
+        Then ve el estado "Aceptada" y los detalles correspondientes.
+      </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Eliminar mascota favorita</td>
+      <td>Como adoptante, quiero poder eliminar una mascota de mi lista de favoritos.</td>
+      <td>
+        Escenario 1: Eliminación exitosa<br>
+        Given que la mascota está en favoritos.<br>
+        When presiona "Eliminar de favoritos".<br>
+        Then la mascota se elimina de la lista.<br><br>
+        Escenario 2: Lista vacía<br>
+        Given que no hay mascotas en favoritos.<br>
+        When accede a la sección.<br>
+        Then el sistema muestra un mensaje indicando que la lista está vacía.
+      </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Ver historial de solicitudes enviadas</td>
+      <td>Como adoptante, quiero ver todas mis solicitudes enviadas para hacer seguimiento.</td>
+      <td>
+        Escenario 1: Historial disponible<br>
+        Given que el adoptante ha enviado solicitudes.<br>
+        When accede a su historial.<br>
+        Then ve la lista de solicitudes con su estado actual.<br><br>
+        Escenario 2: Sin solicitudes<br>
+        Given que no ha enviado ninguna solicitud.<br>
+        When accede al historial.<br>
+        Then el sistema muestra un mensaje indicando que no hay solicitudes registradas.
+      </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Actualizar contraseña</td>
+      <td>Como usuario, quiero actualizar mi contraseña desde mi perfil para mayor seguridad.</td>
+      <td>
+        Escenario 1: Actualización exitosa<br>
+        Given que el usuario está autenticado.<br>
+        When ingresa la nueva contraseña válida.<br>
+        Then el sistema guarda el cambio y muestra confirmación.<br><br>
+        Escenario 2: Actualización fallida<br>
+        Given que la contraseña no cumple requisitos.<br>
+        When intenta guardarla.<br>
+        Then el sistema muestra un mensaje de error.
+      </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Ver lista de mascotas recientemente publicadas</td>
+      <td>Como adoptante, quiero ver las mascotas más recientes publicadas para no perder oportunidades.</td>
+      <td>
+        Escenario 1: Publicaciones disponibles<br>
+        Given que existen nuevas mascotas.<br>
+        When accede a la sección.<br>
+        Then se muestran las más recientes en primer lugar.<br><br>
+        Escenario 2: Sin publicaciones recientes<br>
+        Given que no se han registrado mascotas nuevas.<br>
+        When accede a la sección.<br>
+        Then el sistema indica que no hay nuevas publicaciones.
+      </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Desactivar cuenta</td>
+      <td>Como usuario, quiero poder desactivar mi cuenta si ya no deseo usar la aplicación.</td>
+      <td>
+        Escenario 1: Desactivación exitosa<br>
+        Given que el usuario está autenticado.<br>
+        When confirma la acción.<br>
+        Then la cuenta se desactiva y no puede iniciar sesión.<br><br>
+        Escenario 2: Cancelar desactivación<br>
+        Given que el usuario inició la acción.<br>
+        When presiona "Cancelar".<br>
+        Then el sistema conserva su cuenta activa.
+      </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Ver estadísticas básicas de adopción</td>
+      <td>Como administrador, quiero ver estadísticas básicas de adopciones realizadas en la plataforma.</td>
+      <td>
+        Escenario 1: Estadísticas disponibles<br>
+        Given que existen datos de adopciones.<br>
+        When accede al panel.<br>
+        Then visualiza gráficos o números con datos básicos.<br><br>
+        Escenario 2: Sin datos disponibles<br>
+        Given que no hay adopciones registradas.<br>
+        When accede al panel.<br>
+        Then se muestra un mensaje indicando que no existen estadísticas aún.
+      </td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 ## 3.3. *Product Backlog*
+
+Con el fin de optimizar la estimación de esfuerzo y facilitar la priorización de tareas, hemos estructurado el product backlog utilizando la escala de Fibonacci (1, 2, 3, 5, 8). Esta metodología nos permite representar de forma proporcional la complejidad relativa de cada ítem, promoviendo decisiones más ágiles y colaborativas durante las sesiones de planificación.
+
+<div align = "justify">
+
+| Storie ID | Título                              | Descripción                                                                                       | Acceptance Criteria | Epic ID |
+|-----------|-------------------------------------|---------------------------------------------------------------------------------------------------|---------------------|---------|
+| 01        | Registro de cuenta                  | Como usuario, quiero crear una cuenta para ingresar a la aplicación.                              | Escenario 1: Registro correcto (datos válidos, redirige a página principal).<br>Escenario 2: Registro incorrecto (faltan datos, muestra error). | 1 |
+| 02        | Iniciar sesión                      | Como usuario, quiero iniciar sesión para acceder a mis funciones.                                 | Escenario 1: Login exitoso (credenciales válidas, accede al perfil).<br>Escenario 2: Login fallido (datos incorrectos, muestra error). | 1 |
+| 03        | Recuperar contraseña                | Como usuario, quiero recuperar mi contraseña en caso de olvidarla.                                | Escenario 1: Solicitud exitosa (envía correo con instrucciones).<br>Escenario 2: Correo no registrado (muestra error). | 1 |
+| 04        | Buscar mascotas                     | Como adoptante, quiero buscar mascotas por filtros para encontrar una adecuada.                   | Escenario 1: Filtro exitoso (muestra resultados).<br>Escenario 2: Sin resultados (muestra mensaje informativo). | 2 |
+| 05        | Ver perfil de mascota               | Como adoptante, quiero ver información detallada de una mascota.                                  | Escenario 1: Visualización de perfil (edad, raza, comportamiento, historial médico). | 2 |
+| 06        | Guardar mascota favorita            | Como adoptante, quiero guardar mascotas favoritas para revisarlas luego.                         | Escenario 1: Agregar a favoritos (se guarda en la lista).<br>Escenario 2: Ya está en favoritos (muestra aviso). | 3 |
+| 07        | Solicitar adopción                  | Como adoptante, quiero enviar una solicitud para adoptar una mascota.                             | Escenario 1: Solicitud enviada (datos completos).<br>Escenario 2: Incompleta (muestra error de campos faltantes). | 3 |
+| 08        | Editar perfil del adoptante         | Como usuario, quiero editar mis datos personales.                                                 | Escenario 1: Edición exitosa (se guarda y confirma).<br>Escenario 2: Datos inválidos (muestra error). | 1 |
+| 09        | Registrarse como refugio            | Como refugio, quiero registrarme para publicar mascotas.                                          | Escenario 1: Registro exitoso (crea cuenta refugio).<br>Escenario 2: Fallido (faltan datos). | 4 |
+| 10        | Registrarse como adoptante          | Como adoptante, quiero registrarme para solicitar la adopción de mascotas.                        | Escenario 1: Registro exitoso (crea cuenta adoptante).<br>Escenario 2: Fallido (faltan datos). | 4 |
+| 11        | Registrarse como rescatista         | Como rescatista, quiero registrarme para publicar mascotas.                                       | Escenario 1: Registro exitoso (crea cuenta rescatista).<br>Escenario 2: Fallido (faltan datos). | 4 |
+| 12        | Publicar mascota en adopción        | Como refugio, quiero registrar mascotas disponibles para adopción.                                | Escenario 1: Publicación exitosa (se publica mascota).<br>Escenario 2: Fallida (faltan campos). | 4 |
+| 13        | Editar información de mascota       | Como refugio, quiero editar los datos de una mascota publicada.                                   | Escenario 1: Edición exitosa (se guardan cambios y confirma). | 4 |
+| 14        | Ver solicitudes de adopción         | Como refugio, quiero ver solicitudes de adopción recibidas.                                       | Escenario 1: Visualizar solicitudes (lista de interesados). | 5 |
+| 15        | Responder solicitud de adopción     | Como refugio, quiero aceptar o rechazar solicitudes recibidas.                                    | Escenario 1: Aceptar solicitud (notifica y cambia a “Aceptada”).<br>Escenario 2: Rechazar (notifica y cambia a “Rechazada”). | 5 |
+| 16        | Ver historial médico de mascota     | Como adoptante, quiero ver el historial médico de una mascota.                                    | Escenario 1: Acceso al historial (sección salud en perfil). | 2 |
+| 17        | Ver mascotas adoptadas              | Como refugio, quiero ver un historial de mascotas adoptadas.                                      | Escenario 1: Historial de adopciones (lista con fecha y adoptante). | 5 |
+| 18        | Gestionar usuarios (admin)          | Como administrador, quiero gestionar cuentas de usuarios.                                         | Escenario 1: Gestión (ver, editar, eliminar cuentas según rol). | 6 |
+| 19        | Ver recomendaciones de adopción     | Como adoptante, quiero recibir recomendaciones de mascotas según mi perfil.                       | Escenario 1: Recomendación automática (según perfil y búsquedas). | 2 |
+| 20        | Ver preferencias de adopción        | Como adoptante, quiero poder actualizar mis preferencias de adopción.                             | Escenario 1: Actualización exitosa (guarda cambios y confirma). | 2 |
+| 21        | Ver detalles de solicitud           | Como adoptante, quiero ver detalles sobre el estado de mi solicitud.                              | Escenario 1: Solicitud aceptada (muestra estado y detalles). | 3 |
+| 22        | Eliminar mascota favorita           | Como adoptante, quiero poder eliminar una mascota de mi lista de favoritos.                       | Escenario 1: Eliminación exitosa (se elimina).<br>Escenario 2: Lista vacía (muestra mensaje). | 3 |
+| 23        | Ver historial de solicitudes enviadas| Como adoptante, quiero ver todas mis solicitudes enviadas.                                        | Escenario 1: Historial disponible (lista con estados).<br>Escenario 2: Sin solicitudes (muestra aviso). | 3 |
+| 24        | Actualizar contraseña               | Como usuario, quiero actualizar mi contraseña desde mi perfil.                                    | Escenario 1: Exitosa (se guarda y confirma).<br>Escenario 2: Fallida (no cumple requisitos). | 1 |
+| 25        | Ver mascotas recientemente publicadas| Como adoptante, quiero ver las mascotas más recientes.                                            | Escenario 1: Publicaciones disponibles (ordenadas por fecha).<br>Escenario 2: Sin publicaciones (muestra aviso). | 2 |
+| 26        | Desactivar cuenta                   | Como usuario, quiero poder desactivar mi cuenta.                                                  | Escenario 1: Desactivación exitosa (cuenta inactiva).<br>Escenario 2: Cancelar (conserva cuenta activa). | 1 |
+| 27        | Ver estadísticas básicas de adopción| Como administrador, quiero ver estadísticas básicas de adopciones.                                | Escenario 1: Estadísticas disponibles (gráficos o números).<br>Escenario 2: Sin datos (muestra aviso). | 6 |
+
+</div>
+
 
 ## 3.4. *Impact Mapping*
 
 El impact map es una herramienta estratégica que ayuda a alinear el desarrollo de una aplicación con los objetivos empresariales. Parte de un objetivo clave, identifica los comportamientos esperados de los usuarios, define las acciones necesarias dentro de la app y determina las funcionalidades que las habilitan. Esto permite evaluar el impacto de cada característica y construir un plan de acción enfocado, asegurando que cada mejora contribuya directamente al logro de metas.
+
+**Impact Mapping de Segmento 1: Personal de Refugios y Rescatistas de Animales (Administradores, Cuidadores y Voluntarios) y Segmento 2: Adoptantes Potenciales (Personas interesadas en adoptar animales)**
+
+![Impact Mapping](<Images/chapter3/Impact map segmento12.png>)
+
 
 # Capítulo IV: *Product Design*
 
