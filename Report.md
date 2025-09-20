@@ -1623,12 +1623,107 @@ El impact map es una herramienta estratégica que ayuda a alinear el desarrollo 
 ## 5.1. *Software Configuration Management*
 ### 5.1.1. *Software Development Environment Configuration*
 
+# Project Management
+- **WhatsApp**: Aplicación de mensajería instantánea de Meta, utilizada para coordinar tareas, compartir ideas y brindar soporte continuo durante el desarrollo del proyecto.
+- **Google Meet**: Plataforma de videoconferencias empleada para reuniones virtuales, planificación colaborativa y comunicación directa entre los miembros del equipo.
+- **Google Drive**: Servicio de almacenamiento en la nube que permite compartir documentos, archivos clave y recursos del proyecto de forma organizada.
+
+# Requirements Management
+- **UXPressia**: Herramienta especializada en la creación de User Personas, User Journey Maps e Impact Maps, que facilita una mejor comprensión de las necesidades y expectativas de los usuarios.
+- **Zoom**: Utilizada para realizar entrevistas de exploración y validación con usuarios potenciales, recopilando información valiosa para definir requerimientos.
+
+# Product UX/UI Design
+- **Figma**: Plataforma colaborativa para el diseño de interfaces, wireframes, wireflows, mockups y prototipos interactivos, promoviendo una visión compartida del producto final.
+
+# Software Deployment
+- **GitHub**: Plataforma de control de versiones basada en Git, utilizada para alojar el repositorio del proyecto, gestionar ramas de desarrollo, automatizar despliegues y realizar seguimiento de *issues*.
+
+# Software Development
+- **Oracle VirtualBox**: Hipervisor de virtualización de código abierto, empleado para configurar y gestionar entornos de desarrollo aislados, facilitando la ejecución de distintos sistemas operativos y pruebas de compatibilidad.
+- **Vertabelo**: Herramienta para modelado visual de bases de datos, que permite definir entidades, relaciones y estructuras de datos de manera clara y eficiente.
+- **Google Chrome**: Navegador principal para realizar pruebas de compatibilidad, rendimiento y funcionalidad de la aplicación web.
+
+# Software Documentation
+- **Google Docs**: Herramienta de edición colaborativa para documentar decisiones, avances técnicos, acuerdos del equipo y requisitos funcionales.
+- **Structurizr**: Plataforma para el modelado de arquitecturas de software utilizando diagramas C4, que representan visualmente los diferentes niveles de abstracción del sistema.
+
 
 ### 5.1.2. *Source Code Management*
+# Uso de GitHub y GitFlow en el proyecto
+
+En el proyecto utilizamos **GitHub** como repositorio central para gestionar y estructurar los avances del desarrollo.  
+Con el objetivo de mantener un flujo de trabajo organizado, colaborativo y seguro, aplicamos el modelo **GitFlow**, propuesto por Vincent Driessen.  
+
+Este modelo nos permite:  
+- Gestionar versiones del sistema.  
+- Trabajar en paralelo en distintas funcionalidades.  
+- Mantener control y trazabilidad en cada fase del desarrollo.  
+
+---
+
+# Estructura de ramas adoptada
+
+- **main**  
+  Contiene la versión estable del sistema en producción. Solo se actualiza tras validaciones completas en otras ramas.  
+
+- **develop**  
+  Rama principal de integración, donde se concentran las funcionalidades antes de pasar a producción.  
+
+- **feature/***  
+  Ramas creadas desde `develop` para el desarrollo de funcionalidades específicas.  
+  - Ejemplos: `feature/login`, `feature/perfil-usuario`, `feature/ajuste-filtro`.  
+
+- **release/***  
+  Ramas creadas a partir de `develop` antes de una entrega importante, destinadas a pruebas finales y ajustes.  
+  - Ejemplo: `release/v1.0.0`.  
+
+- **hotfix/***  
+  Ramas creadas desde `main` para solucionar errores críticos en producción de manera inmediata.  
+  - Ejemplo: `hotfix/arreglo-footer`.  
+
+---
+
+# Flujo de trabajo aplicado
+
+1. Cada nueva funcionalidad inicia en una rama `feature/nombre-funcionalidad` creada a partir de `develop`.  
+2. Al finalizar, se genera un **Pull Request** para fusionar la funcionalidad en `develop`, previa revisión de código.  
+3. Antes de cada entrega oficial, se crea una rama `release/` desde `develop` para realizar pruebas finales.  
+4. Una vez validada, la rama `release/` se fusiona tanto en `main` (producción) como en `develop` (para mantener la consistencia).  
+5. En caso de detectarse un error crítico en producción, se crea una rama `hotfix/` desde `main`, se corrige y luego se integra en ambas ramas: `main` y `develop`.  
+
+---
+
+# Uso de Conventional Commits
+
+Para mantener un historial claro, comprensible y trazable, aplicamos el estándar de **Conventional Commits**.  
+Este formato permite identificar de inmediato el tipo de cambio realizado (nueva funcionalidad, corrección de error, refactorización, etc.), lo cual facilita la automatización y la generación de versiones.
+
+# Ejemplos de commits:
+
+- `feat: agregar formulario de registro`  
+- `fix: corregir error de navegación en el login`  
 
 ### 5.1.3. *Source Code Style Guide & Conventions*
 
+# HTML
+- Usar elementos y atributos en minúsculas.  
+- Cerrar explícitamente todas las etiquetas.  
+- Incluir siempre los atributos requeridos (`alt` en imágenes, `id` y `name` en formularios).  
+- Mantener una estructura clara y legible en el código.  
+
+# CSS
+- Nombrar clases utilizando **kebab-case**.  
+- Aplicar espaciado consistente y finalizar cada declaración con punto y coma (`;`).  
+- Organizar las reglas de forma modular para facilitar el mantenimiento.  
+
+# JavaScript
+- Declarar variables utilizando `const` y `let`.  
+- Escribir código y comentarios en inglés.  
+- Favorecer la programación funcional y la separación de responsabilidades.  
+- Aplicar buenas prácticas de estilo y consistencia en toda la base de código.  
+
 ### 5.1.4. *Software Deployment Configuration*
+
 
 
 ## 5.2. *Product Implementation & Deployment*
