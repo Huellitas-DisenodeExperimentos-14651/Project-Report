@@ -1746,15 +1746,39 @@ La navegación en **Huellitas Conectadas** ha sido diseñada para que cualquier 
 ## 4.3. *Landing Page UI Design*
 ### 4.3.1. *Landing Page Wireframe*
 
-### 4.3.2. *Landing Page Mock-up*
+- **Encabezado** con logo, menú y botón de llamada a la acción.
+- **Sección "¿Quiénes somos?"** con imagen y descripción.
+- **Beneficios** de adoptar con la plataforma.
+- **Testimonios** de adoptantes y refugios.
+- **CTA final:**
+    - "Únete como adoptante"
+    - "Registra tu refugio"
 
+<p align="center">
+    <img src="./Images/chapter4/LandingPage-Wireframe.png" alt="foto-system" width="650px"/>
+</p>
+
+### 4.3.2. *Landing Page Mock-up*
+- Diseño visual con colores cálidos, imágenes reales de mascotas y testimonios con marco gráfico. Botones destacados y secciones bien diferenciadas visualmente.
+
+<p align="center">
+    <img src="./Images/chapter4/LandingPage-Mockup.png" alt="foto-system" width="650px"/>
+</p>
 
 ## 4.4. *Mobile Applications UX/UI Design*
 ### 4.4.1. *Mobile Applications Wireframes*
 
+<p align="center">
+    <img src="./Images/chapter4/LandingPage%20Movil%20Wireframes.png" alt="foto-system" width="650px"/>
+</p>
+
 ### 4.4.2. *Mobile Applications Wireflow Diagrams*
 
 ### 4.4.3. *Mobile Applications Mock-ups*
+
+<p align="center">
+    <img src="./Images/chapter4/LandingPage%20Movil.png" alt="foto-system" width="650px"/>
+</p>
 
 ### 4.4.4. *Mobile Applications User Flow Diagrams*
 
@@ -1764,9 +1788,109 @@ La navegación en **Huellitas Conectadas** ha sido diseñada para que cualquier 
 
 ### 4.5.2. *iOS Mobile Applications Prototyping*
 
+
+
+
+
 ## 4.6. *Web Applications UX/UI Design*
 ### 4.6.1. *Web Applications Wireframes*
+- Web application login wireframe: Este wireframe muestra la pantalla de inicio de sesión de la aplicación web, con campos para correo electrónico y contraseña, y botón para iniciar sesión.
 
+<p align="center">
+    <img src="./Images/chapter4/Login%20Wireflow.png" alt="foto-system" width="650px"/>
+</p>
+
+- Incorrect password Wireframe:
+
+<p align="center">
+    <img src="./Images/chapter4/incorrect%20password%20Wireflow.png" alt="foto-system" width="650px"/>
+</p>
+
+- Reset password Wireframe: digitas tu correo vinculado a tu cuenta, luego lo confirmas mediante un enlace mandado al correo digitado que requiere el cambio (debe existir una cuenta para hacerlo, sino no saldrá nada en el correo) y podrás seguir con el cambio de contraseña.
+
+<p align="center">
+    <img src="./Images/chapter4/Reset%20password%20Wireflow.png" alt="foto-system" width="650px"/>
+</p>
+
+- Reset password Wireframe #2:
+
+<p align="center">
+    <img src="./Images/chapter4/Reset%20password%20Wireflow%20%232.png" alt="foto-system" width="650px"/>
+</p>
+
+- Web application registration wireframe: Este wireframe muestra la pantalla de registro de la aplicación web, con campos para nombre, correo electrónico, contraseña, tipo de usuario que va a usar la aplicación (adopter y animal shelter/rescue) y botón para registrarse.
+
+<p align="center">
+    <img src="./Images/chapter4/Register%20Wireflow.png" alt="foto-system" width="650px"/>
+</p>
+
+- Web application Adopters: Este wireframe muestra la pantalla de bienvenida, animales disponibles para adopción, una barra en la que se puede acceder a la landing page desde home, al buscador de mascotas, tu perfil y un apartado para donaciones, también aparece el formulario para que puedan aceptarte más rápido a la hora de solcitar adoptar a una mascota. Por último, está la sección de poder ve las reviews y nuestras redes sociales como startup.
+
+<p align="center">
+    <img src="./Images/chapter4/Web%20application%20Adopters.png" alt="foto-system" width="650px"/>
+</p>
+
+- Web application Rescuers and Animal Shelters: Este wireframe muestra la pantalla de bienvenida y más opciones para que el rescatista o refugio pueda ubicarse fácilmente a donde quiere ir.
+
+<p align="center">
+    <img src="./Images/chapter4/Web%20application%20Rescuers.png" alt="foto-system" width="650px"/>
+</p>
+
+- View Profile Wireframe: Este wireframe muestra tu perfil y puedes editarlo a tu gusto para que los demás sepan más acerca de ti. Para los dos casos es igual el diseño.
+
+<p align="center">
+    <img src="./Images/chapter4/Wireframe%20-%20Ver%20perfil.png" alt="foto-system" width="650px"/>
+</p>
+
+- Profile Edit Wireframe:
+
+<p align="center">
+    <img src="./Images/chapter4/Wireframe%20-%20Editar%20cuenta.png" alt="foto-system" width="650px"/>
+</p>
+
+- Delete account Wireframe:
+
+<p align="center">
+    <img src="./Images/chapter4/Wireframe%20-%20Borrar%20cuenta.png" alt="foto-system" width="650px"/>
+</p>
+
+- Buscar mascotas disponibles:
+
+<p align="center">
+    <img src="./Images/chapter4/Desktop%20-%20Buscar%20Animalitos.png" alt="foto-system" width="650px"/>
+</p>
+
+- Ver información de la mascota que se quiere adoptar:
+
+<p align="center">
+    <img src="./Images/chapter4/Desktop%20-%20Detalle%20de%20la%20mascota.png" alt="foto-system" width="650px"/>
+</p>
+
+- Editar información de la mascota (para rescatistas y refugios):
+
+<p align="center">
+    <img src="./Images/chapter4/Desktop%20-%20Editar%20información%20de%20la%20mascota.png" alt="foto-system" width="650px"/>
+</p>
+
+- Ver y agregar animalitos publicados (para rescatistas y refugios):
+
+<p align="center">
+    <img src="./Images/chapter4/Desktop%20-%20Ver%20Animalitos.png" alt="foto-system" width="650px"/>
+</p>
+
+- Ver tu historial de mascotas adoptadas y aprobadas: lista de mascotas adoptadas con fecha y adoptante (para rescatistas y refugios)
+
+  - historial completo:
+  
+  <p align="center">
+    <img src="./Images/chapter4/Desktop%20-%20Ver%20historial.png" alt="foto-system" width="650px"/>
+</p>
+
+- historial detallado específico de una mascota en concreto:
+
+ <p align="center">
+    <img src="./Images/chapter4/Desktop%20-%20Ver%20la%20mascota%20historial.png" alt="foto-system" width="650px"/>
+</p>
 
 ### 4.6.2. *Web Applications Wireflow Diagrams*
 
