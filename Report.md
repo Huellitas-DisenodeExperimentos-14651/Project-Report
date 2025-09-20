@@ -1894,12 +1894,45 @@ La navegación en **Huellitas Conectadas** ha sido diseñada para que cualquier 
 
 ### 4.6.2. *Web Applications Wireflow Diagrams*
 
+##### User Goal: Registro e Inicio de Sesión
+
+User Persona: Adoptantes y rescatistas/refugio
+
+Explicación del Flujo:
+
+El usuario accede a la aplicación desplegada y visualiza un formulario que solicita su correo electrónico y contraseña. Una vez que se ingresan las credenciales, el sistema valida la información. Si la autenticación es exitosa, el usuario es redirigido a la página principal de su perfil. Si las credenciales son incorrectas, el sistema muestra un mensaje de error y permanece en la pantalla de inicio de sesión. En ese momento, el usuario tiene la opción de reintroducir sus credenciales o seleccionar “Olvidé mi contraseña” para iniciar el proceso de restablecimiento.
+
+<p align="center">
+    <img src="./Images/chapter4/wireflowfunciones.png" alt="foto-system" width="650px"/>
+</p>
+
+##### User Goal: Navegación Rápida a Funciones Principales
+User Persona: Adoptantes y rescatistas/refugio
+
+Explicación del Flujo:
+
+El usuario puede navegar de manera rápida e intuitiva por las secciones principales de la plataforma. Si es adoptante, podrá acceder a su "perfil" y editarlo con toda la información posible para que los rescatistas o refugios puedan tenerle mayor confianza. Además, puede buscar y filtrar las mascotas que quiera adoptar, puede ver recomendaciones de animales basado en búsquedas anteriores y preferencias, puede actualizar sus preferencias de adopción, puede ver el estado del proceso de adopción y puede ver el historial médico de cualquier mascota de su interés. Si es rescatista o del refugio, tienen la opción de publicar una mascota que requiere dueño, editar dicha información, borrar si es necesario o si tuvieron algún error. También pueden ver el historial de las mascotas que ya han sido adoptadas y limpiar dicho historial si quiere, ver solicitudes de adopción recibidas y rechazarlas o aceptar las solicitudes según convenga.
+
+<p align="center">
+    <img src="./Images/chapter4/wireflowinicio.png" alt="foto-system" width="650px"/>
+</p>
 
 ### 4.6.3. *Web Applications Mock-ups*
 
 
 ### 4.6.4. *Web Applications User Flow Diagrams*
 
+- **Goal: El usuario quiere adoptar una mascota**
+
+<p align="center">
+    <img src="./Images/chapter4/Goal-Adoptante.png" alt="foto-system" width="650px"/>
+</p>
+
+- **Goal: El usuario registra una mascota para su adopción**
+
+<p align="center">
+    <img src="./Images/chapter4/Goal-Usuario.png" alt="foto-system" width="650px"/>
+</p>
 
 ## 4.7. *Web Applications Prototyping*
 
@@ -1917,14 +1950,212 @@ La navegación en **Huellitas Conectadas** ha sido diseñada para que cualquier 
 ## 4.9. *Software Object-Oriented Design*
 ### 4.9.1. *Class Diagrams*
 
+<p align="center">
+    <img src="./Images/chapter4/ClassDiagram.png" alt="foto-system" width="650px"/>
+</p>
 
 ### 4.9.2. *Class Dictionary*
 
+
+## SolicitudAdopcion
+| Atributos | Tipo |
+|-----------|------|
+| estado | EstadoSolicitud |
+| adoptante | Adoptante |
+| mascota | Mascota |
+
+| Métodos |
+|---------|
+| aprobar() |
+| rechazar() |
+| cambiarEstado() |
+
+---
+
+## EstadoSolicitud (Interface)
+| Métodos |
+|---------|
+| manejar() |
+
+### EstadoRechazada
+| Métodos |
+|---------|
+| manejar() |
+
+### EstadoAprobada
+| Métodos |
+|---------|
+| manejar() |
+
+### EstadoEnRevision
+| Métodos |
+|---------|
+| manejar() |
+
+---
+
+## FormularioAdopcion
+| Atributos | Tipo |
+|-----------|------|
+| idAdoptante | string |
+| idMascota | string |
+| respuestas | List<string> |
+| estado | string |
+
+| Métodos |
+|---------|
+| evaluar() |
+| notificar() |
+
+---
+
+## Notificador
+| Atributos | Tipo |
+|-----------|------|
+| observadores | List<Observador> |
+
+| Métodos |
+|---------|
+| agregarObservador() |
+| notificarTodos() |
+
+---
+
+## Observador (Interface)
+| Métodos |
+|---------|
+| actualizar() |
+
+### NotificacionEstado
+| Métodos |
+|---------|
+| actualizar() |
+
+---
+
+## Mascota
+| Atributos | Tipo |
+|-----------|------|
+| id | string |
+| nombre | string |
+| descripcionEmocional | string |
+| necesidadesEspeciales | bool |
+| disponible | bool |
+| fotos | List<string> |
+| historial | List<HistorialMedico> |
+
+| Métodos |
+|---------|
+| agregarFoto() |
+| actualizarEstado() |
+| agregarHistorial() |
+
+---
+
+## HistorialMedico
+| Atributos | Tipo |
+|-----------|------|
+| fecha | string |
+| detalle | string |
+| veterinario | string |
+
+---
+
+## Usuario (Interface)
+| Métodos |
+|---------|
+| autenticar() |
+| completarPerfil() |
+
+---
+
+## UsuarioBase (Abstract)
+| Atributos | Tipo |
+|-----------|------|
+| id | string |
+| correo | string |
+| contrasena | string |
+
+---
+
+## Adoptante (Hereda de UsuarioBase)
+| Métodos |
+|---------|
+| completarFormulario() |
+| verEstadoSolicitud() |
+
+---
+
+## Refugio (Hereda de UsuarioBase)
+| Atributos | Tipo |
+|-----------|------|
+| ruc | string |
+
+| Métodos |
+|---------|
+| registrarMascota() |
+| validarCertificado() |
+
+---
+
+## Rescatista (Hereda de UsuarioBase)
+| Métodos |
+|---------|
+| registrarMascota() |
+
+---
+
+## UsuarioFactory
+| Métodos |
+|---------|
+| crearUsuario(tipo : string) : UsuarioBase |
+
+---
+
+## SistemaVerificacion
+| Atributos | Tipo |
+|-----------|------|
+| estrategia | EstrategiaVerificacion |
+
+| Métodos |
+|---------|
+| setEstrategia(e : EstrategiaVerificacion) |
+| verificar() |
+
+---
+
+## EstrategiaVerificacion (Interface)
+| Métodos |
+|---------|
+| verificar() |
+
+### VerificadorIdentidad
+| Métodos |
+|---------|
+| verificarDocumento() |
+
+### VerificadorDNI
+| Métodos |
+|---------|
+| verificar() |
+
+### VerificadorAPIValidarID
+| Métodos |
+|---------|
+| verificar() |
+
+### VerificadorAPIOnfido
+| Métodos |
+|---------|
+| verificar() |
 
 
 ## 4.10. *Database Design*
 ### 4.10.1. *Relational/Non-Relational Database Diagram*
 
+<p align="center">
+    <img src="./Images/chapter4/diagramabd.png" alt="foto-system" width="650px"/>
+</p>
 
 # Capítulo V: *Product Implementation*
 ## 5.1. *Software Configuration Management*
