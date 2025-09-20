@@ -1956,198 +1956,58 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 
 ### 4.9.2. *Class Dictionary*
 
-
 ## SolicitudAdopcion
-| Atributos | Tipo |
-|-----------|------|
-| estado | EstadoSolicitud |
-| adoptante | Adoptante |
-| mascota | Mascota |
 
-| Métodos |
-|---------|
-| aprobar() |
-| rechazar() |
-| cambiarEstado() |
-
----
-
-## EstadoSolicitud (Interface)
-| Métodos |
-|---------|
-| manejar() |
-
-### EstadoRechazada
-| Métodos |
-|---------|
-| manejar() |
-
-### EstadoAprobada
-| Métodos |
-|---------|
-| manejar() |
-
-### EstadoEnRevision
-| Métodos |
-|---------|
-| manejar() |
-
----
-
-## FormularioAdopcion
-| Atributos | Tipo |
-|-----------|------|
-| idAdoptante | string |
-| idMascota | string |
-| respuestas | List<string> |
-| estado | string |
-
-| Métodos |
-|---------|
-| evaluar() |
-| notificar() |
-
----
-
-## Notificador
-| Atributos | Tipo |
-|-----------|------|
-| observadores | List<Observador> |
-
-| Métodos |
-|---------|
-| agregarObservador() |
-| notificarTodos() |
-
----
-
-## Observador (Interface)
-| Métodos |
-|---------|
-| actualizar() |
-
-### NotificacionEstado
-| Métodos |
-|---------|
-| actualizar() |
+| Elemento        | Descripción                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| **Responsabilidad** | Gestiona las solicitudes de adopción entre adoptantes y mascotas.            |
+| **Atributos**       | `estado: EstadoSolicitud`, `adoptante: Adoptante`, `mascota: Mascota`        |
+| **Métodos**         | `aprobar()`, `rechazar()`, `cambiarEstado()`                               |
+| **Relaciones**      | Depende de **EstadoSolicitud**, se relaciona con **Adoptante** y **Mascota** |
 
 ---
 
 ## Mascota
-| Atributos | Tipo |
-|-----------|------|
-| id | string |
-| nombre | string |
-| descripcionEmocional | string |
-| necesidadesEspeciales | bool |
-| disponible | bool |
-| fotos | List<string> |
-| historial | List<HistorialMedico> |
 
-| Métodos |
-|---------|
-| agregarFoto() |
-| actualizarEstado() |
-| agregarHistorial() |
+| Elemento        | Descripción                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| **Responsabilidad** | Representa a una mascota dentro de la plataforma.                           |
+| **Atributos**       | `id: string`, `nombre: string`, `descripcionEmocional: string`, `necesidadesEspeciales: bool`, `disponible: bool`, `fotos: List<string>`, `historial: List<HistorialMedico>` |
+| **Métodos**         | `agregarFoto()`, `actualizarEstado()`, `agregarHistorial()`               |
+| **Relaciones**      | Contiene varios **HistorialMedico**; se asocia a **SolicitudAdopcion**     |
 
 ---
 
-## HistorialMedico
-| Atributos | Tipo |
-|-----------|------|
-| fecha | string |
-| detalle | string |
-| veterinario | string |
+## Adoptante
+
+| Elemento        | Descripción                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| **Responsabilidad** | Usuario que solicita la adopción de una mascota.                           |
+| **Atributos**       | *(heredados de UsuarioBase)* `id: string`, `correo: string`, `contrasena: string` |
+| **Métodos**         | `completarFormulario()`, `verEstadoSolicitud()`                           |
+| **Relaciones**      | Hereda de **UsuarioBase**, se relaciona con **SolicitudAdopcion**          |
 
 ---
 
-## Usuario (Interface)
-| Métodos |
-|---------|
-| autenticar() |
-| completarPerfil() |
+## Refugio
 
----
-
-## UsuarioBase (Abstract)
-| Atributos | Tipo |
-|-----------|------|
-| id | string |
-| correo | string |
-| contrasena | string |
-
----
-
-## Adoptante (Hereda de UsuarioBase)
-| Métodos |
-|---------|
-| completarFormulario() |
-| verEstadoSolicitud() |
-
----
-
-## Refugio (Hereda de UsuarioBase)
-| Atributos | Tipo |
-|-----------|------|
-| ruc | string |
-
-| Métodos |
-|---------|
-| registrarMascota() |
-| validarCertificado() |
-
----
-
-## Rescatista (Hereda de UsuarioBase)
-| Métodos |
-|---------|
-| registrarMascota() |
-
----
-
-## UsuarioFactory
-| Métodos |
-|---------|
-| crearUsuario(tipo : string) : UsuarioBase |
+| Elemento        | Descripción                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| **Responsabilidad** | Representa un refugio que gestiona y valida mascotas en adopción.          |
+| **Atributos**       | *(heredados de UsuarioBase)*, `ruc: string`                               |
+| **Métodos**         | `registrarMascota()`, `validarCertificado()`                              |
+| **Relaciones**      | Hereda de **UsuarioBase**, registra **Mascotas**                          |
 
 ---
 
 ## SistemaVerificacion
-| Atributos | Tipo |
-|-----------|------|
-| estrategia | EstrategiaVerificacion |
 
-| Métodos |
-|---------|
-| setEstrategia(e : EstrategiaVerificacion) |
-| verificar() |
-
----
-
-## EstrategiaVerificacion (Interface)
-| Métodos |
-|---------|
-| verificar() |
-
-### VerificadorIdentidad
-| Métodos |
-|---------|
-| verificarDocumento() |
-
-### VerificadorDNI
-| Métodos |
-|---------|
-| verificar() |
-
-### VerificadorAPIValidarID
-| Métodos |
-|---------|
-| verificar() |
-
-### VerificadorAPIOnfido
-| Métodos |
-|---------|
-| verificar() |
+| Elemento        | Descripción                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| **Responsabilidad** | Gestiona la verificación de usuarios con diferentes estrategias.           |
+| **Atributos**       | `estrategia: EstrategiaVerificacion`                                     |
+| **Métodos**         | `setEstrategia()`, `verificar()`                                         |
+| **Relaciones**      | Usa distintas implementaciones de **EstrategiaVerificacion** (DNI, API, Onfido) |
 
 
 ## 4.10. *Database Design*
