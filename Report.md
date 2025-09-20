@@ -1957,57 +1957,203 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 ### 4.9.2. *Class Dictionary*
 
 ## SolicitudAdopcion
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Gestiona las solicitudes de adopción entre adoptantes y mascotas. |
+| **Atributos** | `estado: EstadoSolicitud`, `adoptante: Adoptante`, `mascota: Mascota` |
+| **Métodos** | `aprobar()`, `rechazar()`, `cambiarEstado()` |
+| **Relaciones** | Depende de **EstadoSolicitud**, se relaciona con **Adoptante** y **Mascota** |
 
-| Elemento        | Descripción                                                                 |
-|-----------------|-----------------------------------------------------------------------------|
-| **Responsabilidad** | Gestiona las solicitudes de adopción entre adoptantes y mascotas.            |
-| **Atributos**       | `estado: EstadoSolicitud`, `adoptante: Adoptante`, `mascota: Mascota`        |
-| **Métodos**         | `aprobar()`, `rechazar()`, `cambiarEstado()`                               |
-| **Relaciones**      | Depende de **EstadoSolicitud**, se relaciona con **Adoptante** y **Mascota** |
+---
+
+## EstadoSolicitud (Interface)
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Define el comportamiento de los distintos estados de una solicitud. |
+| **Atributos** | *N/A* |
+| **Métodos** | `manejar()` |
+| **Relaciones** | Implementado por **EstadoRechazada**, **EstadoAprobada**, **EstadoEnRevision** |
+
+### EstadoRechazada
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Representa el estado de una solicitud rechazada. |
+| **Métodos** | `manejar()` |
+| **Relaciones** | Implementa **EstadoSolicitud** |
+
+### EstadoAprobada
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Representa el estado de una solicitud aprobada. |
+| **Métodos** | `manejar()` |
+| **Relaciones** | Implementa **EstadoSolicitud** |
+
+### EstadoEnRevision
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Representa el estado en proceso de evaluación. |
+| **Métodos** | `manejar()` |
+| **Relaciones** | Implementa **EstadoSolicitud** |
+
+---
+
+## FormularioAdopcion
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Captura y almacena las respuestas del adoptante en el proceso de adopción. |
+| **Atributos** | `idAdoptante: string`, `idMascota: string`, `respuestas: List<string>`, `estado: string` |
+| **Métodos** | `evaluar()`, `notificar()` |
+| **Relaciones** | Asociado con **Adoptante** y **Mascota** |
+
+---
+
+## Notificador
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Implementa el patrón Observer para informar sobre cambios. |
+| **Atributos** | `observadores: List<Observador>` |
+| **Métodos** | `agregarObservador()`, `notificarTodos()` |
+| **Relaciones** | Notifica a instancias de **Observador** |
+
+---
+
+## Observador (Interface)
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Define el método a implementar para recibir notificaciones. |
+| **Métodos** | `actualizar()` |
+| **Relaciones** | Implementado por **NotificacionEstado** |
+
+### NotificacionEstado
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Implementación concreta de un observador de estado. |
+| **Métodos** | `actualizar()` |
+| **Relaciones** | Implementa **Observador** |
 
 ---
 
 ## Mascota
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Representa a una mascota dentro de la plataforma. |
+| **Atributos** | `id: string`, `nombre: string`, `descripcionEmocional: string`, `necesidadesEspeciales: bool`, `disponible: bool`, `fotos: List<string>`, `historial: List<HistorialMedico>` |
+| **Métodos** | `agregarFoto()`, `actualizarEstado()`, `agregarHistorial()` |
+| **Relaciones** | Contiene varios **HistorialMedico**, asociado a **SolicitudAdopcion** |
 
-| Elemento        | Descripción                                                                 |
-|-----------------|-----------------------------------------------------------------------------|
-| **Responsabilidad** | Representa a una mascota dentro de la plataforma.                           |
-| **Atributos**       | `id: string`, `nombre: string`, `descripcionEmocional: string`, `necesidadesEspeciales: bool`, `disponible: bool`, `fotos: List<string>`, `historial: List<HistorialMedico>` |
-| **Métodos**         | `agregarFoto()`, `actualizarEstado()`, `agregarHistorial()`               |
-| **Relaciones**      | Contiene varios **HistorialMedico**; se asocia a **SolicitudAdopcion**     |
+---
+
+## HistorialMedico
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Almacena registros médicos de las mascotas. |
+| **Atributos** | `fecha: string`, `detalle: string`, `veterinario: string` |
+| **Relaciones** | Pertenece a una **Mascota** |
+
+---
+
+## Usuario (Interface)
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Define operaciones básicas de un usuario. |
+| **Métodos** | `autenticar()`, `completarPerfil()` |
+| **Relaciones** | Implementado por **UsuarioBase** |
+
+---
+
+## UsuarioBase (Abstract)
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Clase base para diferentes tipos de usuario. |
+| **Atributos** | `id: string`, `correo: string`, `contrasena: string` |
+| **Relaciones** | Superclase de **Adoptante**, **Refugio** y **Rescatista** |
 
 ---
 
 ## Adoptante
-
-| Elemento        | Descripción                                                                 |
-|-----------------|-----------------------------------------------------------------------------|
-| **Responsabilidad** | Usuario que solicita la adopción de una mascota.                           |
-| **Atributos**       | *(heredados de UsuarioBase)* `id: string`, `correo: string`, `contrasena: string` |
-| **Métodos**         | `completarFormulario()`, `verEstadoSolicitud()`                           |
-| **Relaciones**      | Hereda de **UsuarioBase**, se relaciona con **SolicitudAdopcion**          |
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Usuario que solicita la adopción de mascotas. |
+| **Atributos** | *(heredados de UsuarioBase)* |
+| **Métodos** | `completarFormulario()`, `verEstadoSolicitud()` |
+| **Relaciones** | Hereda de **UsuarioBase**, asociado a **SolicitudAdopcion** |
 
 ---
 
 ## Refugio
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Entidad que gestiona animales y valida su documentación. |
+| **Atributos** | *(heredados de UsuarioBase)*, `ruc: string` |
+| **Métodos** | `registrarMascota()`, `validarCertificado()` |
+| **Relaciones** | Hereda de **UsuarioBase**, registra **Mascotas** |
 
-| Elemento        | Descripción                                                                 |
-|-----------------|-----------------------------------------------------------------------------|
-| **Responsabilidad** | Representa un refugio que gestiona y valida mascotas en adopción.          |
-| **Atributos**       | *(heredados de UsuarioBase)*, `ruc: string`                               |
-| **Métodos**         | `registrarMascota()`, `validarCertificado()`                              |
-| **Relaciones**      | Hereda de **UsuarioBase**, registra **Mascotas**                          |
+---
+
+## Rescatista
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Usuario que registra animales rescatados. |
+| **Atributos** | *(heredados de UsuarioBase)* |
+| **Métodos** | `registrarMascota()` |
+| **Relaciones** | Hereda de **UsuarioBase** |
+
+---
+
+## UsuarioFactory
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Aplica el patrón Factory para instanciar usuarios. |
+| **Métodos** | `crearUsuario(tipo: string): UsuarioBase` |
+| **Relaciones** | Devuelve instancias de **UsuarioBase** (Adoptante, Refugio, Rescatista) |
 
 ---
 
 ## SistemaVerificacion
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Gestiona la verificación de usuarios mediante distintas estrategias. |
+| **Atributos** | `estrategia: EstrategiaVerificacion` |
+| **Métodos** | `setEstrategia(e: EstrategiaVerificacion)`, `verificar()` |
+| **Relaciones** | Usa implementaciones de **EstrategiaVerificacion** |
 
-| Elemento        | Descripción                                                                 |
-|-----------------|-----------------------------------------------------------------------------|
-| **Responsabilidad** | Gestiona la verificación de usuarios con diferentes estrategias.           |
-| **Atributos**       | `estrategia: EstrategiaVerificacion`                                     |
-| **Métodos**         | `setEstrategia()`, `verificar()`                                         |
-| **Relaciones**      | Usa distintas implementaciones de **EstrategiaVerificacion** (DNI, API, Onfido) |
+---
+
+## EstrategiaVerificacion (Interface)
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Define la estrategia de validación de usuarios. |
+| **Métodos** | `verificar()` |
+| **Relaciones** | Implementada por **VerificadorIdentidad**, **VerificadorDNI**, **VerificadorAPIValidarID**, **VerificadorAPIOnfido** |
+
+### VerificadorIdentidad
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Verifica documentos de identidad de forma directa. |
+| **Métodos** | `verificarDocumento()` |
+| **Relaciones** | Implementa **EstrategiaVerificacion** |
+
+### VerificadorDNI
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Verifica la identidad con DNI local. |
+| **Métodos** | `verificar()` |
+| **Relaciones** | Implementa **EstrategiaVerificacion** |
+
+### VerificadorAPIValidarID
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Valida la identidad usando una API externa. |
+| **Métodos** | `verificar()` |
+| **Relaciones** | Implementa **EstrategiaVerificacion** |
+
+### VerificadorAPIOnfido
+| Elemento | Descripción |
+|----------|-------------|
+| **Responsabilidad** | Verifica documentos mediante el servicio Onfido. |
+| **Métodos** | `verificar()` |
+| **Relaciones** | Implementa **EstrategiaVerificacion** |
+
 
 
 ## 4.10. *Database Design*
