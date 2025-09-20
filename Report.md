@@ -1539,9 +1539,81 @@ El impact map es una herramienta estratégica que ayuda a alinear el desarrollo 
 # Capítulo IV: *Product Design*
 
 ## 4.1. *Style Guidelines*
-### 4.1.1. *General Style Guidelines*
+### 4.1.1. General Style Guidelines
 
-### 4.1.2. *Web Style Guidelines*
+**Overview:**  
+El diseño web es una parte fundamental de nuestro proyecto. Debe ser consistente con lo que queremos transmitir como empresa, así como agradable y fácil de procesar por los usuarios.
+
+**Brand Name:**  
+**“Huellitas Conectadas”** busca transmitir empatía, ternura y compromiso con el bienestar animal. El nombre surge de nuestro deseo de tender un puente entre adoptantes, refugios y rescatistas, conectando a las mascotas en situación de vulnerabilidad con hogares responsables. Representa una comunidad unida por el amor a los animales, la acción solidaria y la tecnología como herramienta de cambio positivo.
+
+<p align="center">
+    <img src="./Images/chapter4/logo.png" alt="foto-system" width="650px"/>
+</p>
+
+---
+
+**¿Qué debe tener?**
+- Colores cálidos y naturales (verde, beige, naranja suave, terracota, arena).
+- Tipografía redondeada, clara y amigable.
+- Diseño simple, minimalista y moderno.
+
+**¿Qué no debe tener?**
+- Colores brillantes o estridentes que rompan la armonía.
+- Tipografías recargadas o poco legibles.
+
+---
+
+**Typography:**
+- **Fuente principal:** *Open Sans*  
+  Elegimos *Open Sans* para todo el landing y la interfaz porque transmite claridad y modernidad, manteniendo una excelente legibilidad en cualquier dispositivo. Su estilo limpio y amigable crea una experiencia accesible para todos los usuarios, alineándose con los valores de confianza y cercanía de nuestra plataforma.
+
+<p align="center">
+    <img src="./Images/chapter4/sans-typo.png" alt="foto-system" width="650px"/>
+</p>
+---
+
+**Buttons:**
+- Estilo minimalista con esquinas redondeadas.
+- Colores principales extraídos de la paleta:
+
+<p align="center">
+    <img src="./Images/chapter4/buttons.png" alt="foto-system" width="650px"/>
+</p>
+---
+
+**Paleta de Colores:**  
+La selección de la paleta de colores de **Huellitas Conectadas** se fundamenta en principios estratégicos que refuerzan la identidad visual y la funcionalidad de la plataforma:
+
+- 🌿 Verde claro: **#A3B18A**
+- 🪶 Beige claro: **#EDE6DB**
+- 🟠 Naranja: **#F4A261**
+- 🌱 Verde oscuro: **#588157**
+- 🧡 Terracota: **#D5896F**
+- 🏜️ Arena: **#DDB892**
+
+<p align="center">
+    <img src="./Images/chapter4/Colors.png" alt="foto-system" width="650px"/>
+</p>
+
+Estos colores transmiten **calidez, confianza y naturaleza**, reforzando la empatía y el propósito social de la startup.
+
+---
+
+### 4.1.2. Web Style Guidelines
+
+**Huellitas Conectadas** se compromete a ofrecer una interfaz web que no solo sea atractiva, sino también adaptable a distintos dispositivos, priorizando la **usabilidad, accesibilidad y coherencia visual**.
+
+**Lineamientos principales:**
+- **Responsive Design:** La plataforma debe adaptarse perfectamente a computadoras, tablets y móviles.
+- **Accesibilidad:** Uso de contrastes adecuados, tipografía legible y navegación simple para garantizar que cualquier persona pueda interactuar con la web sin barreras.
+- **Consistencia visual:** Los colores, botones, tipografías e íconos deben seguir los mismos estándares en todas las secciones.
+- **Minimalismo funcional:** Evitar sobrecarga de elementos visuales; cada componente debe cumplir un propósito claro.
+- **Experiencia unificada:** Adoptantes, refugios y rescatistas deben percibir una misma identidad coherente en todas las páginas y dispositivos.
+
+<p align="center">
+    <img src="./Images/chapter4/WebStyle_Guide.png" alt="foto-system" width="650px"/>
+</p>
 
 ### 4.1.3. *Mobile Style Guidelines*
 
@@ -1569,7 +1641,7 @@ Este sistema está pensado para personas comprometidas con el bienestar animal.
 
 
  <p align="center">
-    <img src="images/chapter4/Adoptante_System.png" alt="foto-system" width="850px"/>
+    <img src="./Images/chapter4/Adoptante_system.png" alt="foto-system" width="650px"/>
 </p>
 ---
 
@@ -1586,7 +1658,7 @@ Con estas herramientas, **Huellitas Conectadas** busca reducir la carga administ
 
 
   <p align="center">
-    <img src="images/chapter4/Refugio_System.png" alt="foto-system" width="850px"/>
+    <img src="./Images/chapter4/Refugio_system.png" alt="foto-system" width="650px"/>
 </p>
 
 ---
