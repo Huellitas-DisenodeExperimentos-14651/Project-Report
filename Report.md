@@ -1936,6 +1936,8 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 
 ## 4.7. *Web Applications Prototyping*
 
+<img width="1309" height="872" alt="image" src="https://github.com/user-attachments/assets/196f1a34-305b-49a3-a325-48e546e0e4db" />
+
 
 ## 4.8. *Domain-Driven Software Architecture*
 ### 4.8.1. *Software Architecture Context Diagram*
