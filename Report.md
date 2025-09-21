@@ -740,7 +740,27 @@ Ante los riesgos asociados a la informalidad y el exceso de publicaciones en red
 
 Como parte de la validación del modelo de negocio de Adopta!, se realizaron entrevistas semiestructuradas dirigidas a dos segmentos principales: protectores o rescatistas que gestionan animales en situación de abandono, y personas interesadas en adoptar mascotas.
 
-**Segmento 1: Adoptantes**
+**Segmento 1: Protectores**
+### Datos generales
+- ¿Cuál es tu nombre?  
+- ¿Cuánto tiempo dedicas al rescate o protección animal?  
+- ¿Trabajas de forma independiente o vinculado a un refugio?  
+- ¿Cuál es el número promedio de animales que rescatas por mes?  
+
+### Operaciones y herramientas
+- ¿Cómo gestionas actualmente los procesos de adopción?  
+- ¿Qué medios utilizas para difundir los casos?  
+- ¿Qué información sueles recopilar del animal antes de darlo en adopción?  
+- ¿Qué dificultades enfrentas para encontrar adoptantes responsables?  
+- ¿Has usado alguna plataforma web o app para este fin?  
+
+### Expectativas
+- ¿Qué funcionalidades digitales serían útiles para ti (seguimiento, historial, etc.)?  
+- ¿Qué tipo de soporte o incentivo te motivaría a usar una nueva plataforma?  
+- ¿Cuáles son tus principales frustraciones en el proceso de adopción?  
+- ¿Qué esperas de los adoptantes para garantizar el bienestar del animal?  
+
+**Segmento 2: Adoptantes**
 
 #### Datos generales
 - ¿Cuál es tu nombre?  
@@ -762,26 +782,6 @@ Como parte de la validación del modelo de negocio de Adopta!, se realizaron ent
 - ¿Qué redes sociales o plataformas digitales usas con más frecuencia?  
 - ¿Te gustaría recibir seguimiento post-adopción o apoyo luego de adoptar?  
 
-**Segmento 2: Protectores**
-
-### Datos generales
-- ¿Cuál es tu nombre?  
-- ¿Cuánto tiempo dedicas al rescate o protección animal?  
-- ¿Trabajas de forma independiente o vinculado a un refugio?  
-- ¿Cuál es el número promedio de animales que rescatas por mes?  
-
-### Operaciones y herramientas
-- ¿Cómo gestionas actualmente los procesos de adopción?  
-- ¿Qué medios utilizas para difundir los casos?  
-- ¿Qué información sueles recopilar del animal antes de darlo en adopción?  
-- ¿Qué dificultades enfrentas para encontrar adoptantes responsables?  
-- ¿Has usado alguna plataforma web o app para este fin?  
-
-### Expectativas
-- ¿Qué funcionalidades digitales serían útiles para ti (seguimiento, historial, etc.)?  
-- ¿Qué tipo de soporte o incentivo te motivaría a usar una nueva plataforma?  
-- ¿Cuáles son tus principales frustraciones en el proceso de adopción?  
-- ¿Qué esperas de los adoptantes para garantizar el bienestar del animal?  
 
 ### 2.2.2. Registro de entrevistas
 
@@ -791,6 +791,74 @@ Como parte de la validación del modelo de negocio de Adopta!, se realizaron ent
 Se realizarán tres entrevistas por cada segmento, alcanzando un total de seis en conjunto. Cada una se presentará en formato MP4 y será individual, dado que las preguntas y respuestas difieren según el perfil de cada entrevistado.
 
 **Segmento Objetivo #1: Personal de Refugios y Rescatistas de Animales (Administradores, Cuidadores y Voluntarios)**
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Jhon</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Pinto</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>22 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Ate</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Facebook, WhatsApp, Instagram</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Desde pequeño me ha interesado el bienestar animal. Ahora, como estudiante universitario, dedico parte de mi tiempo a rescatar perros y gatos abandonados, buscando que encuentren un hogar responsable.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>A veces es difícil encontrar adoptantes responsables y muchas personas no cumplen con los compromisos después de la adopción. También me frustra no contar con herramientas digitales que faciliten el seguimiento.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular, laptop</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Christian Espinoza</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="Images/chapter2/Jhonpinto.png" alt="Jhon Pinto"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/EVkE4I7MGQxFmfPHqMveONYBswKegvuN9yhQHzQpGOukzA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=caeD0e" title="Title">Ver Entrevista</a></p></td> 
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>3:51 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Jhon Pinto, estudiante universitario de 22 años y rescatista de animales en Ate, dedica su tiempo libre a salvar perros y gatos en situación de abandono. En promedio rescata entre 3 a 5 animales por mes, los cuales difunde a través de Facebook, WhatsApp e Instagram para buscar adoptantes. Nunca ha utilizado una plataforma especializada, pero considera importante que una herramienta digital incluya historial del animal, validación de adoptantes y seguimiento post-adopción. Sus principales dificultades son la falta de compromiso de algunos adoptantes y la ausencia de soporte para garantizar el bienestar del animal tras la entrega. Espera que la tecnología pueda ayudar a mejorar la transparencia y responsabilidad en todo el proceso de adopción.</td>
+  </tr>
+</tbody>
+</table>
 
 
 
