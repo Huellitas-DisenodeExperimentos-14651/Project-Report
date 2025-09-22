@@ -23,8 +23,8 @@
             <th style="text-align:center;">Código</th>
         </tr>
         <tr>
-            <td>x </td>
-            <td>U </td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>Espinoza Saenz, Christian Renato </td>
@@ -60,8 +60,8 @@
 
 | Versión |   Fecha    | Autor | Descripción de modificación | 
 |:-------:|:----------:|:-----:|:----------------------------| 
-|TB1| 19/09/2025 |Christian Espinoza|  Capítulo I , II , III y parte del IV |
-|TB1| 21/09/2025 |Harrison Payesa|  Parte del Capítulo IV y Capitulo V |
+|TB1| 19/09/2025 |Todo el equipo|  Capítulo I , II , III ,IV y V |
+
 </div>
 
 ---
@@ -2938,6 +2938,27 @@ Todos los endpoints están organizados siguiendo la convención RESTful bajo la 
 
 
 ### 5.2.8. *Team Collaboration Insights*
+En esta primera entrega logramos avances significativos en el frontend, backend y la aplicación móvil, además de culminar el desarrollo de la Landing Page. El uso de GitHub como repositorio colaborativo permitió organizar el trabajo del equipo, registrar los commits de cada integrante y mantener un control claro de las contribuciones. Asimismo, las reuniones de coordinación facilitaron la resolución de dudas, la alineación de criterios y el aseguramiento de un resultado consistente y de calidad en esta etapa inicial.
+
+<p align="center">
+    <img src="./Images/chapter5/proyect report.png" alt="foto-system" width="650px"/>
+</p>
+
+<p align="center">
+    <img src="./Images/chapter5/proyetc report2.png" alt="foto-system" width="650px"/>
+</p>
+
+<p align="center">
+    <img src="./Images/chapter5/backend.png" alt="foto-system" width="650px"/>
+</p>
+
+<p align="center">
+    <img src="./Images/chapter5/movile aplication.png" alt="foto-system" width="650px"/>
+</p>
+
+<p align="center">
+    <img src="./Images/chapter5/frontend.png" alt="foto-system" width="650px"/>
+</p>
 
 ## 5.3. *Video About-the-Product*
 
