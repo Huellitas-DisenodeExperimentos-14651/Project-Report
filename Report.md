@@ -2214,9 +2214,18 @@ A través del diagrama de contexto, la plataforma Huellitas Conectadas muestra d
 
 ### 4.8.2. *Software Architecture Container Diagrams*
 
+El diagrama de contenedores detalla la organización interna del sistema y la manera en que sus componentes técnicos trabajan en conjunto para brindar una experiencia integral. La Aplicación Web, construida en React, ofrece a los usuarios la posibilidad de navegar por los perfiles de mascotas, gestionar procesos de adopción y realizar donaciones. Esta interfaz se conecta con una API en Node.js, que sirve de enlace entre la capa visual y los servicios del backend. La información esencial sobre usuarios, mascotas, refugios, adopciones y donaciones se almacena en una Base de Datos PostgreSQL. Además, se contemplan contenedores adicionales como el Servicio de Mapas (Google Maps API), encargado de mostrar ubicaciones, y el Servicio de Correo Electrónico (SendGrid), que permite enviar notificaciones. Gracias a esta representación, se obtiene una visión clara de cómo cada parte técnica se integra para dar soporte al ecosistema de Huellitas Conectadas.
+
+<p align="center">
+    <img src="./Images/chapter4/Software Architecture Container Diagrams.png" alt="foto-system" width="650px"/>
+</p>
 
 ### 4.8.3. *Software Architecture Components Diagrams*
+El diagrama de componentes de Huellitas Conectadas muestra la estructura interna de la API, encargada de coordinar la lógica de negocio de la plataforma. Esta API, desarrollada en Node.js, está conformada por varios módulos especializados que atienden dominios específicos. El módulo de Gestión de Usuarios administra la autenticación y los perfiles; Gestión de Mascotas permite realizar operaciones CRUD sobre los perfiles de animales; Gestión de Adopciones se ocupa de todo el proceso de solicitudes y aprobaciones; y Gestión de Donaciones procesa y registra los aportes económicos. La interacción entre estos módulos sigue una lógica funcional clara: los usuarios gestionan sus datos, las mascotas se vinculan con solicitudes de adopción y las adopciones pueden complementarse con donaciones. Esta segmentación evidencia un diseño orientado al dominio, donde cada componente mantiene una responsabilidad bien definida y contribuye al funcionamiento integral de la plataforma.
 
+<p align="center">
+    <img src="./Images/chapter4/Software Architecture Components Diagrams.png" alt="foto-system" width="650px"/>
+</p>
 
 ## 4.9. *Software Object-Oriented Design*
 ### 4.9.1. *Class Diagrams*
