@@ -1939,19 +1939,12 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 
 ## 4.8. *Domain-Driven Software Architecture*
 ### 4.8.1. *Software Architecture Context Diagram*
-<p align="center">
-    <img src="./Images/chapter4/Contexto.png" alt="foto-system" width="650px"/>
-</p>
+
 
 ### 4.8.2. *Software Architecture Container Diagrams*
-<p align="center">
-    <img src="./Images/chapter4/Contenedor.png" alt="foto-system" width="650px"/>
-</p>
+
 
 ### 4.8.3. *Software Architecture Components Diagrams*
-<p align="center">
-    <img src="./Images/chapter4/Componentes.png" alt="foto-system" width="650px"/>
-</p>
 
 ## 4.9. *Software Object-Oriented Design*
 ### 4.9.1. *Class Diagrams*
