@@ -39,8 +39,8 @@
             <td>U202221024  </td>
         </tr>
         <tr>
-            <td>x </td>
-            <td>U </td>
+            <td>Navarro Correa, César Augusto</td>
+            <td>U202310129 </td>
         </tr>
     </table>
 </div>
@@ -269,8 +269,8 @@ Imaginamos un futuro donde ninguna mascota viva sin un hogar, donde cada adopci�
 
 | Integrante                | Perfil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Foto                                                |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| x, x | Me llamo x.                                                                                                                                                                                                                                                                                                                                                                                                                                     |                   ![alt text](image.png)                    |
-| x,x | Me llamo x.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                   |
+| Navarro Correa, César Augusto  | Me llamo x.                                                                                                                                                                                                                                                                                                                                                                                                                                     |                   ![alt text](image.png)                    |
+| Payesa Torres, Harrison Hubert| Me llamo x.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                   |
 | Payesa Torres, Harrison Hubert (U202221024) | Mi nombre es Harrison Payesa. Soy estudiante de la carrera de Ingeniería de Software. Tengo conocimientos en lenguaje Python, C++ y JavaScript, ademas de haber hecho proyectos con FrontEnd usando HTML, CSS y JS. En mi tiempo libre suelo ver películas y escuchar música.                                                                                           |           ![alt text](https://github.com/user-attachments/assets/e8811cac-47fb-4239-ad7e-3c89240cdf9e)           |
 | Espinoza Saenz, Christian Renato (U202213208) | Mi nombre es Christian Espinoza, soy un estudiante de 21 años que cursa el 8vo ciclo de la carrera Ingeniería de Software. Poseo ideas únicas e innovadoras para que el trabajo logre sobresalir. Tengo experiencia en la creación de distintos tipos de diagramas, editar diferentes tipos de multimedia como videos, y un conocimiento general en programación de C++, HTML, CSS y SQL. Además, se me facilita desarrollar interfaces intuitivas en el frontend, lo cual será beneficioso para el proyecto.                                                                                                                                                                                                                                                 |          ![alt text](Images/chapter1/image-3.png)           |
 
@@ -2960,14 +2960,6 @@ En esta primera entrega logramos avances significativos en el frontend, backend 
 
 ## 5.3. *Video About-the-Product*
 
-
-
-
-
-
-
-
-
 # Conclusiones
 
 <br>
@@ -2975,8 +2967,6 @@ En esta primera entrega logramos avances significativos en el frontend, backend 
 <div align = "justify">
 
 + . <br><br>
-
-.
 
 </div>
 
