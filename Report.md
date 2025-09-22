@@ -35,8 +35,8 @@
             <td>U202210787 </td>
         </tr>
         <tr>
-            <td>x</td>
-            <td>U  </td>
+            <td>Payesa Torres, Harrison Hubert</td>
+            <td>U202221024  </td>
         </tr>
         <tr>
             <td>x </td>
@@ -60,7 +60,8 @@
 
 | Versión |   Fecha    | Autor | Descripción de modificación | 
 |:-------:|:----------:|:-----:|:----------------------------| 
-|TB1| 20/04/2025 |Christian Espinoza|  Capítulo I: Introducción |
+|TB1| 19/09/2025 |Christian Espinoza|  Capítulo I: Introducción |
+|TB1| 21/09/2025 |Harrison Payesa|  Parte del Capítulo IV y Capitulo V |
 </div>
 
 ---
@@ -202,7 +203,7 @@ del ABET – EAC - Student Outcome 4.
       <strong>TB1:</strong><br>
       <strong>x</strong><br><br>
       <strong>Espinoza Saenz, Christian Renato:</strong><br><br>
-      <strong>x</strong><br><br>
+      <strong>Payesa Torres, Harrison Hubert</strong><br><br>
       <strong>x</strong><br><br>
       <strong>x</strong><br><br>
     </td>
@@ -216,7 +217,7 @@ del ABET – EAC - Student Outcome 4.
       <strong>TB1:</strong><br>
       <strong>x:</strong><br><br>
       <strong>Espinoza Saenz, Christian Renato:</strong><br><br>
-      <strong>x</strong><br><br>
+      <strong>Payesa Torres, Harrison Hubert</strong><br><br>
       <strong>x:</strong><br><br>
       <strong>x:</strong><br><br>
     </td>
@@ -271,11 +272,12 @@ Imaginamos un futuro donde ninguna mascota viva sin un hogar, donde cada adopci�
 | Integrante                | Perfil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Foto                                                |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | x, x | Me llamo x.                                                                                                                                                                                                                                                                                                                                                                                                                                     |                   ![alt text](image.png)                    |
-| x,x | Me llamo x.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |    ![alt text](image-1.png)                                   |
-| x, x | Hola, mi nombre es x.                                                                                           |           ![alt text](image-2.png)           |
+| x,x | Me llamo x.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                   |
+| Payesa Torres, Harrison Hubert (U202221024) | Mi nombre es Harrison Payesa. Soy estudiante de la carrera de Ingeniería de Software. Tengo conocimientos en lenguaje Python, C++ y JavaScript, ademas de haber hecho proyectos con FrontEnd usando HTML, CSS y JS. En mi tiempo libre suelo ver películas y escuchar música.                                                                                           |           ![alt text](https://github.com/user-attachments/assets/e8811cac-47fb-4239-ad7e-3c89240cdf9e)           |
 | Espinoza Saenz, Christian Renato (U202213208) | Mi nombre es Christian Espinoza, soy un estudiante de 21 años que cursa el 8vo ciclo de la carrera Ingeniería de Software. Poseo ideas únicas e innovadoras para que el trabajo logre sobresalir. Tengo experiencia en la creación de distintos tipos de diagramas, editar diferentes tipos de multimedia como videos, y un conocimiento general en programación de C++, HTML, CSS y SQL. Además, se me facilita desarrollar interfaces intuitivas en el frontend, lo cual será beneficioso para el proyecto.                                                                                                                                                                                                                                                 |          ![alt text](Images/chapter1/image-3.png)           |
 
 </div>
+
 
 <div style="page-break-after: always;"></div>
 
@@ -740,7 +742,27 @@ Ante los riesgos asociados a la informalidad y el exceso de publicaciones en red
 
 Como parte de la validación del modelo de negocio de Adopta!, se realizaron entrevistas semiestructuradas dirigidas a dos segmentos principales: protectores o rescatistas que gestionan animales en situación de abandono, y personas interesadas en adoptar mascotas.
 
-**Segmento 1: Adoptantes**
+**Segmento 1: Protectores**
+### Datos generales
+- ¿Cuál es tu nombre?  
+- ¿Cuánto tiempo dedicas al rescate o protección animal?  
+- ¿Trabajas de forma independiente o vinculado a un refugio?  
+- ¿Cuál es el número promedio de animales que rescatas por mes?  
+
+### Operaciones y herramientas
+- ¿Cómo gestionas actualmente los procesos de adopción?  
+- ¿Qué medios utilizas para difundir los casos?  
+- ¿Qué información sueles recopilar del animal antes de darlo en adopción?  
+- ¿Qué dificultades enfrentas para encontrar adoptantes responsables?  
+- ¿Has usado alguna plataforma web o app para este fin?  
+
+### Expectativas
+- ¿Qué funcionalidades digitales serían útiles para ti (seguimiento, historial, etc.)?  
+- ¿Qué tipo de soporte o incentivo te motivaría a usar una nueva plataforma?  
+- ¿Cuáles son tus principales frustraciones en el proceso de adopción?  
+- ¿Qué esperas de los adoptantes para garantizar el bienestar del animal?  
+
+**Segmento 2: Adoptantes**
 
 #### Datos generales
 - ¿Cuál es tu nombre?  
@@ -762,26 +784,6 @@ Como parte de la validación del modelo de negocio de Adopta!, se realizaron ent
 - ¿Qué redes sociales o plataformas digitales usas con más frecuencia?  
 - ¿Te gustaría recibir seguimiento post-adopción o apoyo luego de adoptar?  
 
-**Segmento 2: Protectores**
-
-### Datos generales
-- ¿Cuál es tu nombre?  
-- ¿Cuánto tiempo dedicas al rescate o protección animal?  
-- ¿Trabajas de forma independiente o vinculado a un refugio?  
-- ¿Cuál es el número promedio de animales que rescatas por mes?  
-
-### Operaciones y herramientas
-- ¿Cómo gestionas actualmente los procesos de adopción?  
-- ¿Qué medios utilizas para difundir los casos?  
-- ¿Qué información sueles recopilar del animal antes de darlo en adopción?  
-- ¿Qué dificultades enfrentas para encontrar adoptantes responsables?  
-- ¿Has usado alguna plataforma web o app para este fin?  
-
-### Expectativas
-- ¿Qué funcionalidades digitales serían útiles para ti (seguimiento, historial, etc.)?  
-- ¿Qué tipo de soporte o incentivo te motivaría a usar una nueva plataforma?  
-- ¿Cuáles son tus principales frustraciones en el proceso de adopción?  
-- ¿Qué esperas de los adoptantes para garantizar el bienestar del animal?  
 
 ### 2.2.2. Registro de entrevistas
 
@@ -791,8 +793,148 @@ Como parte de la validación del modelo de negocio de Adopta!, se realizaron ent
 Se realizarán tres entrevistas por cada segmento, alcanzando un total de seis en conjunto. Cada una se presentará en formato MP4 y será individual, dado que las preguntas y respuestas difieren según el perfil de cada entrevistado.
 
 **Segmento Objetivo #1: Personal de Refugios y Rescatistas de Animales (Administradores, Cuidadores y Voluntarios)**
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Jhon</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Pinto</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>22 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Ate</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Facebook, WhatsApp, Instagram</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Desde pequeño me ha interesado el bienestar animal. Ahora, como estudiante universitario, dedico parte de mi tiempo a rescatar perros y gatos abandonados, buscando que encuentren un hogar responsable.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>A veces es difícil encontrar adoptantes responsables y muchas personas no cumplen con los compromisos después de la adopción. También me frustra no contar con herramientas digitales que faciliten el seguimiento.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular, laptop</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Christian Espinoza</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="Images/chapter2/Jhonpinto.png" alt="Jhon Pinto"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/EVkE4I7MGQxFmfPHqMveONYBswKegvuN9yhQHzQpGOukzA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=caeD0e" title="Title">Ver Entrevista</a></p></td> 
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>3:51 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Jhon Pinto, estudiante universitario de 22 años y rescatista de animales en Ate, dedica su tiempo libre a salvar perros y gatos en situación de abandono. En promedio rescata entre 3 a 5 animales por mes, los cuales difunde a través de Facebook, WhatsApp e Instagram para buscar adoptantes. Nunca ha utilizado una plataforma especializada, pero considera importante que una herramienta digital incluya historial del animal, validación de adoptantes y seguimiento post-adopción. Sus principales dificultades son la falta de compromiso de algunos adoptantes y la ausencia de soporte para garantizar el bienestar del animal tras la entrega. Espera que la tecnología pueda ayudar a mejorar la transparencia y responsabilidad en todo el proceso de adopción.</td>
+  </tr>
+</tbody>
+</table>
 
 
+<br/>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Alejandra</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Ramirez</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Huaycán</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Facebook, WhatsApp</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Llevo casi 4 años dedicada al rescate de perros en situación de calle. Mi motivación es darles una segunda oportunidad y encontrarles un hogar responsable donde sean tratados como miembros de la familia.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Las personas muchas veces solo buscan perros de raza o no cumplen con los compromisos de cuidado. También me frustra cuando adoptantes devuelven o abandonan al perrito nuevamente.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Harrison Payesa</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="https://github.com/user-attachments/assets/ab9e8859-1bd2-4e95-b37b-c84ea825fabb" alt="Alejandra Ramirez"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/EUDkrkSqlqBIvRShQkAQxKUBZHhzG0G6DLpM5a7ZLBuNIg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QwtEUp" title="Title">Ver Entrevista</a></p></td> 
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td> 5:04 </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Alejandra Ramírez, rescatista independiente en Huaycán, lleva casi 4 años dedicados al rescate de perros en situación de calle. En promedio rescata entre 4 y 6 perritos al mes, gestionando las adopciones manualmente a través de Facebook y WhatsApp. Antes de entregarlos recopila datos básicos como edad, temperamento y estado de salud. Nunca ha usado una plataforma digital especializada, pero considera muy útil una herramienta que permita registrar historial de vacunas, esterilización y seguimiento post-adopción. Sus principales dificultades son encontrar adoptantes responsables, el desinterés por perros sin raza y el incumplimiento de compromisos de cuidado. Espera que los adoptantes vean a los animales como parte de la familia y se comprometan con su bienestar a largo plazo.</td>
+  </tr>
+</tbody>
+</table>
+
+---
 
 **Segmento Objetivo #2: Adoptantes Potenciales (Personas interesadas en adoptar animales)**
 
@@ -865,10 +1007,84 @@ Se realizarán tres entrevistas por cada segmento, alcanzando un total de seis e
 </tbody>
 </table>
 
+<br/>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Camila</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Paredes</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>21 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Juan de Lurigancho</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Facebook, Instagram, TikTok</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Siempre me han gustado los animales. Quiero darle un hogar a un perrito que lo necesite en lugar de comprar uno, porque siento que adoptar es un acto de amor y responsabilidad.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Me preocupa que no me den toda la información real del perrito (salud o conducta) y que el proceso de adopción sea demasiado complicado o burocrático.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular, laptop</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Harrison Payesa</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="https://github.com/user-attachments/assets/e67bed95-d7bc-48be-bfe5-7ceff78f2fd2" alt="Camila Paredes"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/EdTBapRNLA1AqA5Q4qIUHlwBOpdAERrRh4iirG3ggYEcGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jddj0T" title="Title">Ver Entrevista</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>4:00</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Camila Paredes, estudiante universitaria de 21 años en San Juan de Lurigancho, vive con su familia y busca adoptar un perrito mediano sin importar la raza. Ya tiene experiencia en adopción, pues anteriormente acogió un gato rescatado. Sus principales motivaciones son brindar amor y un hogar a un animal necesitado, priorizando que esté sano, vacunado, esterilizado y con buen temperamento. Actualmente busca mascotas en adopción a través de Facebook e Instagram, aunque también usa TikTok. Sus principales preocupaciones son que no le brinden información completa sobre el animal o que el proceso sea burocrático. Confía en que una plataforma digital sea útil si ofrece perfiles detallados de cada mascota, filtros de adoptantes y seguimiento post-adopción. Además, valora recibir orientación y acompañamiento en los primeros meses tras la adopción para garantizar el bienestar del animal.</td>
+  </tr>
+</tbody>
+</table>
 
 </div>
 
 ### 2.2.3. Análisis de entrevistas
+
+Las entrevistas realizadas a protectores y rescatistas revelan que la gestión actual de adopciones se maneja de forma manual a través de redes sociales como Facebook y WhatsApp, lo que limita el seguimiento y control del proceso. Sus principales frustraciones giran en torno a la falta de compromiso de algunos adoptantes, la carencia de herramientas digitales para registrar historiales médicos y la dificultad de asegurar el bienestar del animal después de la entrega. En este sentido, valoran la posibilidad de contar con una plataforma que ofrezca perfiles completos de las mascotas, filtros de validación para adoptantes y un sistema de seguimiento post-adopción que aporte confianza y reduzca los riesgos de abandono.
+
+Por su parte, los adoptantes entrevistados destacan que buscan mascotas principalmente en Instagram, TikTok y Facebook, pero manifiestan preocupaciones sobre la falta de información clara y transparente, especialmente en lo relacionado a salud y comportamiento. Sus expectativas apuntan a que la plataforma facilite perfiles detallados de cada mascota, brinde confianza en la validación de refugios y simplifique el proceso de adopción sin burocracia. Además, consideran valioso recibir orientación inicial tras la adopción para asegurar la adaptación y cuidado adecuado de la mascota.
 
 ## 2.3. *Needfinding*
 Luego de identificar los segmentos objetivo —protectores de animales y personas interesadas en adoptar— se llevaron a cabo entrevistas con representantes de ambos grupos, con el propósito de recopilar información clave sobre sus emociones, motivaciones, expectativas y necesidades. Esta sección presentará los esquemas de User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping.
@@ -1774,10 +1990,27 @@ La navegación en **Huellitas Conectadas** ha sido diseñada para que cualquier 
 
 ### 4.4.2. *Mobile Applications Wireflow Diagrams*
 
+<p align="center">
+    <img width="1995" height="3002" alt="Huellitas Wireflows" src="https://github.com/user-attachments/assets/ef9c07b8-4e89-4689-917c-1f7628da2d5e" />
+</p>
+
+
 ### 4.4.3. *Mobile Applications Mock-ups*
 
 <p align="center">
-    <img src="./Images/chapter4/LandingPage%20Movil.png" alt="foto-system" width="650px"/>
+    <img width="443" height="1358" alt="Login Mockup" src="https://github.com/user-attachments/assets/dbd0e0b9-e654-4eaa-b4e1-d515f5526261" />
+</p>
+
+<p align="center">
+    <img width="442" height="1358" alt="Register Mockup" src="https://github.com/user-attachments/assets/3edb373f-3249-4dc2-a4d8-e43fec802733" />
+</p>
+
+<p align="center">
+    <img width="442" height="1168" alt="Reset password Mockup" src="https://github.com/user-attachments/assets/5b28b23b-9109-4cf4-b962-678ba9de4896" />
+</p>
+
+<p align="center">
+    <img width="442" height="1168" alt="Reset password Mockup #2" src="https://github.com/user-attachments/assets/14d926a4-e81b-4caf-b7e1-ce97e65d67c9" />
 </p>
 
 ### 4.4.4. *Mobile Applications User Flow Diagrams*
@@ -1786,10 +2019,15 @@ La navegación en **Huellitas Conectadas** ha sido diseñada para que cualquier 
 ## 4.5. *Mobile Applications Prototyping*
 ### 4.5.1. *Android Mobile Applications Prototyping*
 
+<p align="center">
+    <img width="1208" height="731" alt="image" src="https://github.com/user-attachments/assets/b45874d9-48b6-497d-b8e3-f4fe78690586" />
+</p>
+
 ### 4.5.2. *iOS Mobile Applications Prototyping*
 
-
-
+<p align="center">
+    <img width="1208" height="731" alt="image" src="https://github.com/user-attachments/assets/b45874d9-48b6-497d-b8e3-f4fe78690586" />
+</p>
 
 
 ## 4.6. *Web Applications UX/UI Design*
@@ -1919,6 +2157,33 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 
 ### 4.6.3. *Web Applications Mock-ups*
 
+<p align="left">Iniciar Sesión</p>
+<img width="1452" height="1030" alt="Login Mockup" src="https://github.com/user-attachments/assets/f9a3aae0-81d3-415d-955f-6003e14ffab1" />
+<br/>
+
+<p align="left">Registro</p>
+<img width="1452" height="1030" alt="Register Mockup" src="https://github.com/user-attachments/assets/536da3ec-7f5d-4acc-bc69-291eb0a1a66c" />
+<br/>
+
+<p align="left">Ver perfil rescatista</p>
+<img width="1440" height="1536" alt="Mockup Rescatista - Ver perfil" src="https://github.com/user-attachments/assets/e9ad409e-470f-458a-b51f-0d6520b0fd9b" />
+<br/>
+
+<p align="left">Ver perfil adoptante</p>
+<img width="1440" height="1536" alt="Mockup Adoptante - Ver perfil" src="https://github.com/user-attachments/assets/004e53cb-7a59-40f6-a53a-6360aac34cef" />
+<br/>
+
+<p align="left">Registrar mascota</p>
+<img width="1440" height="1536" alt="Mockup Rescatista - registrar mascotas y ver las que has publicado" src="https://github.com/user-attachments/assets/cdd34d7f-2ce1-4939-a54f-1ffdb5bf4fb6" />
+<br/>
+
+<p align="left">Buscar mascota</p>
+<img width="1440" height="1536" alt="Mockup Adoptante - Buscar Mascotas" src="https://github.com/user-attachments/assets/9c86ed18-8dcc-433c-9568-2fbcf9358036" />
+<br/>
+
+<p align="left">Ver perfil del actual dueño de la mascota anteriormente publicada</p>
+<img width="1440" height="1536" alt="Mockup Rescatista - Ver perfil del actual dueño de la mascota anteriormente publicada" src="https://github.com/user-attachments/assets/9ec8f3e5-92e4-4207-8db1-848f8ad4ef44" />
+<br/>
 
 ### 4.6.4. *Web Applications User Flow Diagrams*
 
@@ -1936,15 +2201,31 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 
 ## 4.7. *Web Applications Prototyping*
 
+<img width="1309" height="872" alt="image" src="https://github.com/user-attachments/assets/196f1a34-305b-49a3-a325-48e546e0e4db" />
+
 
 ## 4.8. *Domain-Driven Software Architecture*
 ### 4.8.1. *Software Architecture Context Diagram*
+A través del diagrama de contexto, la plataforma Huellitas Conectadas muestra de manera clara cómo se relaciona con los distintos actores y servicios externos. Su propósito principal es facilitar la adopción de mascotas en Perú, creando un puente entre adoptantes, refugios y rescatistas. Dentro de este esquema se identifican actores clave: el Adoptante, que explora opciones de mascotas y realiza donaciones, y el Refugio o Rescatista, que administra perfiles de animales y responde a solicitudes. También se incluyen integraciones fundamentales, como la Pasarela de Pago para procesar aportes, el Servicio de Mapas para ubicar refugios, el Servicio de Correo Electrónico para enviar notificaciones y las Redes Sociales para promover la adopción. Gracias a esta representación de alto nivel, se comprende cómo Huellitas Conectadas se articula con su entorno digital y humano para cumplir su misión.
 
+<p align="center">
+    <img src="./Images/chapter4/Software Architecture Context Diagram.png" alt="foto-system" width="650px"/>
+</p>
 
 ### 4.8.2. *Software Architecture Container Diagrams*
 
+El diagrama de contenedores detalla la organización interna del sistema y la manera en que sus componentes técnicos trabajan en conjunto para brindar una experiencia integral. La Aplicación Web, construida en React, ofrece a los usuarios la posibilidad de navegar por los perfiles de mascotas, gestionar procesos de adopción y realizar donaciones. Esta interfaz se conecta con una API en Node.js, que sirve de enlace entre la capa visual y los servicios del backend. La información esencial sobre usuarios, mascotas, refugios, adopciones y donaciones se almacena en una Base de Datos PostgreSQL. Además, se contemplan contenedores adicionales como el Servicio de Mapas (Google Maps API), encargado de mostrar ubicaciones, y el Servicio de Correo Electrónico (SendGrid), que permite enviar notificaciones. Gracias a esta representación, se obtiene una visión clara de cómo cada parte técnica se integra para dar soporte al ecosistema de Huellitas Conectadas.
+
+<p align="center">
+    <img src="./Images/chapter4/Software Architecture Container Diagrams.png" alt="foto-system" width="650px"/>
+</p>
 
 ### 4.8.3. *Software Architecture Components Diagrams*
+El diagrama de componentes de Huellitas Conectadas muestra la estructura interna de la API, encargada de coordinar la lógica de negocio de la plataforma. Esta API, desarrollada en Node.js, está conformada por varios módulos especializados que atienden dominios específicos. El módulo de Gestión de Usuarios administra la autenticación y los perfiles; Gestión de Mascotas permite realizar operaciones CRUD sobre los perfiles de animales; Gestión de Adopciones se ocupa de todo el proceso de solicitudes y aprobaciones; y Gestión de Donaciones procesa y registra los aportes económicos. La interacción entre estos módulos sigue una lógica funcional clara: los usuarios gestionan sus datos, las mascotas se vinculan con solicitudes de adopción y las adopciones pueden complementarse con donaciones. Esta segmentación evidencia un diseño orientado al dominio, donde cada componente mantiene una responsabilidad bien definida y contribuye al funcionamiento integral de la plataforma.
+
+<p align="center">
+    <img src="./Images/chapter4/Software Architecture Components Diagrams.png" alt="foto-system" width="650px"/>
+</p>
 
 ## 4.9. *Software Object-Oriented Design*
 ### 4.9.1. *Class Diagrams*
@@ -2164,14 +2445,187 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 
 # Capítulo V: *Product Implementation*
 ## 5.1. *Software Configuration Management*
+
+La gestión de la configuración del software es fundamental para nuestro trabajo, ya que nos ayuda a controlar de manera exacta los componentes de nuestro proyecto, como el código fuente, los documentos de diseño y los recursos digitales. De esta manera, aseguramos que todos los miembros del equipo utilicen la misma versión de los archivos, lo que facilita la cooperación entre desarrolladores, diseñadores y otros profesionales involucrados.
+
 ### 5.1.1. *Software Development Environment Configuration*
+
+- Project Management 
+     - Zoom
+
+     Una plataforma de videollamadas utilizada para realizar y grabar la exposición final, permitiendo registrar la presentación del equipo de forma clara y accesible.
+
+    - Trello
+
+    Una herramienta de gestión de tareas basada en tableros, que permite organizar y coordinar el trabajo del equipo en tiempo real mediante listas, tarjetas y etiquetas.
+
+    Imagen de evidencia de uso:
+
+    <p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/24b87dc8-b4f3-43f9-86e5-21ee329fc077">
+
+
+- Requirements Management 
+
+    - Structurizr
+
+    Se trata de una suite de herramientas que posibilita la creación colaborativa de modelos C4 para representar de forma gráfica nuestros productos.
+
+- Product UX/UI Design
+
+    - Figma 
+
+    Herramienta visual que facilita la creación de wireframes y mockups.
+
+    Imagen de evidencia de uso:
+    <p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/8fb4231b-bf99-47f1-a925-acd4a76b9a0e">
+        
+    - Lucidchart
+
+    Una herramienta colaborativa que posibilita la creación conjunta de wireframes flow y mockups flow.
+
+    Imagen de evidencia de uso:
+    <p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/5838c2ca-d6e7-4adb-b30c-9de5320e71a8">
+    
+- Software Development 
+
+    - HTML5
+
+    Lenguaje de etiquetado orientado a crear páginas web.
+
+    Imagen de evidencia de uso
+
+    <p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/d55767cd-86ae-4e6a-b63b-85bf2e13b303">
+
+    - CSS 
+
+    Lenguaje de diseño gráfico utilizado para dar formato al código escrito en HTML.
+
+    Imagen de evidencia de uso
+
+    <p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/8ea850dd-4639-4b01-95b6-af395266f28b">
+
+- Software Documentation
+
+    - Github
+
+    Plataforma utilizada para el alojamiento de versiones del código fuente de un proyecto. Es una herramienta ampliamente popular en el trabajo colaborativo de programadores.
+
+- Software Documentation
+
+    - Github Pages
+
+    Una plataforma que posibilita la realización de despliegues simples directamente desde un repositorio de GitHub.
 
 
 ### 5.1.2. *Source Code Management*
 
+
+- Gitflow Implementation:
+
+Implementamos el flujo de trabajo gitflow para el control de versiones con branches(ramas) para trabajar paralelamente.
+
+<p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/09acc470-a3f7-4943-afd7-7c75d761f540">
+
+**Main branch**
+
+La rama principal de desarrollo del proyecto es la Master branch. En esta rama reside el código que actualmente se encuentra en producción.
+
+Notación: main
+
+**Conventional Commits**
+
+"Conventional Commits" es una convención para estructurar los mensajes de confirmación (commits) en un formato estándar y semántico. Este formato ayuda a comunicar claramente los cambios realizados en el código y facilita la generación de registros de cambios automáticos. Los "Conventional Commits" suelen seguir un formato que incluye un encabezado, un cuerpo opcional y un pie de página opcional, y se utilizan para describir de manera sucinta y clara los cambios realizados en el código, lo que facilita su seguimiento y comprensión por parte de los desarrolladores y otros miembros del equipo.
+La estructura de un commit debe seguir las siguientes pautas:
+
+```
+git commit -m "<type>[optional scope]: <title>" -m "<description>"
+```
+
+**Tipos De Conventional Commits**
+
+```
+1. feat: Used to describe a new feature or functionality added to the code.
+2. fix: Indicates a bug fix or solution to a problem.
+3. docs: Employed for changes or improvements in code documentation.
+4. style: Describes changes related to the code's formatting, such as whitespace, indentation, etc., that do not affect its functionality.
+5. refactor: Used for modifications to the code that do not fix bugs or add new features, but rather improve its structure or readability.
+6. test: Indicates the addition or modification of unit tests or functional tests.
+7. chore: Used for changes in the build process or maintenance tasks that are not directly related to the code itself.
+8. perf: Describes performance improvements in the code.
+```
+
 ### 5.1.3. *Source Code Style Guide & Conventions*
 
+- HTML
+
+    - Use Lowercase Element Names: 
+
+    Es recomendable utilizar minúsculas o lowercase para los nombres de los elementos HTML.
+
+    - Close All HTML Elements:
+    
+    Es recomendable cerrar todos los elementos HTML correctamente.
+
+    - Use Lowercase Attribute Names:
+
+    Es recomendable utilizar minúsculas para los nombres de los atributos HTML.
+
+    - Always Specify alt, width, and height for Images:
+
+    Es recomendable seguir estas convenciones en caso de que la imagen no se pueda mostrar, lo que ayuda a mejorar la accesibilidad del contenido.
+
+    - Spaces and Equal Signs:
+
+    Se recomienda no utilizar espacios en blanco entre las entidades para mejorar la legibilidad.
+
+- CSS
+
+    - ID and Class Naming
+
+    Es recomendable utilizar nombres de clases e id's significativos que expresen claramente el propósito del elemento.
+
+    - ID and Class Name Style
+
+    Se recomienda utilizar nombres cortos para nombrar ids o clases, pero lo suficientemente descriptivos para entender su propósito.
+
+    - Shorthand Properties
+
+    Se recomienda utilizar propiedades CSS de forma abreviada siempre que sea posible para hacer el código más eficiente y comprensible.
+
+    - 0 and Units
+
+    Es recomendable evitar especificar la unidad después del valor 0 en propiedades que lo permitan, ya que esto ayuda a reducir el tamaño del código y mejora su legibilidad.
+
+    - Declaration Order
+
+    Se recomienda ordenar las declaraciones en orden alfabético para facilitar el mantenimiento y la recordación del código.
+
+- JAVASCRIPT
+
+    - Use expanded syntax
+
+    Cada línea de JavaScript debería estar en una nueva línea, con la llave de apertura en la misma línea de su declaración y la llave de cierre en una nueva línea al final.
+
+    - Variable naming
+
+    Para la declaración de variables, es recomendable utilizar las palabras reservadas let y const en lugar de var.
+
+    - Function naming
+
+    Para el nombre de las funciones, se recomienda utilizar lowerCamelCase.
+
 ### 5.1.4. *Software Deployment Configuration*
+
+- Creación Landing Page: 
+
+    1. Se crea un repositorio remoto en GitHub:
+
+    <p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/e56e25f1-0769-4eea-8c58-8dae2d5b228c">
+
+    2. Agregamos las configuraciones necesarias para el despliegue desde github pages:
+
+    <p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/dbafefa4-d9c6-4998-869f-194ee112ec35">
+
 
 
 ## 5.2. *Product Implementation & Deployment*
@@ -2179,6 +2633,15 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 
 
 ### 5.2.2. *Implemented Landing Page Evidence*
+
+Se logró implementar la vista principal del sistema web “Huellitas Conectadas”.
+
+- **Landing Page principal (index.html)**: incluye secciones de bienvenida, quienes somos, beneficios, perfiles de usuarios y llamado a la acción.
+
+<p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/2520d9a5-2e81-4f86-8101-79f34ab813d3">
+
+
+---
 
 ### 5.2.3. *Implemented Frontend-Web Application Evidence*
 
@@ -2432,6 +2895,11 @@ Todos los endpoints están organizados siguiendo la convención RESTful bajo la 
 
 <div align = "justify">
 
+- GitHub. (2025). *GitHub*. [https://github.com](https://github.com)  
+- WUF. (2025). *Plataforma de adopciones y bienestar animal en Perú*. [https://www.wuf.pe](https://www.wuf.pe)  
+- Voz Animal Perú. (2025). *Rescate y adopción responsable*. [https://www.vozanimalperu.org](https://www.vozanimalperu.org) 
+- Wukha. (2025). *Adopciones y comunidad pet-friendly*. [https://wukha.com](https://wukha.com)   
+- Structurizr. (2025). *Structurizr*. [https://www.structurizr.com](https://www.structurizr.com)  
 
 </div>
 
@@ -2440,7 +2908,14 @@ Todos los endpoints están organizados siguiendo la convención RESTful bajo la 
 # Anexos
 
 + Repositorio GitHub del Informe: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/Project-Report)<br><br>
-
++ Repositorio GitHub de la Landing Page: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/LandingPage)
+<br><br>
++ Repositorio GitHub del Forntend: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/Frontend)
+<br><br>
++ Repositorio GitHub del Backend: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/Backend)
+<br><br>
++ Repositorio GitHub de la App Movil: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/MobileApp)
+<br><br>
 
 ## Needfinding Interviews
 
