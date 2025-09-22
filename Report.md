@@ -2426,14 +2426,187 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 
 # Capítulo V: *Product Implementation*
 ## 5.1. *Software Configuration Management*
+
+La gestión de la configuración del software es fundamental para nuestro trabajo, ya que nos ayuda a controlar de manera exacta los componentes de nuestro proyecto, como el código fuente, los documentos de diseño y los recursos digitales. De esta manera, aseguramos que todos los miembros del equipo utilicen la misma versión de los archivos, lo que facilita la cooperación entre desarrolladores, diseñadores y otros profesionales involucrados.
+
 ### 5.1.1. *Software Development Environment Configuration*
+
+- Project Management 
+     - Zoom
+
+     Una plataforma de videollamadas utilizada para realizar y grabar la exposición final, permitiendo registrar la presentación del equipo de forma clara y accesible.
+
+    - Trello
+
+    Una herramienta de gestión de tareas basada en tableros, que permite organizar y coordinar el trabajo del equipo en tiempo real mediante listas, tarjetas y etiquetas.
+
+    Imagen de evidencia de uso:
+
+    <p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/24b87dc8-b4f3-43f9-86e5-21ee329fc077">
+
+
+- Requirements Management 
+
+    - Structurizr
+
+    Se trata de una suite de herramientas que posibilita la creación colaborativa de modelos C4 para representar de forma gráfica nuestros productos.
+
+- Product UX/UI Design
+
+    - Figma 
+
+    Herramienta visual que facilita la creación de wireframes y mockups.
+
+    Imagen de evidencia de uso:
+    <p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/8fb4231b-bf99-47f1-a925-acd4a76b9a0e">
+        
+    - Lucidchart
+
+    Una herramienta colaborativa que posibilita la creación conjunta de wireframes flow y mockups flow.
+
+    Imagen de evidencia de uso:
+    <p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/5838c2ca-d6e7-4adb-b30c-9de5320e71a8">
+    
+- Software Development 
+
+    - HTML5
+
+    Lenguaje de etiquetado orientado a crear páginas web.
+
+    Imagen de evidencia de uso
+
+    <p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/d55767cd-86ae-4e6a-b63b-85bf2e13b303">
+
+    - CSS 
+
+    Lenguaje de diseño gráfico utilizado para dar formato al código escrito en HTML.
+
+    Imagen de evidencia de uso
+
+    <p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/8ea850dd-4639-4b01-95b6-af395266f28b">
+
+- Software Documentation
+
+    - Github
+
+    Plataforma utilizada para el alojamiento de versiones del código fuente de un proyecto. Es una herramienta ampliamente popular en el trabajo colaborativo de programadores.
+
+- Software Documentation
+
+    - Github Pages
+
+    Una plataforma que posibilita la realización de despliegues simples directamente desde un repositorio de GitHub.
 
 
 ### 5.1.2. *Source Code Management*
 
+
+- Gitflow Implementation:
+
+Implementamos el flujo de trabajo gitflow para el control de versiones con branches(ramas) para trabajar paralelamente.
+
+<p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/09acc470-a3f7-4943-afd7-7c75d761f540">
+
+**Main branch**
+
+La rama principal de desarrollo del proyecto es la Master branch. En esta rama reside el código que actualmente se encuentra en producción.
+
+Notación: main
+
+**Conventional Commits**
+
+"Conventional Commits" es una convención para estructurar los mensajes de confirmación (commits) en un formato estándar y semántico. Este formato ayuda a comunicar claramente los cambios realizados en el código y facilita la generación de registros de cambios automáticos. Los "Conventional Commits" suelen seguir un formato que incluye un encabezado, un cuerpo opcional y un pie de página opcional, y se utilizan para describir de manera sucinta y clara los cambios realizados en el código, lo que facilita su seguimiento y comprensión por parte de los desarrolladores y otros miembros del equipo.
+La estructura de un commit debe seguir las siguientes pautas:
+
+```
+git commit -m "<type>[optional scope]: <title>" -m "<description>"
+```
+
+**Tipos De Conventional Commits**
+
+```
+1. feat: Used to describe a new feature or functionality added to the code.
+2. fix: Indicates a bug fix or solution to a problem.
+3. docs: Employed for changes or improvements in code documentation.
+4. style: Describes changes related to the code's formatting, such as whitespace, indentation, etc., that do not affect its functionality.
+5. refactor: Used for modifications to the code that do not fix bugs or add new features, but rather improve its structure or readability.
+6. test: Indicates the addition or modification of unit tests or functional tests.
+7. chore: Used for changes in the build process or maintenance tasks that are not directly related to the code itself.
+8. perf: Describes performance improvements in the code.
+```
+
 ### 5.1.3. *Source Code Style Guide & Conventions*
 
+- HTML
+
+    - Use Lowercase Element Names: 
+
+    Es recomendable utilizar minúsculas o lowercase para los nombres de los elementos HTML.
+
+    - Close All HTML Elements:
+    
+    Es recomendable cerrar todos los elementos HTML correctamente.
+
+    - Use Lowercase Attribute Names:
+
+    Es recomendable utilizar minúsculas para los nombres de los atributos HTML.
+
+    - Always Specify alt, width, and height for Images:
+
+    Es recomendable seguir estas convenciones en caso de que la imagen no se pueda mostrar, lo que ayuda a mejorar la accesibilidad del contenido.
+
+    - Spaces and Equal Signs:
+
+    Se recomienda no utilizar espacios en blanco entre las entidades para mejorar la legibilidad.
+
+- CSS
+
+    - ID and Class Naming
+
+    Es recomendable utilizar nombres de clases e id's significativos que expresen claramente el propósito del elemento.
+
+    - ID and Class Name Style
+
+    Se recomienda utilizar nombres cortos para nombrar ids o clases, pero lo suficientemente descriptivos para entender su propósito.
+
+    - Shorthand Properties
+
+    Se recomienda utilizar propiedades CSS de forma abreviada siempre que sea posible para hacer el código más eficiente y comprensible.
+
+    - 0 and Units
+
+    Es recomendable evitar especificar la unidad después del valor 0 en propiedades que lo permitan, ya que esto ayuda a reducir el tamaño del código y mejora su legibilidad.
+
+    - Declaration Order
+
+    Se recomienda ordenar las declaraciones en orden alfabético para facilitar el mantenimiento y la recordación del código.
+
+- JAVASCRIPT
+
+    - Use expanded syntax
+
+    Cada línea de JavaScript debería estar en una nueva línea, con la llave de apertura en la misma línea de su declaración y la llave de cierre en una nueva línea al final.
+
+    - Variable naming
+
+    Para la declaración de variables, es recomendable utilizar las palabras reservadas let y const en lugar de var.
+
+    - Function naming
+
+    Para el nombre de las funciones, se recomienda utilizar lowerCamelCase.
+
 ### 5.1.4. *Software Deployment Configuration*
+
+- Creación Landing Page: 
+
+    1. Se crea un repositorio remoto en GitHub:
+
+    <p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/e56e25f1-0769-4eea-8c58-8dae2d5b228c">
+
+    2. Agregamos las configuraciones necesarias para el despliegue desde github pages:
+
+    <p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/dbafefa4-d9c6-4998-869f-194ee112ec35">
+
 
 
 ## 5.2. *Product Implementation & Deployment*
