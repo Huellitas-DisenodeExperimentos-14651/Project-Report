@@ -2645,13 +2645,213 @@ Se logró implementar la vista principal del sistema web “Huellitas Conectadas
 
 ### 5.2.3. *Implemented Frontend-Web Application Evidence*
 
+- Durante este Sprint trabajamos el desarrollo del frontend del sistema web “Huellitas conectadas” utilizando el entorno de desarrollo WebStorm, siguiendo los principios de Domain-Driven Design (DDD) para organizar la estructura y responsabilidades del sistema. Se lograron implementar de forma funcional las vistas principales orientadas a brindar una experiencia inicial clara y amigable para los usuarios adoptantes.
+
+- Inicio de Sesión:
+
+<p align="center">
+    <img src="./Images/chapter4/LA1.png" alt="foto-system" width="650px"/>
+</p>
+- Página de búsqueda de mascotas (mascotas.html): galería con tarjetas dinámicas de mascotas, filtros por características, y campo de búsqueda.
+<p align="center">
+    <img src="./Images/chapter4/La2.png" alt="foto-system" width="650px"/>
+</p>
+- Perfiles individuales de mascotas (guapisimo.html, luna.html, etc.): fichas con información detallada y botones de contacto:
+<p align="center">
+    <img src="./Images/chapter4/la3.png" alt="foto-system" width="650px"/>
+</p>
+
+
+
 ### 5.2.4. *Acuerdo de Servicio - SaaS*
 
 ### 5.2.5. *Implemented Native-Mobile Application Evidence*
 
 ### 5.2.6. *Implemented RESTful API and/or Serverless Backend Evidence*
 
+- Datos en bounded context Users
+<p align="center">
+    <img src="./Images/chapter4/pgadmin_2.png" alt="foto-system" width="650px"/>
+</p>
+
+- Datos en bounded context Pets
+
+<p align="center">
+    <img src="./Images/chapter4/pgadmin_1.png" alt="foto-system" width="650px"/>
+</p>
+
+- Datos en bounded context Publications
+<p align="center">
+    <img src="./Images/chapter4/pgadmin_3.png" alt="foto-system" width="650px"/>
+</p>
+
+- Datos en bounded context Profiles
+
+<p align="center">
+    <img src="./Images/chapter4/pgadmin_4.png" alt="foto-system" width="650px"/>
+</p>
+
+- Datos en bounded context Donations
+
+<p align="center">
+    <img src="./Images/chapter4/pgadmin_5.png" alt="foto-system" width="650px"/>
+</p>
+
+- Datos en bounded context Adoptions
+
+<p align="center">
+    <img src="./Images/chapter4/pgadmin_6.png" alt="foto-system" width="650px"/>
+</p>
+
+- Datos en bounded context Adoption Requests
+
+<p align="center">
+    <img src="./Images/chapter4/pgadmin_7.png" alt="foto-system" width="650px"/>
+</p>
+
+
+
 ### 5.2.7. *RESTful API Documentation*
+
+#### Bounded Contexts
+
+- **Authentication** – Manejo de registros, inicio de sesión y autenticación JWT.
+- **Profiles** – Gestión de perfiles (adoptantes, refugios, administradores).
+- **Pets** – Registro y administración de mascotas disponibles para adopción.
+- **Adoptions** – Gestión de adopciones, historial médico y vacunas.
+- **Donations** – Registro de donaciones y métodos de pago.
+- **Publications** – Publicaciones públicas de mascotas y contenido social.
+- **Adoption Requests** – Solicitudes de adopción con seguimiento de estado.
+- **Users** – Información general y roles del sistema.
+
+#### 📡 API
+
+Todos los endpoints están organizados siguiendo la convención RESTful bajo la ruta `/api/v1/` y están documentados según contexto.
+
+#### ✅ Buenas Prácticas Aplicadas
+
+- Uso de **Enums tipados** para valores restringidos.
+- Colecciones embebidas con `@ElementCollection` en modelos.
+- Separación clara de **entidades de dominio** y **DTOs**.
+- Control de errores centralizado.
+- **Mappers** para transformar entre recursos y entidades.
+- Arquitectura lista para pruebas, integración y ampliación.
+
+### 🐾 Authentication Bounded Context
+
+**AuthenticationController**
+
+| Tag            | HTTP Verbs | Endpoint                       | Summary       | Description                                   | OperationId |
+|----------------|------------|--------------------------------|---------------|-----------------------------------------------|-------------|
+| Authentication | POST       | /api/v1/authentication/sign-up | User Sign-Up  | Register a new user into the system           | SignUp      |
+| Authentication | POST       | /api/v1/authentication/sign-in | User Sign-In  | Authenticate a user and return access token   | SignIn      |
+
+---
+
+### 🧑‍🤝‍🧑 Profiles Bounded Context
+
+**ProfileController**
+
+| Tag      | HTTP Verbs | Endpoint                     | Summary           | Description                           | OperationId    |
+|----------|------------|------------------------------|-------------------|---------------------------------------|----------------|
+| Profiles | GET        | /api/v1/profiles             | List profiles     | Retrieve all registered profiles      | GetAllProfiles |
+| Profiles | POST       | /api/v1/profiles             | Create profile    | Register a new profile                | CreateProfile  |
+| Profiles | GET        | /api/v1/profiles/{profileId} | Get profile by ID | Retrieve a profile by its ID          | GetProfileById |
+| Profiles | PUT        | /api/v1/profiles/{profileId} | Update profile    | Update existing profile information   | UpdateProfile  |
+| Profiles | DELETE     | /api/v1/profiles/{profileId} | Delete profile    | Remove a profile from the system      | DeleteProfile  |
+
+---
+
+### 🐶 Pets Bounded Context
+
+**PetController**
+
+| Tag   | HTTP Verbs | Endpoint             | Summary                | Description                                 | OperationId   |
+|-------|------------|----------------------|------------------------|---------------------------------------------|---------------|
+| Pets  | GET        | /api/v1/pets         | List all pets          | Retrieve all registered pets                | GetAllPets    |
+| Pets  | POST       | /api/v1/pets         | Create a pet           | Register a new pet available for adoption   | CreatePet     |
+| Pets  | GET        | /api/v1/pets/{petId} | Get pet by ID          | Retrieve pet details using its ID           | GetPetById    |
+| Pets  | PUT        | /api/v1/pets/{petId} | Update pet information | Update details for a specific pet           | UpdatePet     |
+| Pets  | DELETE     | /api/v1/pets/{petId} | Delete a pet           | Remove a pet from the system                | DeletePet     |
+
+---
+
+### 📢 Publications Bounded Context
+
+**PublicationController**
+
+| Tag          | HTTP Verbs | Endpoint                             | Summary               | Description                                | OperationId            |
+|--------------|------------|--------------------------------------|-----------------------|--------------------------------------------|------------------------|
+| Publications | GET        | /api/v1/publications                 | List publications     | Retrieve all pet publications              | GetAllPublications     |
+| Publications | POST       | /api/v1/publications                 | Create publication    | Create a new publication for a pet         | CreatePublication      |
+| Publications | GET        | /api/v1/publications/{publicationId} | Get publication by ID | Retrieve publication details               | GetPublicationById     |
+| Publications | PUT        | /api/v1/publications/{publicationId} | Update publication    | Update existing publication                | UpdatePublication      |
+| Publications | DELETE     | /api/v1/publications/{publicationId} | Delete publication    | Remove a publication from the system       | DeletePublication      |
+| Publications | GET        | /api/v1/publications/pet/{petId}     | Get by pet ID         | Get all publications for a specific pet    | GetPublicationsByPetId |
+
+---
+
+### 🏠 Adoptions Bounded Context
+
+**AdoptionController**
+
+| Tag       | HTTP Verbs | Endpoint                          | Summary              | Description                                      | OperationId             |
+|-----------|------------|-----------------------------------|----------------------|--------------------------------------------------|-------------------------|
+| Adoptions | GET        | /api/adoptions                    | List all adoptions   | Get all adoption cases, optionally filtered      | GetAllAdoptions         |
+| Adoptions | POST       | /api/adoptions                    | Create an adoption   | Register a new pet for adoption                  | CreateAdoption          |
+| Adoptions | GET        | /api/adoptions/{id}               | Get adoption by ID   | Retrieve adoption record details                 | GetAdoptionById         |
+| Adoptions | PUT        | /api/adoptions/{id}               | Update adoption      | Update existing adoption record                  | UpdateAdoption          |
+| Adoptions | DELETE     | /api/adoptions/{id}               | Delete adoption      | Remove adoption record from the system           | DeleteAdoption          |
+| Adoptions | PUT        | /api/adoptions/{id}/vaccines      | Update vaccination   | Update vaccination record for an adoption        | UpdateVaccinationRecord |
+| Adoptions | GET        | /api/adoptions/by-vaccine         | Get by vaccine       | Retrieve adoptions filtered by vaccine name      | GetAdoptionsByVaccine   |
+
+---
+
+### 📩 Adoption Requests Bounded Context
+
+**AdoptionRequestController**
+
+| Tag              | HTTP Verbs | Endpoint                                  | Summary              | Description                                              | OperationId                  |
+|------------------|------------|-------------------------------------------|----------------------|----------------------------------------------------------|------------------------------|
+| AdoptionRequests | GET        | /api/adoption-requests                    | List requests        | Retrieve all adoption requests, optionally by status     | GetAllAdoptionRequests       |
+| AdoptionRequests | POST       | /api/adoption-requests                    | Create request       | Submit a new adoption request                            | CreateAdoptionRequest        |
+| AdoptionRequests | GET        | /api/adoption-requests/{id}              | Get request by ID    | Retrieve a specific adoption request by ID               | GetAdoptionRequestById       |
+| AdoptionRequests | PUT        | /api/adoption-requests/{id}/status       | Update request status| Approve or reject an adoption request                    | UpdateAdoptionRequestStatus  |
+
+---
+
+### 💰 Donations Bounded Context
+
+**DonationController**
+
+| Tag       | HTTP Verbs | Endpoint                 | Summary         | Description                        | OperationId     |
+|-----------|------------|--------------------------|-----------------|------------------------------------|-----------------|
+| Donations | GET        | /api/v1/donations        | List donations  | Retrieve all donation records      | GetAllDonations |
+| Donations | POST       | /api/v1/donations        | Create donation | Register a new donation            | CreateDonation  |
+| Donations | PUT        | /api/v1/donations/{id}   | Update donation | Update existing donation details   | UpdateDonation  |
+| Donations | DELETE     | /api/v1/donations/{id}   | Delete donation | Remove a donation from the system  | DeleteDonation  |
+
+---
+
+### 👥 Users Bounded Context
+
+**UserController**
+
+| Tag   | HTTP Verbs | Endpoint              | Summary         | Description                       | OperationId   |
+|-------|------------|-----------------------|-----------------|-----------------------------------|---------------|
+| Users | GET        | /api/v1/users         | List users      | Retrieve all system users         | GetAllUsers   |
+| Users | GET        | /api/v1/users/{userId}| Get user by ID  | Retrieve user details by ID       | GetUserById   |
+
+---
+
+### 🔐 Roles Bounded Context
+
+**RoleController**
+
+| Tag   | HTTP Verbs | Endpoint           | Summary      | Description                        | OperationId   |
+|-------|------------|--------------------|--------------|------------------------------------|---------------|
+| Roles | GET        | /ap/v1/roles       | List roles   | Retrieve all available user roles  | GetAllRoles   |
+
 
 ### 5.2.8. *Team Collaboration Insights*
 
