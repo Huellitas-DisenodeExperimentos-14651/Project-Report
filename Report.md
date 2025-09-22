@@ -1082,6 +1082,10 @@ Se realizarán tres entrevistas por cada segmento, alcanzando un total de seis e
 
 ### 2.2.3. Análisis de entrevistas
 
+Las entrevistas realizadas a protectores y rescatistas revelan que la gestión actual de adopciones se maneja de forma manual a través de redes sociales como Facebook y WhatsApp, lo que limita el seguimiento y control del proceso. Sus principales frustraciones giran en torno a la falta de compromiso de algunos adoptantes, la carencia de herramientas digitales para registrar historiales médicos y la dificultad de asegurar el bienestar del animal después de la entrega. En este sentido, valoran la posibilidad de contar con una plataforma que ofrezca perfiles completos de las mascotas, filtros de validación para adoptantes y un sistema de seguimiento post-adopción que aporte confianza y reduzca los riesgos de abandono.
+
+Por su parte, los adoptantes entrevistados destacan que buscan mascotas principalmente en Instagram, TikTok y Facebook, pero manifiestan preocupaciones sobre la falta de información clara y transparente, especialmente en lo relacionado a salud y comportamiento. Sus expectativas apuntan a que la plataforma facilite perfiles detallados de cada mascota, brinde confianza en la validación de refugios y simplifique el proceso de adopción sin burocracia. Además, consideran valioso recibir orientación inicial tras la adopción para asegurar la adaptación y cuidado adecuado de la mascota.
+
 ## 2.3. *Needfinding*
 Luego de identificar los segmentos objetivo —protectores de animales y personas interesadas en adoptar— se llevaron a cabo entrevistas con representantes de ambos grupos, con el propósito de recopilar información clave sobre sus emociones, motivaciones, expectativas y necesidades. Esta sección presentará los esquemas de User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping.
 
@@ -2202,7 +2206,11 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 
 ## 4.8. *Domain-Driven Software Architecture*
 ### 4.8.1. *Software Architecture Context Diagram*
+A través del diagrama de contexto, la plataforma Huellitas Conectadas muestra de manera clara cómo se relaciona con los distintos actores y servicios externos. Su propósito principal es facilitar la adopción de mascotas en Perú, creando un puente entre adoptantes, refugios y rescatistas. Dentro de este esquema se identifican actores clave: el Adoptante, que explora opciones de mascotas y realiza donaciones, y el Refugio o Rescatista, que administra perfiles de animales y responde a solicitudes. También se incluyen integraciones fundamentales, como la Pasarela de Pago para procesar aportes, el Servicio de Mapas para ubicar refugios, el Servicio de Correo Electrónico para enviar notificaciones y las Redes Sociales para promover la adopción. Gracias a esta representación de alto nivel, se comprende cómo Huellitas Conectadas se articula con su entorno digital y humano para cumplir su misión.
 
+<p align="center">
+    <img src="./Images/chapter4/Software Architecture Context Diagram.png" alt="foto-system" width="650px"/>
+</p>
 
 ### 4.8.2. *Software Architecture Container Diagrams*
 
