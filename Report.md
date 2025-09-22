@@ -198,35 +198,33 @@ del ABET – EAC - Student Outcome 4.
     <th>Conclusiones</th>
   </tr>
   <tr>
-    <td>.</td>
+    <td>Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
     <td>
-      <strong>TB1:</strong><br>
-      <strong>x</strong><br><br>
-      <strong>Espinoza Saenz, Christian Renato:</strong><br><br>
-      <strong>Payesa Torres, Harrison Hubert</strong><br><br>
-      <strong>x</strong><br><br>
-      <strong>x</strong><br><br>
+      <strong>Espinoza Saenz, Christian Renato:</strong> Me enfoqué en el <em>Startup Business Model</em> y en el <em>Needfinding</em>, asegurando que la recolección de información de los usuarios se realizara de manera ética y transparente, evitando sesgos y respetando la privacidad de los participantes.<br><br>
+      <strong>Payesa Torres, Harrison Hubert:</strong> Asumí la responsabilidad en el diseño de la base de datos y la documentación técnica, cuidando la gestión adecuada de datos sensibles y aplicando principios de ética profesional en la protección de la información.<br><br>
+      <strong>Ramírez Escalante, Carlo Patricio:</strong> En el prototipado de la web, prioricé la accesibilidad y la inclusión como parte de mi responsabilidad profesional, asegurando que la interfaz pudiera ser utilizada por distintos tipos de usuarios sin discriminación.<br><br>
+      <strong>Navarro Correa, César Augusto:</strong> En la implementación de la app móvil y el backend, apliqué estándares de calidad y buenas prácticas de programación, asumiendo la responsabilidad de entregar un producto seguro, eficiente y confiable.
     </td>
     <td>
-      <strong>TB1:</strong><br><br>
-    </td>	
+      Cada integrante asumió un rol ético y profesional en su ámbito de trabajo, aplicando principios de transparencia, accesibilidad, seguridad de datos y buenas prácticas de desarrollo.
+    </td> 
   </tr>
   <tr>
-    <td>.</td>
+    <td>Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
     <td>
-      <strong>TB1:</strong><br>
-      <strong>x:</strong><br><br>
-      <strong>Espinoza Saenz, Christian Renato:</strong><br><br>
-      <strong>Payesa Torres, Harrison Hubert</strong><br><br>
-      <strong>x:</strong><br><br>
-      <strong>x:</strong><br><br>
+      <strong>Espinoza Saenz, Christian Renato:</strong> Relacioné el proyecto con su impacto social, destacando la importancia de fomentar adopciones responsables de mascotas y el beneficio que esto genera en la comunidad.<br><br>
+      <strong>Payesa Torres, Harrison Hubert:</strong> Analicé el modelo de monetización y evalué su efecto económico en adoptantes y refugios, procurando que fuera accesible para los usuarios y sostenible para la plataforma.<br><br>
+      <strong>Ramírez Escalante, Carlo Patricio:</strong> Durante el diseño de la interfaz, consideré la inclusión social y la experiencia de usuario en diferentes contextos tecnológicos, asegurando la accesibilidad de la plataforma en entornos diversos.<br><br>
+      <strong>Navarro Correa, César Augusto:</strong> Evalué la viabilidad técnica de un backend escalable y su impacto en la eficiencia de recursos, priorizando la sostenibilidad tecnológica y el desempeño a largo plazo.
     </td>
     <td>
-      <strong>TB1:</strong><br><br>
+      Los juicios emitidos por cada miembro permitieron evaluar los impactos sociales, económicos y técnicos de la plataforma, fortaleciendo su relevancia y sostenibilidad en distintos contextos.
     </td>
   </tr>
 </table>
 </div>
+
+
 
 <div style="page-break-after: always;"></div>
 
