@@ -35,8 +35,8 @@
             <td>U202210787 </td>
         </tr>
         <tr>
-            <td>x</td>
-            <td>U  </td>
+            <td>xPayesa Torres, Harrison Hubert</td>
+            <td>U202221024  </td>
         </tr>
         <tr>
             <td>x </td>
@@ -861,6 +861,78 @@ Se realizarán tres entrevistas por cada segmento, alcanzando un total de seis e
 </table>
 
 
+<br/>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Alejandra</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Ramirez</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Huaycán</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Facebook, WhatsApp</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Llevo casi 4 años dedicada al rescate de perros en situación de calle. Mi motivación es darles una segunda oportunidad y encontrarles un hogar responsable donde sean tratados como miembros de la familia.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Las personas muchas veces solo buscan perros de raza o no cumplen con los compromisos de cuidado. También me frustra cuando adoptantes devuelven o abandonan al perrito nuevamente.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Harrison Payesa</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="https://github.com/user-attachments/assets/ab9e8859-1bd2-4e95-b37b-c84ea825fabb" alt="Alejandra Ramirez"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/EUDkrkSqlqBIvRShQkAQxKUBZHhzG0G6DLpM5a7ZLBuNIg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QwtEUp" title="Title">Ver Entrevista</a></p></td> 
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td> 5:04 </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Alejandra Ramírez, rescatista independiente en Huaycán, lleva casi 4 años dedicados al rescate de perros en situación de calle. En promedio rescata entre 4 y 6 perritos al mes, gestionando las adopciones manualmente a través de Facebook y WhatsApp. Antes de entregarlos recopila datos básicos como edad, temperamento y estado de salud. Nunca ha usado una plataforma digital especializada, pero considera muy útil una herramienta que permita registrar historial de vacunas, esterilización y seguimiento post-adopción. Sus principales dificultades son encontrar adoptantes responsables, el desinterés por perros sin raza y el incumplimiento de compromisos de cuidado. Espera que los adoptantes vean a los animales como parte de la familia y se comprometan con su bienestar a largo plazo.</td>
+  </tr>
+</tbody>
+</table>
+
+---
 
 **Segmento Objetivo #2: Adoptantes Potenciales (Personas interesadas en adoptar animales)**
 
@@ -933,6 +1005,76 @@ Se realizarán tres entrevistas por cada segmento, alcanzando un total de seis e
 </tbody>
 </table>
 
+<br/>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Camila</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Paredes</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>21 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Juan de Lurigancho</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Facebook, Instagram, TikTok</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Siempre me han gustado los animales. Quiero darle un hogar a un perrito que lo necesite en lugar de comprar uno, porque siento que adoptar es un acto de amor y responsabilidad.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Me preocupa que no me den toda la información real del perrito (salud o conducta) y que el proceso de adopción sea demasiado complicado o burocrático.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular, laptop</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Harrison Payesa</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="https://github.com/user-attachments/assets/e67bed95-d7bc-48be-bfe5-7ceff78f2fd2" alt="Camila Paredes"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/EdTBapRNLA1AqA5Q4qIUHlwBOpdAERrRh4iirG3ggYEcGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jddj0T" title="Title">Ver Entrevista</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>4:00</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Camila Paredes, estudiante universitaria de 21 años en San Juan de Lurigancho, vive con su familia y busca adoptar un perrito mediano sin importar la raza. Ya tiene experiencia en adopción, pues anteriormente acogió un gato rescatado. Sus principales motivaciones son brindar amor y un hogar a un animal necesitado, priorizando que esté sano, vacunado, esterilizado y con buen temperamento. Actualmente busca mascotas en adopción a través de Facebook e Instagram, aunque también usa TikTok. Sus principales preocupaciones son que no le brinden información completa sobre el animal o que el proceso sea burocrático. Confía en que una plataforma digital sea útil si ofrece perfiles detallados de cada mascota, filtros de adoptantes y seguimiento post-adopción. Además, valora recibir orientación y acompañamiento en los primeros meses tras la adopción para garantizar el bienestar del animal.</td>
+  </tr>
+</tbody>
+</table>
 
 </div>
 
