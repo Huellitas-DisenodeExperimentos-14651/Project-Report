@@ -2617,6 +2617,15 @@ git commit -m "<type>[optional scope]: <title>" -m "<description>"
 
 ### 5.2.2. *Implemented Landing Page Evidence*
 
+Se logró implementar la vista principal del sistema web “Huellitas Conectadas”.
+
+- **Landing Page principal (index.html)**: incluye secciones de bienvenida, quienes somos, beneficios, perfiles de usuarios y llamado a la acción.
+
+<p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/2520d9a5-2e81-4f86-8101-79f34ab813d3">
+
+
+---
+
 ### 5.2.3. *Implemented Frontend-Web Application Evidence*
 
 ### 5.2.4. *Acuerdo de Servicio - SaaS*
