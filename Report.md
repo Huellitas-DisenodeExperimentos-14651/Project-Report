@@ -1832,10 +1832,30 @@ Estos colores transmiten **calidez, confianza y naturaleza**, reforzando la empa
 </p>
 
 ### 4.1.3. *Mobile Style Guidelines*
-
 #### 4.1.3.1 *iOS Mobile Style Guidelines*
 
+**Huellitas Conectadas** en su versión iOS mantiene una línea de diseño inspirada en las **Human Interface Guidelines (HIG)** de Apple, asegurando una experiencia nativa, intuitiva y consistente.  
+
+**Lineamientos principales:**
+- **Tipografía:** Uso de *San Francisco* como tipografía principal, garantizando legibilidad y armonía visual en dispositivos Apple.  
+- **Navegación:** Barras inferiores (*tab bars*) para facilitar el acceso a secciones clave como inicio, búsqueda, adopciones y perfil.  
+- **Gestos nativos:** Soporte para gestos de deslizamiento, retroceso y notificaciones push integradas en el ecosistema iOS.  
+- **Minimalismo visual:** Predominio de espacios en blanco, íconos simples y colores de la paleta oficial de la aplicación.  
+- **Consistencia con iOS:** Uso de componentes estándar (botones, menús y alertas) adaptados al look & feel de Apple.  
+
+---
+
 #### 4.1.3.2 *Android Mobile Style Guidelines*
+
+La versión Android de **Huellitas Conectadas** se ajusta a los principios de **Material Design**, lo que garantiza coherencia, escalabilidad y facilidad de uso en una amplia gama de dispositivos.  
+
+**Lineamientos principales:**
+- **Tipografía:** Uso de *Roboto* como tipografía predeterminada para mantener claridad y compatibilidad con Android.  
+- **Navegación:** Implementación de *bottom navigation bars* y menús tipo *drawer* en función de la jerarquía de contenidos.  
+- **Interactividad:** Animaciones sutiles y transiciones fluidas para reforzar la sensación de respuesta inmediata.  
+- **Componentes Material Design:** Botones flotantes (FAB), tarjetas (*cards*) y chips aplicados de forma coherente con la paleta de colores.  
+- **Consistencia con Android:** Adaptación a diferentes resoluciones y tamaños de pantalla mediante un diseño responsivo nativo.  
+
 
 ## 4.2. Information Architecture
 La arquitectura de información (IA) en **Huellitas Conectadas** busca reducir la carga cognitiva, facilitar el descubrimiento de funcionalidades y guiar al usuario en su journey de adopción o gestión de refugio. Se articula en cinco pilares:
@@ -2630,7 +2650,7 @@ git commit -m "<type>[optional scope]: <title>" -m "<description>"
 
 ## 5.2. *Product Implementation & Deployment*
 ### 5.2.1. *Sprint Backlogs*
-
+Este sprint se enfocó en el desarrollo inicial de Huellitas Conectadas, integrando la landing page, el backend, el frontend y la aplicación móvil. Las historias de usuario priorizadas guiaron el trabajo para asegurar una experiencia consistente y funcional desde el primer entregable. La landing page se orientó a brindar información clara y atractiva, el frontend a ofrecer una navegación simple e intuitiva, el backend a garantizar la lógica de negocio y la gestión confiable de los datos, y la app móvil a facilitar el acceso rápido a las funciones clave. Con estas tareas completadas, se consolidaron los cimientos que permitirán la evolución y el crecimiento del proyecto.
 
 ### 5.2.2. *Implemented Landing Page Evidence*
 
@@ -2664,6 +2684,53 @@ Se logró implementar la vista principal del sistema web “Huellitas Conectadas
 
 
 ### 5.2.4. *Acuerdo de Servicio - SaaS*
+
+El presente Acuerdo de Servicio establece las condiciones que regulan el acceso y la utilización de la plataforma Huellitas Conectadas, ofrecida bajo la modalidad de Software como Servicio (SaaS). Al registrarse, acceder o hacer uso de nuestros servicios, el usuario reconoce y acepta cumplir con los términos y condiciones aquí dispuestos.
+
+### 1. Definiciones
+- **Plataforma:** Hace referencia a la solución digital **Huellitas Conectadas** y sus funcionalidades.  
+- **Usuarios:** Personas naturales o jurídicas que acceden a la plataforma en calidad de adoptantes, refugios o rescatistas.  
+- **Servicios Gratuitos:** Funciones esenciales de adopción disponibles sin costo para todos los usuarios.  
+- **Servicios de Pago:** Funciones premium que incluyen mayor visibilidad de mascotas, reportes detallados y otros beneficios.  
+- **Aliados Comerciales:** Veterinarias, marcas o empresas asociadas que ofrezcan productos o servicios a través de la plataforma.  
+
+### 2. Derechos del Usuario
+- Acceder y utilizar las funcionalidades básicas de adopción sin costo.  
+- Publicar, gestionar y solicitar adopciones conforme a las políticas de uso responsable.  
+- Optar por servicios de pago adicionales para acceder a beneficios premium.  
+- Recibir información clara y transparente sobre precios, condiciones y cambios en el servicio.  
+
+### 3. Obligaciones del Usuario
+- Brindar información veraz y actualizada en el registro y uso de la plataforma.  
+- Respetar los principios de **adopción responsable** promovidos por Huellitas Conectadas.  
+- No utilizar la plataforma para fines fraudulentos, comerciales no autorizados o actividades ilícitas.  
+- Cumplir con las normativas de bienestar animal aplicables en el Perú.  
+
+### 4. Derechos de Huellitas Conectadas
+- Administrar, modificar o suspender servicios según lo requiera la evolución de la plataforma.  
+- Establecer planes de monetización y actualizar precios de los servicios de pago, comunicándolo previamente a los usuarios.  
+- Eliminar contenido que incumpla las políticas de uso o que afecte la seguridad, legalidad o bienestar animal.  
+- Integrar alianzas con terceros para complementar la experiencia de los usuarios.  
+
+### 5. Restricciones
+- Queda prohibido manipular, copiar o distribuir sin autorización el software, diseño, marca o contenidos de la plataforma.  
+- No se permite el uso de la plataforma para fines distintos a los relacionados con adopciones, rescates o bienestar animal.  
+- Cualquier intento de vulnerar la seguridad o infraestructura de **Huellitas Conectadas** será motivo de suspensión inmediata y acciones legales.  
+
+### 6. Responsabilidad y Garantías
+- **Huellitas Conectadas** no garantiza la adopción efectiva de una mascota, ya que este proceso depende de la evaluación de refugios y rescatistas.  
+- La plataforma actúa como un medio de conexión y no se hace responsable por acuerdos externos entre usuarios y terceros.  
+- Los servicios se ofrecen “tal cual” (*as is*), sin garantías adicionales de disponibilidad absoluta o ausencia de errores.  
+
+### 7. Modificaciones del Acuerdo
+**Huellitas Conectadas** podrá actualizar este Acuerdo de Servicio en cualquier momento. Las modificaciones serán notificadas a los usuarios a través de la plataforma y entrarán en vigor en la fecha indicada.  
+
+### 8. Legislación Aplicable
+Este Acuerdo se rige por las leyes de la República del Perú. En caso de conflicto, las partes se someten a la jurisdicción de los tribunales competentes en la ciudad de Lima.  
+
+---
+
+
 
 ### 5.2.5. *Implemented Native-Mobile Application Evidence*
 
