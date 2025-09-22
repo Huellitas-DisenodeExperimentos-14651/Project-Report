@@ -31,8 +31,8 @@
             <td>U202213208 </td>
         </tr>
         <tr>
-            <td>x </td>
-            <td>U   </td>
+            <td>Ramirez Escalante, Carlo Patricio </td>
+            <td>U202210787 </td>
         </tr>
         <tr>
             <td>x</td>
