@@ -2151,6 +2151,33 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 
 ### 4.6.3. *Web Applications Mock-ups*
 
+<p align="left">Iniciar Sesión</p>
+<img width="1452" height="1030" alt="Login Mockup" src="https://github.com/user-attachments/assets/f9a3aae0-81d3-415d-955f-6003e14ffab1" />
+<br/>
+
+<p align="left">Registro</p>
+<img width="1452" height="1030" alt="Register Mockup" src="https://github.com/user-attachments/assets/536da3ec-7f5d-4acc-bc69-291eb0a1a66c" />
+<br/>
+
+<p align="left">Ver perfil rescatista</p>
+<img width="1440" height="1536" alt="Mockup Rescatista - Ver perfil" src="https://github.com/user-attachments/assets/e9ad409e-470f-458a-b51f-0d6520b0fd9b" />
+<br/>
+
+<p align="left">Ver perfil adoptante</p>
+<img width="1440" height="1536" alt="Mockup Adoptante - Ver perfil" src="https://github.com/user-attachments/assets/004e53cb-7a59-40f6-a53a-6360aac34cef" />
+<br/>
+
+<p align="left">Registrar mascota</p>
+<img width="1440" height="1536" alt="Mockup Rescatista - registrar mascotas y ver las que has publicado" src="https://github.com/user-attachments/assets/cdd34d7f-2ce1-4939-a54f-1ffdb5bf4fb6" />
+<br/>
+
+<p align="left">Buscar mascota</p>
+<img width="1440" height="1536" alt="Mockup Adoptante - Buscar Mascotas" src="https://github.com/user-attachments/assets/9c86ed18-8dcc-433c-9568-2fbcf9358036" />
+<br/>
+
+<p align="left">Ver perfil del actual dueño de la mascota anteriormente publicada</p>
+<img width="1440" height="1536" alt="Mockup Rescatista - Ver perfil del actual dueño de la mascota anteriormente publicada" src="https://github.com/user-attachments/assets/9ec8f3e5-92e4-4207-8db1-848f8ad4ef44" />
+<br/>
 
 ### 4.6.4. *Web Applications User Flow Diagrams*
 
