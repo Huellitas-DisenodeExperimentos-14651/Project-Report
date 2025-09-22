@@ -60,7 +60,7 @@
 
 | Versión |   Fecha    | Autor | Descripción de modificación | 
 |:-------:|:----------:|:-----:|:----------------------------| 
-|TB1| 19/09/2025 |Christian Espinoza|  Capítulo I: Introducción |
+|TB1| 19/09/2025 |Christian Espinoza|  Capítulo I , II , III y parte del IV |
 |TB1| 21/09/2025 |Harrison Payesa|  Parte del Capítulo IV y Capitulo V |
 </div>
 
@@ -2666,6 +2666,23 @@ Se logró implementar la vista principal del sistema web “Huellitas Conectadas
 ### 5.2.4. *Acuerdo de Servicio - SaaS*
 
 ### 5.2.5. *Implemented Native-Mobile Application Evidence*
+
+<p align="center">
+    <img src="./Images/chapter4/Signin.png" alt="foto-system" width="650px"/>
+</p>
+
+<p align="center">
+    <img src="./Images/chapter4/signup.png" alt="foto-system" width="650px"/>
+</p>
+
+<p align="center">
+    <img src="./Images/chapter4/mascotas.png" alt="foto-system" width="650px"/>
+</p>
+
+<p align="center">
+    <img src="./Images/chapter4/memebrias.png" alt="foto-system" width="650px"/>
+</p>
+
 
 ### 5.2.6. *Implemented RESTful API and/or Serverless Backend Evidence*
 
