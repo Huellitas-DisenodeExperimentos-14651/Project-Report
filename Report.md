@@ -1842,10 +1842,27 @@ La navegación en **Huellitas Conectadas** ha sido diseñada para que cualquier 
 
 ### 4.4.2. *Mobile Applications Wireflow Diagrams*
 
+<p align="center">
+    <img width="1995" height="3002" alt="Huellitas Wireflows" src="https://github.com/user-attachments/assets/ef9c07b8-4e89-4689-917c-1f7628da2d5e" />
+</p>
+
+
 ### 4.4.3. *Mobile Applications Mock-ups*
 
 <p align="center">
-    <img src="./Images/chapter4/LandingPage%20Movil.png" alt="foto-system" width="650px"/>
+    <img width="443" height="1358" alt="Login Mockup" src="https://github.com/user-attachments/assets/dbd0e0b9-e654-4eaa-b4e1-d515f5526261" />
+</p>
+
+<p align="center">
+    <img width="442" height="1358" alt="Register Mockup" src="https://github.com/user-attachments/assets/3edb373f-3249-4dc2-a4d8-e43fec802733" />
+</p>
+
+<p align="center">
+    <img width="442" height="1168" alt="Reset password Mockup" src="https://github.com/user-attachments/assets/5b28b23b-9109-4cf4-b962-678ba9de4896" />
+</p>
+
+<p align="center">
+    <img width="442" height="1168" alt="Reset password Mockup #2" src="https://github.com/user-attachments/assets/14d926a4-e81b-4caf-b7e1-ce97e65d67c9" />
 </p>
 
 ### 4.4.4. *Mobile Applications User Flow Diagrams*
@@ -1854,10 +1871,15 @@ La navegación en **Huellitas Conectadas** ha sido diseñada para que cualquier 
 ## 4.5. *Mobile Applications Prototyping*
 ### 4.5.1. *Android Mobile Applications Prototyping*
 
+<p align="center">
+    <img width="1208" height="731" alt="image" src="https://github.com/user-attachments/assets/b45874d9-48b6-497d-b8e3-f4fe78690586" />
+</p>
+
 ### 4.5.2. *iOS Mobile Applications Prototyping*
 
-
-
+<p align="center">
+    <img width="1208" height="731" alt="image" src="https://github.com/user-attachments/assets/b45874d9-48b6-497d-b8e3-f4fe78690586" />
+</p>
 
 
 ## 4.6. *Web Applications UX/UI Design*
