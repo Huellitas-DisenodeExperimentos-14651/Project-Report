@@ -35,7 +35,7 @@
             <td>U202210787 </td>
         </tr>
         <tr>
-            <td>xPayesa Torres, Harrison Hubert</td>
+            <td>Payesa Torres, Harrison Hubert</td>
             <td>U202221024  </td>
         </tr>
         <tr>
@@ -60,7 +60,8 @@
 
 | Versión |   Fecha    | Autor | Descripción de modificación | 
 |:-------:|:----------:|:-----:|:----------------------------| 
-|TB1| 20/04/2025 |Christian Espinoza|  Capítulo I: Introducción |
+|TB1| 19/09/2025 |Christian Espinoza|  Capítulo I: Introducción |
+|TB1| 21/09/2025 |Harrison Payesa|  Parte del Capítulo IV y Capitulo V |
 </div>
 
 ---
@@ -202,7 +203,7 @@ del ABET – EAC - Student Outcome 4.
       <strong>TB1:</strong><br>
       <strong>x</strong><br><br>
       <strong>Espinoza Saenz, Christian Renato:</strong><br><br>
-      <strong>x</strong><br><br>
+      <strong>Payesa Torres, Harrison Hubert</strong><br><br>
       <strong>x</strong><br><br>
       <strong>x</strong><br><br>
     </td>
@@ -216,7 +217,7 @@ del ABET – EAC - Student Outcome 4.
       <strong>TB1:</strong><br>
       <strong>x:</strong><br><br>
       <strong>Espinoza Saenz, Christian Renato:</strong><br><br>
-      <strong>x</strong><br><br>
+      <strong>Payesa Torres, Harrison Hubert</strong><br><br>
       <strong>x:</strong><br><br>
       <strong>x:</strong><br><br>
     </td>
@@ -271,11 +272,12 @@ Imaginamos un futuro donde ninguna mascota viva sin un hogar, donde cada adopci�
 | Integrante                | Perfil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Foto                                                |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | x, x | Me llamo x.                                                                                                                                                                                                                                                                                                                                                                                                                                     |                   ![alt text](image.png)                    |
-| x,x | Me llamo x.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |    ![alt text](image-1.png)                                   |
-| x, x | Hola, mi nombre es x.                                                                                           |           ![alt text](image-2.png)           |
+| x,x | Me llamo x.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                   |
+| Payesa Torres, Harrison Hubert (U202221024) | Mi nombre es Harrison Payesa. Soy estudiante de la carrera de Ingeniería de Software. Tengo conocimientos en lenguaje Python, C++ y JavaScript, ademas de haber hecho proyectos con FrontEnd usando HTML, CSS y JS. En mi tiempo libre suelo ver películas y escuchar música.                                                                                           |           ![alt text](https://github.com/user-attachments/assets/e8811cac-47fb-4239-ad7e-3c89240cdf9e)           |
 | Espinoza Saenz, Christian Renato (U202213208) | Mi nombre es Christian Espinoza, soy un estudiante de 21 años que cursa el 8vo ciclo de la carrera Ingeniería de Software. Poseo ideas únicas e innovadoras para que el trabajo logre sobresalir. Tengo experiencia en la creación de distintos tipos de diagramas, editar diferentes tipos de multimedia como videos, y un conocimiento general en programación de C++, HTML, CSS y SQL. Además, se me facilita desarrollar interfaces intuitivas en el frontend, lo cual será beneficioso para el proyecto.                                                                                                                                                                                                                                                 |          ![alt text](Images/chapter1/image-3.png)           |
 
 </div>
+
 
 <div style="page-break-after: always;"></div>
 
