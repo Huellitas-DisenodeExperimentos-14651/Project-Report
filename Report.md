@@ -2695,6 +2695,11 @@ Se logró implementar la vista principal del sistema web “Huellitas Conectadas
 
 <div align = "justify">
 
+- GitHub. (2025). *GitHub*. [https://github.com](https://github.com)  
+- WUF. (2025). *Plataforma de adopciones y bienestar animal en Perú*. [https://www.wuf.pe](https://www.wuf.pe)  
+- Voz Animal Perú. (2025). *Rescate y adopción responsable*. [https://www.vozanimalperu.org](https://www.vozanimalperu.org) 
+- Wukha. (2025). *Adopciones y comunidad pet-friendly*. [https://wukha.com](https://wukha.com)   
+- Structurizr. (2025). *Structurizr*. [https://www.structurizr.com](https://www.structurizr.com)  
 
 </div>
 
@@ -2703,7 +2708,14 @@ Se logró implementar la vista principal del sistema web “Huellitas Conectadas
 # Anexos
 
 + Repositorio GitHub del Informe: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/Project-Report)<br><br>
-
++ Repositorio GitHub de la Landing Page: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/LandingPage)
+<br><br>
++ Repositorio GitHub del Forntend: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/Frontend)
+<br><br>
++ Repositorio GitHub del Backend: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/Backend)
+<br><br>
++ Repositorio GitHub de la App Movil: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/MobileApp)
+<br><br>
 
 ## Needfinding Interviews
 
