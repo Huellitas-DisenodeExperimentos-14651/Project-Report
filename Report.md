@@ -3031,7 +3031,32 @@ Then el sistema muestra un mensaje indicando que no se encontraron resultados
 
 ### 6.1.4. *Core System Tests*
 
+Para evaluar el rendimiento general y la optimización del sistema desde la perspectiva del usuario final, se realizaron pruebas utilizando Google PageSpeed Insights sobre la aplicación web desplegada (frontend).
+Estas pruebas permitieron medir métricas clave de desempeño como Performance, Accessibility, Best Practices y SEO, verificando así la eficiencia del tiempo de carga, la usabilidad y la correcta implementación de estándares web.
 
+<p align="center">
+    <img src="./Images/chapter6/1s.png" alt="foto-core1" width="650px"/>
+</p>
+
+<p align="center">
+    <img src="./Images/chapter6/2s.png" alt="foto-core2" width="650px"/>
+</p>
+
+<p align="center">
+    <img src="./Images/chapter6/3s.png" alt="foto-core3" width="650px"/>
+</p>
+
+<p align="center">
+    <img src="./Images/chapter6/4s.png" alt="foto-core4" width="650px"/>
+</p>
+
+<p align="center">
+    <img src="./Images/chapter6/5s.png" alt="foto-core5" width="650px"/>
+</p>
+
+<p align="center">
+    <img src="./Images/chapter6/6s.png" alt="foto-core6" width="650px"/>
+</p>
 
 # Conclusiones
 
