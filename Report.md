@@ -166,6 +166,24 @@
     - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)  
 - [5.3. Video About-the-Product](#53-video-about-the-product)  
 
+### [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
+- [6.1. Testing Suites & Validation](#61-testing-suites--validation)  
+    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)  
+    - [6.1.2. Core Integration Tests](#612-core-integration-tests)  
+    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)  
+    - [6.1.4. Core System Tests](#614-core-system-tests)  
+
+### [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+- [7.1. Continuous Integration](#71-continuous-integration)  
+    - [7.1.1. Tools and Practices](#711-tools-and-practices)  
+    - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)  
+- [7.2. Continuous Delivery](#72-continuous-delivery)  
+    - [7.2.1. Tools and Practices](#721-tools-and-practices)  
+    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)  
+- [7.3. Continuous Deployment](#73-continuous-deployment)  
+    - [7.3.1. Tools and Practices](#731-tools-and-practices)  
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)  
+
 ### [Conclusiones](#conclusiones-1)
 ### [Bibliografía](#bibliografía-1)
 ### [Anexos](#anexos-1)
@@ -2959,6 +2977,61 @@ En esta primera entrega logramos avances significativos en el frontend, backend 
 </p>
 
 ## 5.3. *Video About-the-Product*
+
+
+# Capítulo VI: *Product Verification & Validation*
+## 6.1. *Testing Suites & Validation*
+### 6.1.1. *Core Entities Unit Tests*
+### 6.1.2. *Core Integration Tests*
+### 6.1.3. *Core Behavior-Driven Development*
+Con el objetivo de validar el comportamiento funcional del sistema desde la perspectiva del usuario final, se desarrolló un escenario de prueba bajo el enfoque Behavior-Driven Development (BDD), utilizando la sintaxis Gherkin e implementación con Cucumber.
+
+La funcionalidad evaluada corresponde al flujo de búsqueda de mascotas desde la perspectiva de un adoptante, incluyendo tanto el caso exitoso de búsqueda por filtros como el caso en el que no se encuentran resultados.
+
+#### Feature: Buscar Mascotas
+
+**Como adoptante**,  
+**quiero** buscar mascotas por filtros,  
+**para** encontrar una adecuada.
+
+#### Scenario 1: Filtro de búsqueda exitoso
+Given que el usuario accede a la sección de búsqueda  
+When aplica los filtros  
+Then se muestran mascotas que cumplen con los criterios seleccionados
+##### Scenario 2: No se encuentran resultados
+Given que el usuario aplica filtros muy específicos  
+When presiona "Buscar"  
+Then el sistema muestra un mensaje indicando que no se encontraron resultados
+
+#### Evidencia de Ejecución
+- Los escenarios del feature se ejecutaron correctamente.  
+- Todas las pruebas pasaron sin errores.  
+- Se ejecutaron **2 pruebas** del feature y **3 en total**, incluyendo el test del contexto **Spring Boot**.  
+- **BUILD SUCCESS**, confirmando la correcta integración entre **Cucumber**, **JUnit Platform** y el **runner del proyecto**.
+
+#### Herramientas y Artefactos
+- **Gherkin / Cucumber:** Definición y ejecución de escenarios (`buscar_mascotas.feature`)  
+- **Step Definitions:** Implementadas en Java (`BuscarMascotasStepDefinitions.java`)  
+- **Runner:** Configurado con JUnit Platform (`CucumberTest.java`)  
+- **Dependencias:** Integradas en `pom.xml` para compatibilidad entre Cucumber y JUnit Platform.
+
+<p align="center">
+    <img src="./Images/chapter6/feature buscar.png" alt="foto-feature" width="650px"/>
+</p>
+
+#### Ejecutar solo el feature
+.\mvnw.cmd -Dtest=CucumberTest test
+
+#### Ejecutar toda la suite de pruebas
+.\mvnw.cmd clean test
+
+<p align="center">
+    <img src="./Images/chapter6/feature compilation.png" alt="foto-compialtion" width="650px"/>
+</p>
+
+### 6.1.4. *Core System Tests*
+
+
 
 # Conclusiones
 
