@@ -60,7 +60,8 @@
 
 | Versión |   Fecha    | Autor | Descripción de modificación | 
 |:-------:|:----------:|:-----:|:----------------------------| 
-|TB1| 19/09/2025 |Todo el equipo|  Capítulo I , II , III ,IV y V |
+| TB1    | 19/09/2025 | Todo el equipo | Capítulo I, II, III, IV y V | 
+| TP1    | 10/10/2025 | Christian Espinoza, Harrison Payesa, César Navarro | Capítulo VI y Capítulo VII |
 
 </div>
 
@@ -226,9 +227,6 @@ del ABET – EAC - Student Outcome 4.
       <strong>Navarro Correa, César Augusto (TP1):</strong> En la implementación de la app móvil y el backend, apliqué estándares de calidad y buenas prácticas de programación, asumiendo la responsabilidad de entregar un producto seguro, eficiente y confiable.<br><br>
       <strong>Navarro Correa, César Augusto (TB1):</strong> Reconocí mi responsabilidad ética y profesional al desarrollar la sección de Continuous Delivery, Tools and Practices y Stages Deployment Pipeline Components, asegurando que los procesos de despliegue se implementaran de manera correcta y segura.
     </td>
-
-
-
     <td>
       Cada integrante asumió un rol ético y profesional en su ámbito de trabajo, aplicando principios de transparencia, accesibilidad, seguridad de datos y buenas prácticas de desarrollo.
     </td> 
