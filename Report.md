@@ -218,11 +218,17 @@ del ABET – EAC - Student Outcome 4.
   <tr>
     <td>Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
     <td>
-      <strong>Espinoza Saenz, Christian Renato:</strong> Me enfoqué en el <em>Startup Business Model</em> y en el <em>Needfinding</em>, asegurando que la recolección de información de los usuarios se realizara de manera ética y transparente, evitando sesgos y respetando la privacidad de los participantes.<br><br>
-      <strong>Payesa Torres, Harrison Hubert:</strong> Asumí la responsabilidad en el diseño de la base de datos y la documentación técnica, cuidando la gestión adecuada de datos sensibles y aplicando principios de ética profesional en la protección de la información.<br><br>
-      <strong>Ramírez Escalante, Carlo Patricio:</strong> En el prototipado de la web, prioricé la accesibilidad y la inclusión como parte de mi responsabilidad profesional, asegurando que la interfaz pudiera ser utilizada por distintos tipos de usuarios sin discriminación.<br><br>
-      <strong>Navarro Correa, César Augusto:</strong> En la implementación de la app móvil y el backend, apliqué estándares de calidad y buenas prácticas de programación, asumiendo la responsabilidad de entregar un producto seguro, eficiente y confiable.
+      <strong>Espinoza Saenz, Christian Renato (TB1):</strong> Me enfoqué en el <em>Startup Business Model</em> y en el <em>Needfinding</em>, asegurando que la recolección de información de los usuarios se realizara de manera ética y transparente, evitando sesgos y respetando la privacidad de los participantes.<br><br>
+      <strong>Espinoza Saenz, Christian Renato (TP1):</strong> Cumplí con este principio al trabajar en Testing Suites & Validation, Continuous Integration y Build & Test Suite Pipeline Components, garantizando la integridad y confiabilidad de las pruebas.<br><br>
+      <strong>Payesa Torres, Harrison Hubert (TB1):</strong> Asumí la responsabilidad en el diseño de la base de datos y la documentación técnica, cuidando la gestión adecuada de datos sensibles y aplicando principios de ética profesional en la protección de la información.<br><br>
+       <strong>Payesa Torres, Harrison Hubert (TP1):</strong> Evidencié mi responsabilidad profesional al encargarme de Continuous Deployment, Tools and Practices y Production Deployment Pipeline Components, asegurando que las implementaciones en producción respetaran las buenas prácticas y estándares éticos de ingeniería de software.<br><br>
+      <strong>Ramírez Escalante, Carlo Patricio (TB1):</strong> En el prototipado de la web, prioricé la accesibilidad y la inclusión como parte de mi responsabilidad profesional, asegurando que la interfaz pudiera ser utilizada por distintos tipos de usuarios sin discriminación.<br><br>
+      <strong>Navarro Correa, César Augusto (TP1):</strong> En la implementación de la app móvil y el backend, apliqué estándares de calidad y buenas prácticas de programación, asumiendo la responsabilidad de entregar un producto seguro, eficiente y confiable.<br><br>
+      <strong>Navarro Correa, César Augusto (TB1):</strong> Reconocí mi responsabilidad ética y profesional al desarrollar la sección de Continuous Delivery, Tools and Practices y Stages Deployment Pipeline Components, asegurando que los procesos de despliegue se implementaran de manera correcta y segura.
     </td>
+
+
+
     <td>
       Cada integrante asumió un rol ético y profesional en su ámbito de trabajo, aplicando principios de transparencia, accesibilidad, seguridad de datos y buenas prácticas de desarrollo.
     </td> 
@@ -230,10 +236,14 @@ del ABET – EAC - Student Outcome 4.
   <tr>
     <td>Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
     <td>
-      <strong>Espinoza Saenz, Christian Renato:</strong> Relacioné el proyecto con su impacto social, destacando la importancia de fomentar adopciones responsables de mascotas y el beneficio que esto genera en la comunidad.<br><br>
-      <strong>Payesa Torres, Harrison Hubert:</strong> Analicé el modelo de monetización y evalué su efecto económico en adoptantes y refugios, procurando que fuera accesible para los usuarios y sostenible para la plataforma.<br><br>
-      <strong>Ramírez Escalante, Carlo Patricio:</strong> Durante el diseño de la interfaz, consideré la inclusión social y la experiencia de usuario en diferentes contextos tecnológicos, asegurando la accesibilidad de la plataforma en entornos diversos.<br><br>
-      <strong>Navarro Correa, César Augusto:</strong> Evalué la viabilidad técnica de un backend escalable y su impacto en la eficiencia de recursos, priorizando la sostenibilidad tecnológica y el desempeño a largo plazo.
+      <strong>Espinoza Saenz, Christian Renato (TB1):</strong> Relacioné el proyecto con su impacto social, destacando la importancia de fomentar adopciones responsables de mascotas y el beneficio que esto genera en la comunidad.<br><br>
+      <strong>Espinoza Saenz, Christian Renato (TP1):</strong> Evalué críticamente el impacto de la calidad y validación del software, considerando las implicaciones económicas y sociales de errores o fallas.<br><br>
+      <strong>Payesa Torres, Harrison Hubert (TB1):</strong> Analicé el modelo de monetización y evalué su efecto económico en adoptantes y refugios, procurando que fuera accesible para los usuarios y sostenible para la plataforma.<br><br>
+      <strong>Payesa Torres, Harrison Hubert (TP1):</strong> Tomé decisiones conscientes sobre las implementaciones en producción, analizando los efectos globales y ambientales de las soluciones desplegadas<br><br>
+      <strong>Ramírez Escalante, Carlo Patricio (TB1):</strong> Durante el diseño de la interfaz, consideré la inclusión social y la experiencia de usuario en diferentes contextos tecnológicos, asegurando la accesibilidad de la plataforma en entornos diversos.<br><br>
+      <strong>Navarro Correa, César Augusto (TB1):</strong> Evalué la viabilidad técnica de un backend escalable y su impacto en la eficiencia de recursos, priorizando la sostenibilidad tecnológica y el desempeño a largo plazo.
+      <br><br>
+      <strong>Navarro Correa, César Augusto (TP1):</strong> Emití juicios informados sobre la configuración de los pipelines de despliegue, evaluando cómo mis decisiones podían afectar la eficiencia y seguridad del sistema en diferentes contextos
     </td>
     <td>
       Los juicios emitidos por cada miembro permitieron evaluar los impactos sociales, económicos y técnicos de la plataforma, fortaleciendo su relevancia y sostenibilidad en distintos contextos.
@@ -287,8 +297,8 @@ Imaginamos un futuro donde ninguna mascota viva sin un hogar, donde cada adopci�
 
 | Integrante                | Perfil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Foto                                                |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| Navarro Correa, César Augusto  | Me llamo x.                                                                                                                                                                                                                                                                                                                                                                                                                                     |                   ![alt text](image.png)                    |
-| Payesa Torres, Harrison Hubert| Me llamo x.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                   |
+| Navarro Correa, César Augusto  | .                                                                                                                                                                                                                                                                                                                                                                                                                                     |                   ![alt text](image.png)                    |
+| Payesa Torres, Harrison Hubert|  .                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                   |
 | Payesa Torres, Harrison Hubert (U202221024) | Mi nombre es Harrison Payesa. Soy estudiante de la carrera de Ingeniería de Software. Tengo conocimientos en lenguaje Python, C++ y JavaScript, ademas de haber hecho proyectos con FrontEnd usando HTML, CSS y JS. En mi tiempo libre suelo ver películas y escuchar música.                                                                                           |           ![alt text](https://github.com/user-attachments/assets/e8811cac-47fb-4239-ad7e-3c89240cdf9e)           |
 | Espinoza Saenz, Christian Renato (U202213208) | Mi nombre es Christian Espinoza, soy un estudiante de 21 años que cursa el 8vo ciclo de la carrera Ingeniería de Software. Poseo ideas únicas e innovadoras para que el trabajo logre sobresalir. Tengo experiencia en la creación de distintos tipos de diagramas, editar diferentes tipos de multimedia como videos, y un conocimiento general en programación de C++, HTML, CSS y SQL. Además, se me facilita desarrollar interfaces intuitivas en el frontend, lo cual será beneficioso para el proyecto.                                                                                                                                                                                                                                                 |          ![alt text](Images/chapter1/image-3.png)           |
 
@@ -2050,7 +2060,13 @@ La navegación en **Huellitas Conectadas** ha sido diseñada para que cualquier 
 </p>
 
 ### 4.4.4. *Mobile Applications User Flow Diagrams*
+<p align="center">
+    <img src="./Images/chapter4/mobile wireflow.png" alt="foto-flow1" width="650px"/>
+</p>
 
+<p align="center">
+    <img src="./Images/chapter4/mobilewireflow2.png" alt="foto-flow2" width="650px"/>
+</p>
 
 ## 4.5. *Mobile Applications Prototyping*
 ### 4.5.1. *Android Mobile Applications Prototyping*
@@ -2976,9 +2992,6 @@ En esta primera entrega logramos avances significativos en el frontend, backend 
     <img src="./Images/chapter5/frontend.png" alt="foto-system" width="650px"/>
 </p>
 
-## 5.3. *Video About-the-Product*
-
-
 # Capítulo VI: *Product Verification & Validation*
 ## 6.1. *Testing Suites & Validation*
 ### 6.1.1. *Core Entities Unit Tests*
@@ -3108,7 +3121,7 @@ En el proyecto se utilizaron distintas herramientas que apoyaron estas práctica
 - **Gestión y documentación – Trello:** para coordinar tareas, registrar avances y mantener trazabilidad del proyecto.
 
 ### 7.1.2. *Build & Test Suite Pipeline Components*
-Para asegurar la calidad y estabilidad del sistema, se implementó una secuencia automatizada que compila, prueba, analiza y empaqueta la aplicación antes de su despliegue. Este flujo permite detectar errores desde etapas tempranas —como fallos de compilación o vulnerabilidades— y garantiza que el producto final sea confiable y listo para su distribución.
+Para asegurar la calidad y estabilidad del sistema, se implementó una secuencia automatizada que compila, prueba, analiza y empaqueta la aplicación antes de su despliegue. Este flujo permite detectar errores desde etapas tempranas (como fallos de compilación o vulnerabilidades) y garantiza que el producto final sea confiable y listo para su distribución.
 
 #### **Fase 1: Compilación del código**  
 El código fuente se compila para verificar dependencias y asegurar que los módulos del sistema se construyan correctamente, detectando errores tempranos.  
@@ -3156,10 +3169,40 @@ Este flujo de trabajo asegura una entrega continua confiable, reduciendo el tiem
   
 ## 7.3 *Continuous Deployment*
 ### 7.3.1 *Tools and Practices*
+En esta fase se consolida el proceso de Continuous Deployment, que automatiza el paso de los cambios validados directamente hacia producción sin necesidad de aprobaciones manuales. Cada modificación que supera todas las pruebas se despliega de inmediato, reduciendo el tiempo entre desarrollo y entrega de valor. El flujo está orquestado por Jenkins, donde el stage final (*deploy-prod*) se ejecuta de forma automática, acompañado por pruebas pos-despliegue, monitoreo activo y un mecanismo de rollback que garantiza estabilidad operativa.  
+
+**Tools and Practices**  
+Para sostener este flujo de despliegue continuo se implementan herramientas y prácticas que aseguran calidad, control y visibilidad en todo momento:  
+- **Control de versiones:** Git permite registrar y gestionar cada cambio en el código fuente.  
+- **Pruebas automatizadas:** Se integran pruebas unitarias, de integración y de regresión para mantener la calidad del sistema.  
+- **Gestión de tareas:** Se utilizó **Trello** para coordinar las actividades del equipo y mantener trazabilidad del avance por sprint.  
+- **Gestión de entornos:** Se configuraron entornos de preproducción y pruebas para validar los despliegues antes del entorno real.  
+- **Monitoreo y retroalimentación:** Se aplicaron herramientas de observabilidad y logging que permiten detectar errores y reaccionar rápidamente ante incidencias.  
+
 ### 7.3.2 *Production Deployment Pipeline Components*
 
-# Conclusiones
+El pipeline se estructuró como un flujo automatizado para garantizar que cada versión del sistema se liberara de manera segura y confiable. Su diseño buscó asegurar la calidad del software, la estabilidad del entorno productivo y la capacidad de recuperación ante posibles fallos. Los elementos principales del pipeline fueron los siguientes:  
 
+**1. Proceso de Construcción:**  
+El código del backend se compiló y empaquetó automáticamente en artefactos ejecutables listos para desplegar. Se utilizó **Maven** junto con **Jenkins** para asegurar consistencia y reproducibilidad en todos los entornos.  
+
+**2. Validación Automatizada:**  
+Se llevaron a cabo pruebas unitarias e integrales, incluyendo flujos de adopción, gestión de usuarios y perfiles, para confirmar que las funcionalidades principales funcionaran correctamente y evitar errores antes del despliegue.  
+
+**3. Análisis de Calidad:**  
+Antes de pasar a producción, se ejecutó un análisis estático del código con **SonarQube** para detectar vulnerabilidades, code smells y asegurar la adherencia a los estándares de calidad.  
+
+**4. Entorno de Preproducción:**  
+La aplicación se desplegó en un entorno que replicaba el productivo, permitiendo pruebas adicionales y validaciones finales de procesos críticos del sistema.  
+
+**5. Despliegue en Producción:**  
+Con todas las validaciones aprobadas, Jenkins ejecutó la liberación automática de la versión hacia producción, asegurando control de versiones y notificaciones del estado del despliegue.  
+
+**6. Monitoreo y Recuperación:**  
+Se implementaron herramientas de monitoreo para supervisar el rendimiento del sistema en tiempo real, y se configuró un mecanismo de **rollback** que permitió restaurar rápidamente la versión estable anterior ante cualquier fallo crítico.  
+
+
+# Conclusiones
 
 <div align = "justify">
 <br>- Las prácticas de verificación, validación e integración continua aplicadas garantizaron la calidad y estabilidad del sistema. A través de pruebas unitarias, de integración, BDD y de rendimiento, se comprobó el correcto funcionamiento de los módulos y flujos principales. Asimismo, la adopción de DevOps con herramientas como JUnit 5, Cucumber, Docker, Jenkins y GitHub Actions permitió automatizar los procesos de prueba, compilación y despliegue, logrando una entrega continua, ágil y confiable del producto.
@@ -3169,7 +3212,7 @@ Este flujo de trabajo asegura una entrega continua confiable, reduciendo el tiem
 
 <br>
 
-## Video About-the-Team
+
 
 <div align="center">
 
