@@ -3092,7 +3092,32 @@ Se generan reportes automáticos sobre el estado del build y resultados de las p
 
 ## 7.2 *Continuous Delivery*
 ### 7.2.1 *Tools and Practices*
+
+En esta sección, se implementó y desarrolló Continuous Delivery con el objetivo de automatizar y estandarizar el despliegue de nuevas versiones del sistema, asegurando rapidez, seguridad y control en la transición entre entornos.
+
+Las herramientas empleadas fueron:
+
+- **Jenkins:** orquestador principal de los flujos de despliegue, configurado para ejecutar *pipelines* automáticos tras una integración exitosa.
+- **Docker:** utilizado para empaquetar la aplicación en contenedores portables, garantizando la misma configuración en los entornos de desarrollo, pruebas y producción.
+- **MySQL / PostgreSQL:** sistemas de gestión de bases de datos usados en los entornos de staging y producción. Configurados como contenedores Docker para mayor portabilidad.
+- **GitHub:** utilizado para la gestión de *releases* y versiones etiquetadas (*tags*) que activan los flujos de entrega.
+- **Eclipse IDE:** herramienta auxiliar para la configuración del entorno local y la validación previa de compilaciones a través de un proyecto hecho en Maven con sus respectivas dependencias.
+
+La combinación de estas herramientas permitió un flujo de entrega estable, reproducible y confiable, reduciendo significativamente el tiempo entre desarrollo y despliegue.
+
+
 ### 7.2.2 *Stages Deployment Pipeline Components*
+
+| **Etapa** | **Descripción** |
+|------------|-----------------|
+| **Test Stage** | Se ejecutan pruebas unitarias y de comportamiento, proveninentes de JUnit5 y Cucumber respectivamente, dentro del entorno Jenkins para asegurar la integridad del sistema antes del despliegue. |
+| **Staging Environment** | Se levanta un entorno temporal en contenedores Docker, con bases de datos MySQL/PostgreSQL de prueba, para verificar el comportamiento del sistema en condiciones similares a producción. |
+| **Deployment Stage** | Jenkins automatiza el despliegue del artefacto o contenedor en el servidor de producción, garantizando coherencia con el entorno de staging. |
+| **Release Stage** | Se genera realizan los cambios en la rama respectiva en **GitHub**, y documentando los cambios en la documentación y notificando a los integrantes. |
+| **Rollback and Recovery** | En caso de errores en producción, Jenkins permite revertir el despliegue a una versión anterior utilizando imágenes Docker o artefactos previos. |
+| **Release Management** | Se gestiona la trazabilidad de cada versión liberada, manteniendo registro de *commits*, *tags* y *releases* dentro del repositorio principal. |
+
+Este flujo de trabajo asegura una entrega continua confiable, reduciendo el tiempo entre el desarrollo y la entrega final, además de minimizar riesgos durante las actualizaciones o despliegues.
   
 ## 7.3 *Continuous Deployment*
 ### 7.3.1 *Tools and Practices*
