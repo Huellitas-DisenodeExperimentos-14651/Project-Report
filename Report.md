@@ -3073,6 +3073,22 @@ En el proyecto se utilizaron distintas herramientas que apoyaron estas práctica
 - **Gestión y documentación – Trello:** para coordinar tareas, registrar avances y mantener trazabilidad del proyecto.
 
 ### 7.1.2. *Build & Test Suite Pipeline Components*
+Para asegurar la calidad y estabilidad del sistema, se implementó una secuencia automatizada que compila, prueba, analiza y empaqueta la aplicación antes de su despliegue. Este flujo permite detectar errores desde etapas tempranas —como fallos de compilación o vulnerabilidades— y garantiza que el producto final sea confiable y listo para su distribución.
+
+#### **Fase 1: Compilación del código**  
+El código fuente se compila para verificar dependencias y asegurar que los módulos del sistema se construyan correctamente, detectando errores tempranos.  
+
+#### **Fase 2: Pruebas automatizadas**  
+Se ejecutan pruebas unitarias e integradas con **JUnit 5**, validando tanto la lógica interna como la interacción entre los distintos componentes del sistema.  
+
+#### **Fase 3: Análisis de calidad**  
+Mediante herramientas de análisis estático, se detectan vulnerabilidades y malas prácticas en el código, asegurando estándares de calidad y seguridad.  
+
+#### **Fase 4: Empaquetado y verificación**  
+La aplicación se empaqueta en una imagen **Docker** lista para despliegue, garantizando un entorno reproducible y seguro.  
+
+#### **Fase 5: Reporte y seguimiento**  
+Se generan reportes automáticos sobre el estado del build y resultados de las pruebas. El equipo gestiona el seguimiento de estos resultados mediante **Trello** y **GitHub Actions**, manteniendo control y visibilidad del proyecto.  
 
 ## 7.2 *Continuous Delivery*
 ### 7.2.1 *Tools and Practices*
