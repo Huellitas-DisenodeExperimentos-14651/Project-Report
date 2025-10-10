@@ -2982,7 +2982,42 @@ En esta primera entrega logramos avances significativos en el frontend, backend 
 # Capítulo VI: *Product Verification & Validation*
 ## 6.1. *Testing Suites & Validation*
 ### 6.1.1. *Core Entities Unit Tests*
+Para garantizar la fiabilidad de las entidades principales del sistema, se implementaron pruebas unitarias enfocadas en validar su comportamiento interno y consistencia de datos. Estas pruebas aseguran que los atributos, métodos y reglas de negocio básicas funcionen correctamente antes de integrarse con otros módulos.  
+
+<p align="center">
+    <img src="./Images/chapter6/entity1.png" alt="foto-unittets1" width="650px"/>
+</p>
+
+<p align="center">
+    <img src="./Images/chapter6/entity2.png" alt="foto-unittets2" width="650px"/>
+</p>
+
+<p align="center">
+    <img src="./Images/chapter6/entity3.png" alt="foto-unittets3" width="650px"/>
+</p>
+
+Estas pruebas unitarias verifican el comportamiento básico de las entidades principales del sistema: `User`, `Profile` y `Pet`.  
+Se enfocan en comprobar que los atributos y métodos esenciales funcionen correctamente, incluyendo la creación de objetos, asignación y recuperación de valores, y validación de estados.  
+
+A través de **JUnit 5** y **Mockito**, se aislaron las dependencias para asegurar que cada entidad opere de forma independiente y coherente.  
+De esta manera, se garantiza que la lógica del dominio sea estable y confiable antes de avanzar a etapas de integración y validación más amplias.
+
 ### 6.1.2. *Core Integration Tests*
+Para asegurar el correcto funcionamiento conjunto de los distintos módulos del sistema, se implementaron pruebas de integración centradas en verificar la comunicación entre componentes, repositorios y servicios. Estas pruebas permiten validar que el flujo de datos entre capas sea coherente y que la configuración del entorno de aplicación funcione correctamente antes del despliegue final.  
+
+
+<p align="center">
+    <img src="./Images/chapter6/core1.png" alt="foto-coretest1" width="650px"/>
+</p>
+
+
+<p align="center">
+    <img src="./Images/chapter6/core2.png" alt="foto-coretest2" width="650px"/>
+</p>
+
+Estas pruebas de integración se enfocan en validar la correcta interacción entre las entidades principales del sistema, asegurando que los flujos entre módulos funcionen de forma coherente. Se evaluó el proceso completo de adopción de mascotas, verificando la relación entre publicaciones, perfiles y solicitudes, así como la asociación entre usuarios y perfiles dentro del dominio. Con ello, se garantiza que los componentes trabajen de manera integrada y mantengan la consistencia de los datos en los casos de uso reales.  
+
+
 ### 6.1.3. *Core Behavior-Driven Development*
 Con el objetivo de validar el comportamiento funcional del sistema desde la perspectiva del usuario final, se desarrolló un escenario de prueba bajo el enfoque Behavior-Driven Development (BDD), utilizando la sintaxis Gherkin e implementación con Cucumber.
 
