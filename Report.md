@@ -3160,11 +3160,10 @@ Este flujo de trabajo asegura una entrega continua confiable, reduciendo el tiem
 
 # Conclusiones
 
-<br>
 
 <div align = "justify">
-
-+ . <br><br>
+<br>- Las prácticas de verificación, validación e integración continua aplicadas garantizaron la calidad y estabilidad del sistema. A través de pruebas unitarias, de integración, BDD y de rendimiento, se comprobó el correcto funcionamiento de los módulos y flujos principales. Asimismo, la adopción de DevOps con herramientas como JUnit 5, Cucumber, Docker, Jenkins y GitHub Actions permitió automatizar los procesos de prueba, compilación y despliegue, logrando una entrega continua, ágil y confiable del producto.
+<br>  <br>
 
 </div>
 
