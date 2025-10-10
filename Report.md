@@ -3058,6 +3058,30 @@ Estas pruebas permitieron medir métricas clave de desempeño como Performance, 
     <img src="./Images/chapter6/6s.png" alt="foto-core6" width="650px"/>
 </p>
 
+# Capítulo VI: *DevOps Practices*
+## 7.1. *Continuous Integration*
+### 7.1.1. *Tools and Practices*
+Para esta sección tuvimos en cuenta la **Integración Continua** como una práctica esencial dentro del desarrollo ágil.  
+Esta metodología consiste en integrar los cambios de código en la rama principal del repositorio con frecuencia, activando automáticamente procesos de **compilación y pruebas**.  
+De esta forma, se pueden detectar errores a tiempo, mantener la estabilidad del sistema y asegurar un flujo de desarrollo más confiable y eficiente.
+
+En el proyecto se utilizaron distintas herramientas que apoyaron estas prácticas:
+
+- **Control de versiones – GitHub:** para la gestión del código y colaboración entre desarrolladores.  
+- **Pruebas automatizadas – JUnit 5:** para verificar continuamente el correcto funcionamiento del sistema.  
+- **Automatización de flujos – GitHub Actions:** para ejecutar pruebas y validar integraciones con cada commit.  
+- **Gestión y documentación – Trello:** para coordinar tareas, registrar avances y mantener trazabilidad del proyecto.
+
+### 7.1.2. *Build & Test Suite Pipeline Components*
+
+## 7.2 *Continuous Delivery*
+### 7.2.1 *Tools and Practices*
+### 7.2.2 *Stages Deployment Pipeline Components*
+  
+## 7.3 *Continuous Deployment*
+### 7.3.1 *Tools and Practices*
+### 7.3.2 *Production Deployment Pipeline Components*
+
 # Conclusiones
 
 <br>
