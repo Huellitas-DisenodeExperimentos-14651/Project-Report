@@ -3149,6 +3149,187 @@ Estas pruebas permitieron medir métricas clave de desempeño como Performance, 
     <img src="./Images/chapter6/6s.png" alt="foto-core6" width="650px"/>
 </p>
 
+## 6.2. *Static testing & Verification*
+### 6.2.1. *Static Code Analysis*
+#### 6.2.1.1. *Coding standard & Code conventions*
+Para garantizar la coherencia, legibilidad y mantenibilidad del código, se establecieron estándares de codificación alineados con las mejores prácticas de la industria. Estos estándares facilitan la colaboración del equipo, reducen errores y aseguran un desarrollo escalable y profesional a lo largo de todo el ciclo de vida del proyecto.
+
+**Backend:**
+
+El backend sigue convenciones de nomenclatura consistentes para facilitar la comprensión del código. Utilizando las siguientes reglas:
+- **Nomenclatura:** PascalCase para clases (`UserController`, `AdoptionService`), camelCase para métodos y variables (`getUserById`, `petId`), UPPER_SNAKE_CASE para constantes (`MAX_PETS_PER_SHELTER`), y lowercase para paquetes (`com.huellitas.backend.profiles`).
+- **Estructura de Bounded Contexts:** El proyecto está organizado bajo `src/main/java/com/huellitas/backend/`, con módulos diferenciados por dominio: authentication, profiles, pets, adoptions, donations, publications y shared. Esta estructura facilita el mantenimiento y la comprensión del sistema al separar responsabilidades claramente definidas.
+- **Convenciones específicas:** Se utilizan anotaciones JPA estándar (`@Entity`, `@Table`, `@Id`) para las entidades de dominio. Existe una separación clara entre entidades y DTOs (Data Transfer Objects) para evitar acoplamientos innecesarios. Se emplea ModelMapper para transformar objetos entre capas, manteniendo la lógica de negocio aislada. Los repositorios extienden `JpaRepository`, las interfaces de servicios llevan el sufijo `Service`, y los controladores REST están anotados con `@RestController` bajo la ruta base `/api/v1/`.
+- **Base de datos (PostgreSQL):** Las tablas se nombran en snake_case plural (`adoption_requests`, `medical_histories`), las columnas en snake_case (`created_at`, `pet_id`), las claves primarias siguen el patrón `tabla_id`, y las claves foráneas como `tabla_referenciada_id`. Esta convención facilita la lectura y el mantenimiento de las consultas SQL, además de mantener consistencia con las prácticas estándar de bases de datos relacionales.
+
+**Frontend:**
+
+Nos enfocamos en mantener un estilo coherente para asegurar una experiencia de usuario accesible:
+- **HTML:** Se emplean elementos en lowercase, etiquetas correctamente cerradas y atributos en lowercase con valores entre comillas dobles. Las imágenes incluyen siempre los atributos `alt`, `width` y `height` para mejorar la accesibilidad y optimizar el SEO, garantizando que el contenido sea comprensible para usuarios con diferentes capacidades.
+- **CSS:** Las clases e IDs se nombran en kebab-case (`.pet-card`, `#user-profile`), se prefieren propiedades abreviadas cuando sea posible para reducir código, las declaraciones siguen un orden alfabético para facilitar la lectura y el mantenimiento, y se omiten las unidades después del valor 0 para mantener un código más limpio y eficiente.
+- **JavaScript:** Se usa `let` y `const` en lugar de `var` para una mejor gestión del scope y evitar problemas de hoisting. Los nombres de funciones siguen camelCase (`getUserProfile()`) para mantener consistencia con otras convenciones del lenguaje, y se aplica una sintaxis expandida con llaves de apertura en la misma línea de la declaración para mantener consistencia visual y legibilidad del código.
+- **API RESTful:** Todos los endpoints siguen la estructura `/api/v1/` para versionado claro, los recursos se nombran en plural (`/api/v1/pets`, `/api/v1/adoptions`) siguiendo convenciones REST, los parámetros de ruta usan el formato `{resourceId}` (ejemplo: `/api/v1/pets/{petId}`), se utilizan los verbos HTTP estándar (GET, POST, PUT, DELETE) según la operación a realizar, y los códigos de respuesta son consistentes (200 OK para operaciones exitosas, 201 Created para recursos creados, 400 Bad Request para datos inválidos, 401 Unauthorized cuando se requiere autenticación, 404 Not Found para recursos no encontrados, y 500 Internal Server Error para errores del servidor).
+
+**Control de versiones (Git):**
+
+Se adoptó la metodología **Conventional Commits** para mantener un historial claro y consistente del proyecto, siguiendo el formato `<type>[optional scope]: <title>`. Los tipos de commit incluyen:
+- `feat:` para nueva funcionalidad o características agregadas al sistema
+- `fix:` para corrección de bugs o problemas identificados
+- `docs:` para cambios en documentación o comentarios del código
+- `style:` para formato de código sin cambios funcionales (espaciado, indentación)
+- `refactor:` para refactorización de código que mejora su estructura sin cambiar funcionalidad
+- `test:` para adición o modificación de pruebas unitarias o de integración
+- `chore:` para tareas de mantenimiento del proyecto (actualización de dependencias, configuraciones)
+
+**Herramientas de verificación:**
+
+Para asegurar la calidad del código se emplean las siguientes herramientas especializadas:
+- **Backend:** SonarQube realiza análisis estático del código Java, identificando vulnerabilidades de seguridad, code smells (malas prácticas) y áreas de mejora en cuanto a complejidad ciclomática y duplicación de código.
+- **Frontend:** ESLint y Prettier validan y formatean automáticamente el código JavaScript y CSS, asegurando consistencia en el estilo y detectando posibles errores antes de la ejecución en navegadores.
+- **Base de datos:** pgAdmin se utiliza para la validación y administración de los esquemas de PostgreSQL, permitiendo visualizar la estructura de tablas, relaciones y ejecutar consultas de prueba.
+- **API:** Postman y Swagger se emplean para documentar, probar y validar los endpoints REST, facilitando la colaboración entre equipos de frontend y backend al proporcionar especificaciones claras de los contratos de API.
+
+#### 6.2.1.2. *Code Quality & Code Security*
+Para mantener el código seguro, se integraron validaciones automáticas en el pipeline y prácticas específicas en backend, frontend y base de datos. En cada Pull Request, el pipeline ejecuta: compilación y pruebas (Maven/JUnit 5), escenarios BDD (Cucumber), análisis estático y linters del frontend; los merges se bloquean si alguna verificación falla o si la cobertura cae bajo el umbral acordado.
+
+- Reglas de calidad:
+  - build: mvn -B clean verify con reporte de cobertura; umbral mínimo de cobertura y baja duplicación de código.
+  - análisis estático: detección de complejidad, duplicación y malas prácticas; issues críticas deben resolverse antes de merge.
+  - dependencias: escaneo de CVEs en cada release; no se permite publicar con vulnerabilidades altas; versiones fijadas (sin rangos abiertos).
+
+- Controles de seguridad (backend Spring Boot):
+  - autenticación y autorización con JWT de expiración corta y roles por endpoint; CORS restringido por origen y métodos.
+  - contraseñas con BCrypt; secretos en variables de entorno; application-*.properties reales fuera del repositorio (.gitignore).
+  - validación de entrada con Bean Validation (@Valid) en controladores; manejo centralizado de errores sin filtrar stack traces.
+  - acceso a datos con JPA usando parámetros (sin concatenaciones); evitar N+1 con fetch joins cuando corresponda.
+  - cabeceras de seguridad: HSTS, X-Content-Type-Options, X-Frame-Options y no-cache en respuestas sensibles.
+
+- Frontend:
+  - ESLint/Prettier en commit; prohibido eval/innerHTML sin sanitización; validación de formularios en cliente y servidor.
+  - políticas de contenido (CSP) y SRI en recursos estáticos cuando aplique.
+
+- Base de datos:
+  - migraciones controladas (Flyway/Liquibase); esquema con constraints NOT NULL, FK y UNIQUE.
+  - principio de mínimo privilegio para cuentas de aplicación; no exponer datos sensibles en logs o dumps.
+
+- Revisión y evidencias:
+  - PR checklist: pruebas actualizadas, amenazas consideradas, manejo de errores y sanitización verificados.
+  - se publican reportes de pruebas y cobertura en el pipeline; se registra el resultado del escaneo de dependencias por release.
+  - monitoreo post-despliegue con logs estructurados (intentos fallidos de login, accesos 401/403, patrones anómalos) y alertas.
+
+### 6.2.2. *Reviews*
+Se aplicó un proceso sistemático de revisiones estáticas al finalizar cada sprint y antes de merges relevantes para asegurar legibilidad, consistencia arquitectónica, seguridad y alineación con requisitos.
+
+Tipos:
+- Code Review: convenciones, ausencia de duplicación, manejo de excepciones.
+- Architecture Review: separación por bounded contexts, capas (controller–service–repository), uso de patrones (DTO, Mapper, Factory, Strategy, State, Observer).
+- Security/Data Review: sanitización, consultas parametrizadas, JWT, cabeceras, naming y constraints (FK, NOT NULL, UNIQUE).
+- API Contract Review: rutas (/api/v1/), pluralización, códigos HTTP, mensajes de error uniformes.
+- UX/UI Review: contraste, jerarquía visual, alt en imágenes.
+- Performance Pre-Check: detección de N+1, bucles costosos, uso adecuado de LAZY/EAGER.
+- Test Coverage Review: presencia mínima de pruebas en entidades y servicios críticos.
+- Release Readiness: build limpio, escaneo dependencias, documentación actualizada.
+
+Checklist resumido:
+1. Sin métodos sobre el umbral interno de complejidad.
+2. Sin TODO sin issue asociado.
+3. Excepciones sin stack trace expuesto.
+4. Sin secretos en commits.
+5. Endpoint nuevo con prueba (happy path).
+6. Mapper sin lógica de negocio.
+7. Entidades solo con anotaciones JPA/validación.
+8. DTO sin datos sensibles.
+9. Error response estándar (timestamp, status, message, path).
+10. Formularios con validaciones mínimas.
+
+Hallazgos clave y acciones:
+- Duplicación en construcción de respuestas → extracción a utilidades.
+- Mensajes de error no uniformes → handler global centralizado.
+- Falta de @Valid en dos endpoints → agregado y validación de BindingResult.
+- Concatenación en logs → reemplazo por placeholders.
+- Imágenes sin alt → corrección para accesibilidad.
+- Ausencia de prueba de rechazo en solicitudes de adopción → prueba agregada.
+
+Flujo:
+Commit → PR (build + linters) → Checklist → Ajustes → Aprobación → Merge → Tag (si release).
+
+Beneficios:
+Menor retrabajo, mayor consistencia del API, reducción de riesgos de seguridad y base sólida para evolución.
+
+## 6.3. *Validation Interviews*
+### 6.3.1. *Diseño de Entrevistas*
+
+#### Preguntas para Adoptantes
+
+##### 1) Diseño general y navegación
+1. ¿Desde la pantalla principal supiste claramente a dónde ir?
+2. ¿Te perdiste navegando entre secciones? ¿En cuáles?
+3. ¿Los íconos y botones resultaron intuitivos? ¿Cuál no entendiste?
+4. ¿Qué botón o función agregarías para mejorar la experiencia?
+
+##### 2) Sección de Mascotas
+1. ¿Identificaste de inmediato que es la sección para ver mascotas en adopción?
+2. ¿La información por mascota (nombre, edad, estado, etc.) es clara y suficiente?
+3. ¿Fue fácil filtrar o buscar por tipo, tamaño, edad u otra característica?
+4. ¿Qué cambiarías en la forma de presentar las tarjetas/listado?
+
+##### 3) Proceso de Adopción
+1. ¿Entendiste el propósito de la sección de adopciones?
+2. ¿Te quedan claros los pasos a seguir para adoptar?
+3. ¿Los pasos para enviar una solicitud te parecieron comprensibles?
+
+##### 4) Donaciones
+1. ¿Identificaste con facilidad la sección de donaciones?
+2. ¿El diseño transmite confianza para realizar una donación?
+3. ¿Qué te motivaría a donar con más frecuencia o recomendarlo?
+4. ¿Qué mejorarías visual o funcionalmente?
+
+##### 5) Seguridad, confianza y opinión general
+1. ¿Confías en la plataforma para adoptar o donar? ¿Por qué?
+2. ¿Qué elementos adicionales te harían sentir más seguro/a (p. ej., sellos, políticas, reseñas)?
+3. ¿Qué parte te pareció más clara y cuál más confusa?
+4. ¿Hubo algo innecesario o difícil de entender?
+5. ¿Qué tan fácil fue moverte entre las secciones?
+
+##### 6) Recomendación e interés futuro
+1. ¿Recomendarías la aplicación a otras personas interesadas en adoptar o apoyar refugios?
+2. ¿Qué falta para que sea más útil para alguien como tú?
+
+---
+
+#### Preguntas para Refugios / Cuidadores
+
+##### 1) Diseño y navegación
+1. ¿Cómo describirías el diseño y la distribución de elementos? ¿Es clara?
+2. ¿Identificaste fácilmente qué secciones están pensadas para tu rol?
+3. ¿Cambiarías la ubicación o el nombre de algún botón o sección?
+
+##### 2) Publicaciones
+1. ¿Fue simple encontrar cómo publicar una nueva mascota?
+2. ¿La plantilla de publicación (datos, fotos, historial) te pareció completa?
+3. ¿Qué mejorarías en el flujo o diseño de esta parte?
+
+##### 3) Gestión de Adopciones
+1. ¿Contaste con la información y controles necesarios para estados (pendiente, aceptada, rechazada)?
+2. ¿Fue fácil filtrar o buscar solicitudes por estado u otros criterios?
+3. ¿Qué cambios harías para que la gestión sea más eficiente?
+
+##### 4) Percepción general y funcionalidades
+1. ¿Qué parte del diseño consideras mejor lograda?
+2. ¿Qué agregarías para facilitar tu labor (p. ej., recordatorios, plantillas, reportes)?
+3. ¿Pudiste moverte por la plataforma sin perderte? ¿Qué sección te resultó más útil?
+4. ¿Falta alguna función clave para tu día a día?
+
+##### 5) Impacto e implementación
+1. ¿Esta app podría facilitar la gestión del refugio? ¿En qué procesos?
+2. ¿Qué barreras ves para su uso constante por cuidadores o refugios?
+3. ¿La recomendarías a otros cuidadores o centros de adopción? ¿Por qué?
+
+### 6.3.2. *Registro de Entrevistas*
+### 6.3.3. *Evaluaciones según heurísticas*
+
+
+
 # Capítulo VI: *DevOps Practices*
 ## 7.1. *Continuous Integration*
 ### 7.1.1. *Tools and Practices*
