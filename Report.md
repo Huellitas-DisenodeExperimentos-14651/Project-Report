@@ -8,7 +8,7 @@
     <strong>Diseño de Experimentos de Ingeniería de Software - 14651</strong><br>  
     <br>
     <strong>Profesor: Juan Carlos Tinoco Licas</strong><br>
-    <br> <strong>INFORME DE TB1</strong> 
+    <br> <strong>INFORME DE TB2</strong> 
 </p>
 <p align="center">
     <strong>Startup: Huellitas Conectadas</strong><br>
@@ -3424,6 +3424,40 @@ Con todas las validaciones aprobadas, Jenkins ejecutó la liberación automátic
 
 **6. Monitoreo y Recuperación:**  
 Se implementaron herramientas de monitoreo para supervisar el rendimiento del sistema en tiempo real, y se configuró un mecanismo de **rollback** que permitió restaurar rápidamente la versión estable anterior ante cualquier fallo crítico.  
+
+
+## 7.4. *Continuous Monitoring*
+### 7.4.1. *Tools and Practices*
+Como complemento de la Integración Continua (CI), el Monitoreo Continuo verificó, tras cada integración y despliegue, que el sistema se mantuviera disponible, rápido y seguro. Se emplearon prácticas y herramientas de observabilidad, registro y alertamiento que permitieron detectar regresiones en minutos, activar acciones correctivas y, de ser necesario, ejecutar rollback de manera controlada.
+
+**Instrumentación y métricas:**
+
+Se implementaron endpoints de salud y métricas en el backend utilizando Spring Boot Actuator, lo que permitió exponer información clave sobre el estado del sistema. Se configuró la recolección y almacenamiento de métricas con identificadores de correlación y trazabilidad (correlation/trace id) para seguir las solicitudes a través de los diferentes componentes del sistema. Además, se monitorearon métricas específicas de base de datos y del pool de conexiones mediante herramientas como HikariCP y pg_stat_statements, asegurando la detección temprana de cuellos de botella o problemas de rendimiento.
+
+**Frontend y experiencia de usuario:**
+
+Para garantizar un rendimiento óptimo desde la perspectiva del usuario final, se implementaron auditorías automatizadas de rendimiento utilizando Lighthouse y PageSpeed en trabajos programados (jobs). Estas pruebas evaluaron métricas clave como tiempos de carga, accesibilidad y buenas prácticas, generando reportes que permitieron identificar áreas de mejora. Asimismo, se configuró el seguimiento de errores de cliente con mapas de fuente (source maps), facilitando la depuración y corrección de problemas reportados en producción.
+
+**Logging y trazabilidad:**
+
+Se adoptó un sistema de registro estructurado en formato JSON, centralizado y sin información sensible (PII/secretos), con niveles de log diferenciados por entorno (development, staging, production). La estructura uniforme de los mensajes de error facilitó la búsqueda, correlación y análisis de incidencias, mejorando los tiempos de respuesta ante problemas operativos. Los logs se almacenaron de forma centralizada para permitir consultas históricas y análisis de patrones.
+
+**Integración con el pipeline:**
+
+Se incorporaron verificaciones posteriores al despliegue (post-deploy checks) en forma de smoke tests ejecutados desde CI/CD, validando automáticamente el correcto funcionamiento de los endpoints críticos. Se estableció un criterio de rollback basado en umbrales predefinidos, que permitió revertir cambios de forma automática ante la detección de fallas críticas, minimizando el impacto en los usuarios finales y asegurando la estabilidad del sistema.
+
+**Uso de GitHub:**
+
+Se aprovecharon las capacidades de GitHub para fortalecer el monitoreo y la gestión de incidencias. GitHub Actions se utilizó para programar trabajos de monitoreo automatizados y para agregar anotaciones en Pull Requests con resultados de pruebas y métricas de rendimiento. GitHub Issues y Projects facilitaron la gestión de incidentes con plantillas predefinidas y tableros de seguimiento, permitiendo una respuesta organizada y eficiente ante problemas detectados. GitHub Environments proporcionó status checks post-despliegue y reglas de protección que aseguraron que solo versiones validadas llegaran a producción. Finalmente, los Releases incluyeron enlaces a documentación técnica relevante, facilitando la trazabilidad y comprensión de cada versión desplegada.
+
+### 7.4.2. *Monitoring Pipeline Components*
+
+### 7.4.3. *Alerting Pipeline Components*
+
+### 7.4.4. *Monitoring Pipeline Components*
+
+
+
 
 
 # Conclusiones
