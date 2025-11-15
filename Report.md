@@ -3428,34 +3428,67 @@ Se implementaron herramientas de monitoreo para supervisar el rendimiento del si
 
 ## 7.4. *Continuous Monitoring*
 ### 7.4.1. *Tools and Practices*
-Como complemento de la Integración Continua (CI), el Monitoreo Continuo verificó, tras cada integración y despliegue, que el sistema se mantuviera disponible, rápido y seguro. Se emplearon prácticas y herramientas de observabilidad, registro y alertamiento que permitieron detectar regresiones en minutos, activar acciones correctivas y, de ser necesario, ejecutar rollback de manera controlada.
+El stack de observabilidad se seleccionó para cubrir las cuatro señales doradas (latencia, tráfico, errores y saturación), complementadas con logs estructurados y trazas distribuidas. Cada componente cumplió un rol específico dentro del circuito de monitorización para detectar regresiones y habilitar decisiones de rollback oportuno.
 
-**Instrumentación y métricas:**
+**Instrumentación y métricas:**  
+Se expusieron endpoints de salud y métricas con Spring Boot Actuator y se recolectaron series que midieron latencia (tiempos p95/p99 de endpoints), tráfico (tasa de solicitudes por segundo), errores (códigos 4xx/5xx) y saturación (uso de pool de conexiones y recursos). Se propagaron correlation/trace id en cada request para vincular métricas y trazas, y se observaron métricas de base de datos (consultas y pool HikariCP) para anticipar agotamiento o bloqueos.
 
-Se implementaron endpoints de salud y métricas en el backend utilizando Spring Boot Actuator, lo que permitió exponer información clave sobre el estado del sistema. Se configuró la recolección y almacenamiento de métricas con identificadores de correlación y trazabilidad (correlation/trace id) para seguir las solicitudes a través de los diferentes componentes del sistema. Además, se monitorearon métricas específicas de base de datos y del pool de conexiones mediante herramientas como HikariCP y pg_stat_statements, asegurando la detección temprana de cuellos de botella o problemas de rendimiento.
+**Frontend y experiencia de usuario:**  
+Se ejecutaron auditorías automatizadas con Lighthouse/PageSpeed para monitorear latencia percibida (LCP), estabilidad visual (CLS) y respuesta de interacción (INP). Estos reportes complementaron las señales de tráfico (volumen de carga de páginas) y errores (fallos de recursos estáticos) y permitieron correlacionar cambios visuales con impactos en tiempos de renderizado.
 
-**Frontend y experiencia de usuario:**
+**Logging y trazabilidad:**  
+Se generaron logs en formato JSON sin información sensible, anotados con niveles diferenciados por entorno. Estos registros cubrieron errores operativos (excepciones de aplicación), apoyaron el análisis de latencia (timestamps y duración), dieron visibilidad de tráfico (conteo por ruta) y permitieron detectar saturación indirecta (reintentos, timeouts). Las trazas distribuidas unieron eventos de backend y llamadas a componentes internos bajo el mismo identificador.
 
-Para garantizar un rendimiento óptimo desde la perspectiva del usuario final, se implementaron auditorías automatizadas de rendimiento utilizando Lighthouse y PageSpeed en trabajos programados (jobs). Estas pruebas evaluaron métricas clave como tiempos de carga, accesibilidad y buenas prácticas, generando reportes que permitieron identificar áreas de mejora. Asimismo, se configuró el seguimiento de errores de cliente con mapas de fuente (source maps), facilitando la depuración y corrección de problemas reportados en producción.
+**Integración con el pipeline:**  
+Tras cada despliegue se ejecutaron smoke tests a endpoints críticos y se verificaron automáticamente umbrales de latencia y error. Si aumentaban errores o la saturación del pool excedía el límite definido, se habilitaba rollback. Esta integración redujo el tiempo entre detección y acción, manteniendo control sobre degradaciones tempranas.
 
-**Logging y trazabilidad:**
-
-Se adoptó un sistema de registro estructurado en formato JSON, centralizado y sin información sensible (PII/secretos), con niveles de log diferenciados por entorno (development, staging, production). La estructura uniforme de los mensajes de error facilitó la búsqueda, correlación y análisis de incidencias, mejorando los tiempos de respuesta ante problemas operativos. Los logs se almacenaron de forma centralizada para permitir consultas históricas y análisis de patrones.
-
-**Integración con el pipeline:**
-
-Se incorporaron verificaciones posteriores al despliegue (post-deploy checks) en forma de smoke tests ejecutados desde CI/CD, validando automáticamente el correcto funcionamiento de los endpoints críticos. Se estableció un criterio de rollback basado en umbrales predefinidos, que permitió revertir cambios de forma automática ante la detección de fallas críticas, minimizando el impacto en los usuarios finales y asegurando la estabilidad del sistema.
-
-**Uso de GitHub:**
-
-Se aprovecharon las capacidades de GitHub para fortalecer el monitoreo y la gestión de incidencias. GitHub Actions se utilizó para programar trabajos de monitoreo automatizados y para agregar anotaciones en Pull Requests con resultados de pruebas y métricas de rendimiento. GitHub Issues y Projects facilitaron la gestión de incidentes con plantillas predefinidas y tableros de seguimiento, permitiendo una respuesta organizada y eficiente ante problemas detectados. GitHub Environments proporcionó status checks post-despliegue y reglas de protección que aseguraron que solo versiones validadas llegaran a producción. Finalmente, los Releases incluyeron enlaces a documentación técnica relevante, facilitando la trazabilidad y comprensión de cada versión desplegada.
+**Uso de GitHub:**  
+Se utilizaron GitHub Actions para disparar jobs programados de verificación (auditorías de rendimiento y validaciones de disponibilidad), adjuntando anotaciones en Pull Requests con resultados básicos (latencia y error rate). Issues y Projects gestionaron hallazgos (clasificación por tipo: rendimiento, error funcional, saturación), mientras Environments registró el estado posdespliegue y Releases documentó cambios relevantes vinculados a observaciones técnicas.
 
 ### 7.4.2. *Monitoring Pipeline Components*
 
+Monitoreo ligero para validar salud tras cada despliegue y detectar regresiones básicas.
+
+1. Fuentes: Actuator (/health, /metrics), métricas de pool HikariCP (active/max), conteo simple de solicitudes y adopciones, logs JSON (timestamp, level, request-id, release), auditorías Lighthouse/PageSpeed.
+2. Recolección: GitHub Actions post‑deploy ejecutó smoke tests (auth, mascotas, adopciones) y capturó /health y /metrics; job cron generó auditorías de rendimiento. Artefactos guardados (metrics.json, lighthouse.json, smoke.log).
+3. Normalización: Eventos y métricas en JSON con campos estándar (timestamp, env, release, endpoint, status, durationMs); errores agrupados sólo en 4xx y 5xx.
+4. Agregación: Cálculo de latencia media y p95 en endpoints clave, tasa simple de errores (5xx/total smoke), uso del pool (%), ratio adopciones aprobadas/creadas.
+5. Correlación y gating: request-id enlazó log y métrica; release-tag permitió comparar con la ejecución previa. Umbrales excedidos (p95, error rate, pool >90%) habilitaron rollback manual.
+6. Retención y acceso: Artefactos disponibles en historial de runs; sin TSDB ni dashboards externos; comparación directa sólo contra último run exitoso.
+7. Alcance: Sin Prometheus, Grafana, ELK ni trazas distribuidas; snapshots por ejecución y suficiente visibilidad básica post‑despliegue.
+
 ### 7.4.3. *Alerting Pipeline Components*
 
-### 7.4.4. *Monitoring Pipeline Components*
+Alertas mínimas basadas en umbrales simples; gestión íntegra dentro de GitHub.
 
+1. Señales: Resultado smoke tests, p95 endpoints críticos, error 5xx inicial, estado /health, variación Performance Lighthouse.
+2. Umbrales: Smoke fallido (status != 200); p95 > 600 ms en dos ejecuciones seguidas; 5xx > 1%; /health != UP dos veces; caída ≥10 puntos Performance.
+3. Evaluación: Script en Actions parseó metrics.json y lighthouse.json y comparó contra artefacto previo.
+4. Generación: Issue nuevo con etiquetas (alert:latency | alert:error | alert:perf | alert:availability) si no existía; si ya había uno <1 h se añadió comentario.
+5. Contenido Issue: endpoint afectado, valor observado, umbral, commit SHA, enlace al run y breve clasificación.
+6. Gestión: Revisión manual → corrección (nuevo commit) o rollback; cierre con causa raíz breve y referencia del commit de solución.
+7. Escalado básico: Issue crítico sin actividad >4 h → etiqueta escalate; >8 h → recomendación de rollback.
+8. Silenciamiento: Etiqueta manual maintenance=true pausó creación de nuevos Issues (máx. 2 h).
+9. Limitaciones: Sin canales externos, sin agrupación avanzada ni series históricas; sólo comparación inmediata para acciones rápidas.
+
+### 7.4.4. *Notification Pipeline Components.*
+Esta es la capa final orientada a entregar cada alerta con contexto mínimo accionable usando sólo GitHub.
+
+GitHub Issues: Creación/actualización automática con etiquetas (alert:latency, alert:error, alert:perf, alert:availability); payload: endpoint, valor, umbral, commit SHA, enlace al run.
+
+Comentarios en PR: Si falla un smoke test o auditoría ligada a un PR abierto se añade comentario con tipo de alerta, métrica y enlace a artefactos antes del merge.
+
+Environments: Resultado de smoke tests marca passed/failed; failed detiene promoción y activa revisión/rollback.
+
+Consolidación: Alertas repetidas (<1 h) añaden comentario incremental en el Issue existente (timestamp + nuevo valor) evitando duplicados.
+
+Runbooks: Cada Issue incluye enlace a RUNBOOK.md/Wiki con pasos (ver logs JSON, revisar metrics.json, confirmar /health, decidir corrección o rollback).
+
+Retry: Creación/actualización de Issue reintenta hasta 3 veces con backoff corto; al fallar registra error en log del workflow.
+
+Escalado: Issue crítico sin actividad >4 h etiqueta escalate; >8 h sugiere rollback a última versión estable.
+
+Resumen semanal: Consolidado manual con conteo de alertas críticas, causas y acciones aplicado a seguimiento interno.
 
 
 
