@@ -2725,7 +2725,74 @@ git commit -m "<type>[optional scope]: <title>" -m "<description>"
 
 ## 5.2. *Product Implementation & Deployment*
 ### 5.2.1. *Sprint Backlogs*
-Este sprint se enfocó en el desarrollo inicial de Huellitas Conectadas, integrando la landing page, el backend, el frontend y la aplicación móvil. Las historias de usuario priorizadas guiaron el trabajo para asegurar una experiencia consistente y funcional desde el primer entregable. La landing page se orientó a brindar información clara y atractiva, el frontend a ofrecer una navegación simple e intuitiva, el backend a garantizar la lógica de negocio y la gestión confiable de los datos, y la app móvil a facilitar el acceso rápido a las funciones clave. Con estas tareas completadas, se consolidaron los cimientos que permitirán la evolución y el crecimiento del proyecto.
+Este sprint se enfocó en el desarrollo inicial , priorizando la implementación de funcionalidades clave que permitan validar la propuesta de valor con usuarios reales. Se trabajó en la construcción del backend con arquitectura DDD, el frontend con React, y la aplicación móvil nativa, además de completar la Landing Page. El equipo aplicó metodologías ágiles con reuniones diarias de sincronización y revisiones continuas para asegurar la calidad del código y la experiencia de usuario.
+
+---
+
+#### **Sprint 1**
+
+**Sprint Planning Background:**
+
+| Sprint # | Sprint 1 |
+|----------|----------|
+| **Sprint Planning Background** | |
+| Date | 2025-09-19 |
+| Time | 10:00 AM |
+| Location | Reunión virtual vía Discord |
+| Prepared By | Christian Espinoza |
+| Attendees (to planning meeting) | Christian Espinoza, Harrison Payesa, César Navarro |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | Implementar las funcionalidades base de autenticación, registro de usuarios, gestión de perfiles y publicación/búsqueda de mascotas |
+| Sprint 1 Velocity | 34 Story Points |
+| Sum of Story Points | 34 |
+
+---
+
+**Sprint Backlog 1:**
+
+| Sprint # | Sprint 1 | | | | | | |
+|----------|----------|---|---|---|---|---|---|
+| **User Story** | **Work-Item / Task** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| **US01 - Registro de cuenta** | | | | | | | |
+| | Diseñar formulario de registro | T01 | Diseñar UI del formulario | Crear wireframe y mockup del formulario de registro con selección de rol (adoptante, refugio, rescatista) | 6 | Christian Espinoza | Done |
+| | Implementar validación frontend | T02 | Validar campos obligatorios | Validar campos obligatorios (email, contraseña, confirmación contraseña, rol) en React con mensajes de error claros | 5 | Harrison Payesa | Done |
+| | Crear endpoint de registro | T03 | Backend `/api/v1/auth/signup` | Desarrollar lógica de registro en Spring Boot con validaciones, hash de contraseñas con BCrypt y creación de roles | 7 | César Navarro | Done |
+| | Integrar frontend con backend | T04 | Conectar formulario con API | Integrar llamada API desde React, manejar respuestas exitosas y errores, y redirigir según corresponda | 4 | Harrison Payesa | Done |
+| | Crear pruebas unitarias | T05 | Tests de registro | Implementar tests con JUnit 5 para validar lógica de registro y casos edge | 5 | César Navarro | Done |
+| **US02 - Iniciar sesión** | | | | | | | |
+| | Diseñar pantalla de login | T06 | UI de inicio de sesión | Crear interfaz de inicio de sesión con campos email y contraseña, opción "recordar sesión" y link de recuperación | 4 | Christian Espinoza | Done |
+| | Validar credenciales en frontend | T07 | Validación de formato | Validar formato de email y longitud mínima de contraseña antes de enviar al backend | 4 | Harrison Payesa | Done |
+| | Implementar autenticación JWT | T08 | Backend `/api/v1/auth/signin` | Implementar lógica de autenticación JWT en Spring Boot con expiración de tokens y refresh tokens | 8 | César Navarro | Done |
+| | Integrar JWT en frontend | T09 | Manejo de tokens | Almacenar token en localStorage, configurar interceptores axios para headers de autorización automáticos | 5 | Harrison Payesa | Done |
+| | Implementar manejo de sesión | T10 | Gestión de sesión activa | Crear lógica para verificar token válido, renovar automáticamente y logout cuando expire | 6 | Harrison Payesa | Done |
+| **US04 - Buscar mascotas** | | | | | | | |
+| | Diseñar interfaz de búsqueda | T15 | UI con filtros | Crear interfaz con filtros visibles (tipo, tamaño, edad, ubicación, necesidades especiales) y resultados en grid | 6 | Christian Espinoza | Done |
+| | Implementar filtros dinámicos | T16 | Lógica de filtrado | Lógica de filtrado dinámico con actualización en tiempo real sin recargar página | 8 | Harrison Payesa | In-Process |
+| | Crear endpoint de búsqueda | T17 | Backend `/api/v1/pets/search` | Backend con query params múltiples, paginación y ordenamiento (más recientes, alfabético) | 7 | César Navarro | To-Review |
+| | Optimizar consultas | T18 | Índices en base de datos | Implementar índices en PostgreSQL para mejorar performance de búsquedas | 5 | César Navarro | To-Review |
+| **US05 - Ver perfil de mascota** | | | | | | | |
+| | Diseñar vista detallada | T19 | UI del perfil completo | Interfaz con galería de fotos, información completa (edad, raza, comportamiento), historial médico expandible | 5 | Christian Espinoza | Done |
+| | Crear endpoint de detalle | T20 | Backend `/api/v1/pets/{petId}` | API para obtener detalles completos de una mascota específica con relaciones cargadas | 6 | César Navarro | Done |
+| | Implementar galería de imágenes | T21 | Carousel responsive | Componente carousel responsive con zoom y navegación táctil para móvil | 6 | Harrison Payesa | Done |
+| | Conectar vista con API | T22 | Integración con backend | Integrar llamada API, renderizado de datos y manejo de estados de carga y error | 4 | Harrison Payesa | Done |
+| **US12 - Publicar mascota en adopción** | | | | | | | |
+| | Diseñar formulario de publicación | T26 | Interfaz para refugios | Interfaz para refugios con campos: nombre, tipo, raza, edad, tamaño, fotos múltiples, descripción emocional, historial médico | 5 | Christian Espinoza | Done |
+| | Implementar validaciones | T27 | Validar formulario | Validar campos obligatorios, formatos de archivos de imagen (JPG, PNG), tamaño máximo 5MB | 6 | Harrison Payesa | Done |
+| | Crear endpoint de registro | T28 | Backend `/api/v1/pets` | POST para registrar nueva mascota en base de datos con relación a usuario refugio/rescatista | 8 | César Navarro | Done |
+| | Implementar carga de imágenes | T29 | Sistema de upload | Sistema de upload con Cloudinary/S3, generación de thumbnails y almacenamiento de URLs | 7 | César Navarro | Done |
+| | Conectar formulario con API | T30 | Integración completa | Integrar formulario con endpoint, mostrar preview de imágenes, manejar progreso de carga | 4 | Harrison Payesa | Done |
+
+---
+
+**Observaciones del Sprint 1:**
+
+- Se priorizaron User Stories críticas del Epic 01 (Autenticación) y Epic 02 (Búsqueda y Gestión de Mascotas)
+- Todas las tareas respetaron el rango de 4-8 horas de estimación para facilitar seguimiento diario
+- Se aplicó arquitectura DDD con bounded contexts claramente definidos
+- Las tareas de frontend y backend se desarrollaron en paralelo para optimizar tiempos
+- Se utilizó PostgreSQL como base de datos relacional con esquema normalizado
+- Se implementaron pruebas unitarias con JUnit 5 para validar lógica de negocio crítica
+- Se identificaron 2 tareas en estado "In-Process" y 2 en "To-Review" para próximo seguimiento
 
 ### 5.2.2. *Implemented Landing Page Evidence*
 
