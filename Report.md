@@ -31,10 +31,6 @@
             <td>U202213208 </td>
         </tr>
         <tr>
-            <td>Ramirez Escalante, Carlo Patricio </td>
-            <td>U202210787 </td>
-        </tr>
-        <tr>
             <td>Payesa Torres, Harrison Hubert</td>
             <td>U202221024  </td>
         </tr>
@@ -46,7 +42,7 @@
 </div>
 <br>
 <p align="center">
-    <strong>SEPTIEMBRE 2025 </strong>
+    <strong>Noviembre 2025 </strong>
 </p>
 <br>
 
@@ -62,6 +58,7 @@
 |:-------:|:----------:|:-----:|:----------------------------| 
 | TB1    | 19/09/2025 | Todo el equipo | Capítulo I, II, III, IV y V | 
 | TP1    | 10/10/2025 | Christian Espinoza, Harrison Payesa, César Navarro | Capítulo VI y Capítulo VII |
+| TB2    | 15/11/2025 | Todo el equipo | Capítulo VI, VII y VIII |
 
 </div>
 
@@ -266,14 +263,16 @@ del ABET – EAC - Student Outcome 4.
     <td>
       <strong>Espinoza Saenz, Christian Renato (TB1):</strong> Me enfoqué en el <em>Startup Business Model</em> y en el <em>Needfinding</em>, asegurando que la recolección de información de los usuarios se realizara de manera ética y transparente, evitando sesgos y respetando la privacidad de los participantes.<br><br>
       <strong>Espinoza Saenz, Christian Renato (TP1):</strong> Cumplí con este principio al trabajar en Testing Suites & Validation, Continuous Integration y Build & Test Suite Pipeline Components, garantizando la integridad y confiabilidad de las pruebas.<br><br>
+      <strong>Espinoza Saenz, Christian Renato (TB2):</strong> Aseguré la calidad del código mediante el establecimiento de estándares de codificación y convenciones en Coding Standard & Code Conventions, además de implementar prácticas de seguridad en Code Quality & Code Security. En el monitoreo continuo, desarrollé herramientas y prácticas éticas que garantizan la transparencia operativa del sistema.<br><br>
       <strong>Payesa Torres, Harrison Hubert (TB1):</strong> Asumí la responsabilidad en el diseño de la base de datos y la documentación técnica, cuidando la gestión adecuada de datos sensibles y aplicando principios de ética profesional en la protección de la información.<br><br>
-       <strong>Payesa Torres, Harrison Hubert (TP1):</strong> Evidencié mi responsabilidad profesional al encargarme de Continuous Deployment, Tools and Practices y Production Deployment Pipeline Components, asegurando que las implementaciones en producción respetaran las buenas prácticas y estándares éticos de ingeniería de software.<br><br>
-      <strong>Ramírez Escalante, Carlo Patricio (TB1):</strong> En el prototipado de la web, prioricé la accesibilidad y la inclusión como parte de mi responsabilidad profesional, asegurando que la interfaz pudiera ser utilizada por distintos tipos de usuarios sin discriminación.<br><br>
+      <strong>Payesa Torres, Harrison Hubert (TP1):</strong> Evidencié mi responsabilidad profesional al encargarme de Continuous Deployment, Tools and Practices y Production Deployment Pipeline Components, asegurando que las implementaciones en producción respetaran las buenas prácticas y estándares éticos de ingeniería de software.<br><br>
+      <strong>Payesa Torres, Harrison Hubert (TB2):</strong> Contribuí de manera ética en la formulación de preguntas experimentales y la priorización del Question Backlog, garantizando que las hipótesis planteadas respetaran la privacidad de los usuarios y promovieran un diseño responsable de experimentos.<br><br>
+      <strong>Navarro Correa, César Augusto (TB1):</strong> Reconocí mi responsabilidad ética y profesional al desarrollar la sección de Continuous Delivery, Tools and Practices y Stages Deployment Pipeline Components, asegurando que los procesos de despliegue se implementaran de manera correcta y segura.<br><br>
       <strong>Navarro Correa, César Augusto (TP1):</strong> En la implementación de la app móvil y el backend, apliqué estándares de calidad y buenas prácticas de programación, asumiendo la responsabilidad de entregar un producto seguro, eficiente y confiable.<br><br>
-      <strong>Navarro Correa, César Augusto (TB1):</strong> Reconocí mi responsabilidad ética y profesional al desarrollar la sección de Continuous Delivery, Tools and Practices y Stages Deployment Pipeline Components, asegurando que los procesos de despliegue se implementaran de manera correcta y segura.
+      <strong>Navarro Correa, César Augusto (TB2):</strong> Apliqué principios éticos en la selección de métodos experimentales y en el diseño del tracking plan, asegurando que la recolección de datos respete la privacidad del usuario y cumpla con estándares profesionales de analítica responsable.
     </td>
     <td>
-      Cada integrante asumió un rol ético y profesional en su ámbito de trabajo, aplicando principios de transparencia, accesibilidad, seguridad de datos y buenas prácticas de desarrollo.
+      Cada integrante asumió un rol ético y profesional en su ámbito de trabajo, aplicando principios de transparencia, accesibilidad, seguridad de datos y buenas prácticas de desarrollo, tanto en las fases iniciales como en la implementación de experimentos y monitoreo continuo.
     </td> 
   </tr>
   <tr>
@@ -281,15 +280,16 @@ del ABET – EAC - Student Outcome 4.
     <td>
       <strong>Espinoza Saenz, Christian Renato (TB1):</strong> Relacioné el proyecto con su impacto social, destacando la importancia de fomentar adopciones responsables de mascotas y el beneficio que esto genera en la comunidad.<br><br>
       <strong>Espinoza Saenz, Christian Renato (TP1):</strong> Evalué críticamente el impacto de la calidad y validación del software, considerando las implicaciones económicas y sociales de errores o fallas.<br><br>
+      <strong>Espinoza Saenz, Christian Renato (TB2):</strong> Realicé un análisis del estado actual (As-Is Summary) identificando brechas sociales y económicas en los procesos de adopción. Además, documenté suposiciones y vacíos de conocimiento que permiten diseñar experimentos con impacto social positivo y sostenibilidad a largo plazo.<br><br>
       <strong>Payesa Torres, Harrison Hubert (TB1):</strong> Analicé el modelo de monetización y evalué su efecto económico en adoptantes y refugios, procurando que fuera accesible para los usuarios y sostenible para la plataforma.<br><br>
-      <strong>Payesa Torres, Harrison Hubert (TP1):</strong> Tomé decisiones conscientes sobre las implementaciones en producción, analizando los efectos globales y ambientales de las soluciones desplegadas<br><br>
-      <strong>Ramírez Escalante, Carlo Patricio (TB1):</strong> Durante el diseño de la interfaz, consideré la inclusión social y la experiencia de usuario en diferentes contextos tecnológicos, asegurando la accesibilidad de la plataforma en entornos diversos.<br><br>
-      <strong>Navarro Correa, César Augusto (TB1):</strong> Evalué la viabilidad técnica de un backend escalable y su impacto en la eficiencia de recursos, priorizando la sostenibilidad tecnológica y el desempeño a largo plazo.
-      <br><br>
-      <strong>Navarro Correa, César Augusto (TP1):</strong> Emití juicios informados sobre la configuración de los pipelines de despliegue, evaluando cómo mis decisiones podían afectar la eficiencia y seguridad del sistema en diferentes contextos
+      <strong>Payesa Torres, Harrison Hubert (TP1):</strong> Tomé decisiones conscientes sobre las implementaciones en producción, analizando los efectos globales y ambientales de las soluciones desplegadas.<br><br>
+      <strong>Payesa Torres, Harrison Hubert (TB2):</strong> Emití juicios informados al diseñar hipótesis y métricas de negocio que consideran el impacto social de las adopciones responsables, evaluando las condiciones experimentales para maximizar el bienestar animal y la satisfacción de los usuarios.<br><br>
+      <strong>Navarro Correa, César Augusto (TB1):</strong> Evalué la viabilidad técnica de un backend escalable y su impacto en la eficiencia de recursos, priorizando la sostenibilidad tecnológica y el desempeño a largo plazo.<br><br>
+      <strong>Navarro Correa, César Augusto (TP1):</strong> Emití juicios informados sobre la configuración de los pipelines de despliegue, evaluando cómo mis decisiones podían afectar la eficiencia y seguridad del sistema en diferentes contextos.<br><br>
+      <strong>Navarro Correa, César Augusto (TB2):</strong> Evalué el impacto global de las decisiones experimentales mediante cálculos de escala, selección de métodos y definición de KPIs analíticos, considerando cómo la recolección de datos y las historias de usuario generan valor económico y social en el ecosistema de adopción.
     </td>
     <td>
-      Los juicios emitidos por cada miembro permitieron evaluar los impactos sociales, económicos y técnicos de la plataforma, fortaleciendo su relevancia y sostenibilidad en distintos contextos.
+      Los juicios emitidos por cada miembro permitieron evaluar los impactos sociales, económicos y técnicos de la plataforma, fortaleciendo su relevancia y sostenibilidad en distintos contextos. La incorporación de experimentos y métricas de negocio amplió la capacidad de tomar decisiones basadas en datos que benefician tanto a usuarios como al bienestar animal.
     </td>
   </tr>
 </table>
@@ -4217,7 +4217,7 @@ Chat básico dentro del prototipo.
 
 ---
 
-# ## **8.2.3. Measures**
+### **8.2.3. Measures**
 
 * **Tasa de abandono:**
   sesiones sin interacción significativa / total de sesiones.
@@ -4508,14 +4508,4 @@ Principios
 + Repositorio GitHub de la App Movil: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/MobileApp)
 <br><br>
 
-## Needfinding Interviews
 
-
-## Validation Interviews
-
-  
-## Video Exposición del TB1
-
-## Video About The-Product:
-
-## Video About The-Team:
