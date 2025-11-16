@@ -4268,6 +4268,81 @@ Chat básico dentro del prototipo.
 * No intervienen adopciones reales
 * Los datos son anonimizados y simulados
 
+## 8.2.5. Scale Calculations and Decisions
+
+Esta sección determinaremos cuánta evidencia es necesaria para confiar en los resultados de los experimentos. La escala se define combinando dos principios fundamentales:
+
+### 1. Certeza (Confidence):
+
+Esta corresponde a qué tan probable es que los resultados no sean producto del azar. Se operacionaliza mediante:
+
+- Poder estadístico (1 – β): Probabilidad en el que queremos un 80% de probabilidad de detectar un efecto real, si existe.
+- Nivel de Significación (α): Probabilidad en el que aceptamos un 5% de probabilidad de un falso positivo.
+
+### 2. Precisión (MDE — Minimum Detectable Effect):
+
+Define el tamaño mínimo del cambio que debe detectarse para considerarlo valioso para el negocio. El MDE asegura que no se acumulen grandes muestras para detectar variaciones que, aun siendo reales, no generan impacto significativo.
+
+Ejemplos:
+
+- Filtros avanzados: reducción ≥ 20% en abandono
+
+- Historial médico: aumento ≥ 25% en solicitudes
+
+- Chat: reducción ≥ 30% en mensajes externos
+
+El MDE determina el número mínimo de sesiones o usuarios necesarios para que un cambio sea estadísticamente visible.
+En base a estos criterios, los experimentos han sido dimensionados entre 20–40 adoptantes, 5 refugios y ventanas de prueba de 1–4 semanas, asegurando un balance entre rigor y factibilidad.
+
+
+## 8.2.6. Methods Selection
+
+Simplest Useful Thing (SUT)
+
+El método seleccionado debe ser la cosa más simple y útil que permita obtener evidencia confiable, sin construir de más respecto al producto real. Cada método se selecciona por su capacidad de cumplir las condiciones definidas en la hipótesis con el mínimo esfuerzo técnico.
+
+
+Ejemplos:
+
+- Pruebas A/B con un solo cambio por versión
+- Prototipos navegables en Figma
+- Simulaciones controladas en sesiones de 8–10 min
+- Variantes duplicadas del mismo perfil (con/sin historial médico)
+
+Reglas esenciales
+
+- Nunca correr dos experimentos simultáneos del mismo tema sobre un usuario (evita contaminación).
+- Mantener las condiciones constantes entre grupos (mismas mascotas, misma introducción, mismo flujo inicial).
+- Evitar daño potencial:
+- No se usan animales reales
+- No se generan solicitudes reales
+- Los datos son anonimizados y simulados
+
+
+## 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+
+El objetivo general es garantizar que las métricas seleccionadas sean económicas, accionables y alineadas al valor del producto, permitiendo detectar diferencias reales entre versiones o comportamientos. Para ellos, la selección de KPIS y metricas parte de tres criterios: 
+
+- Relevancia para las hipótesis: Cada métrica debe corresponder directamente al fenómeno que la hipótesis intenta comprobar.
+- Viabilidad de medición en prototipo: Solo se incluyen métricas que pueden recolectarse sin integrar sistemas reales ni APIs externas.
+- Sensibilidad (Behavior Detection): Las métricas deben permitir detectar diferencias dentro de la escala establecida por el Minimal Detectable Effect (MDE).
+
+KPIs definidos
+- Time to Match: Crucial para validar eficiencia en búsqueda (H1).
+- Request Start Rate: Mide intención real de adopción (H2, H3).
+- Messaging Effort: Permite evaluar reducción de carga operativa (H4).
+- Admin Load Reduction: KPI estratégico del lado de refugios.
+- Adoption Conversion Rate: Indicador superior que integra la cadena completa.
+
+## 8.2.8. Web and Mobile Tracking Plan
+
+El objetivo del tracking es capturar únicamente los eventos mínimos necesarios para validar las hipótesis y medir el comportamiento de los usuarios en web y mobile. El seguimiento será igual en ambas plataformas.
+
+Principios
+- Registrar solo lo esencial para validar hipótesis.
+- No capturar datos personales.
+- Usar identificadores anónimos.
+- Mantener la misma estructura de eventos en web y mobile.
 
 
 # Conclusiones
