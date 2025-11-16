@@ -3662,6 +3662,251 @@ Cada ítem se registra con una acción siguiente concreta para facilitar su prio
 | **Laguna** | No sabemos qué características valoran más al elegir mascota (edad, tamaño, historia, salud). | Analizar comportamiento de búsqueda en primeros 100 usuarios. |
 | **Claim** | Digitalizar el proceso reducirá carga administrativa >50%, liberando tiempo para cuidado directo. | Medir horas semanales antes y después de usar la plataforma en 5 refugios. |
 
+### **8.1.3. Experiment-Ready Questions**
+
+A partir del análisis *As-Is* y del inventario de suposiciones, lagunas de conocimiento, ideas y claims (8.1.2), estas preguntas delimitan lo que necesitamos descubrir para reducir incertidumbre y avanzar hacia un diseño basado en evidencia.
+
+Son preguntas accionables, falsables y directamente conectadas a los problemas reales detectados.
+
+#### **Preguntas Centrales**
+
+* ¿Qué información consideran más relevante los adoptantes al momento de tomar una decisión (historia, salud, comportamiento, fotos, videos)?
+* ¿Los adoptantes abandonan el proceso porque el flujo actual carece de transparencia o porque no encuentran mascotas que encajen con sus preferencias?
+* ¿Qué tan dispuestos están los refugios a digitalizar completamente sus procesos actuales (formularios, registro, seguimiento)?
+* ¿Los refugios aceptarían un formulario estandarizado si el sistema les reduce carga operativa?
+* ¿Mostrar historial médico y antecedentes clínicos incrementa la confianza del adoptante?
+* ¿Los usuarios prefieren filtros avanzados (edad, tamaño, ubicación, necesidades especiales) o un sistema de recomendaciones automáticas?
+* ¿La visibilidad de casos urgentes aumenta la probabilidad de solicitud?
+* ¿El chat integrado reduce la cantidad de interacciones por WhatsApp en más de 30%?
+* ¿Los adoptantes confían más en una plataforma con historias reales de adopciones exitosas y seguimiento post-adopción?
+* ¿Los refugios estarían dispuestos a pagar por funcionalidades premium (estadísticas, panel, prioridad en búsquedas)?
+
+### **8.1.4. Question Backlog**
+
+Backlog priorizado según **riesgo**, **impacto**, **confianza** e **interés**, con distinción entre backlog amplio (*Broad*) y profundo (*Deep*).
+
+#### **Tabla del Backlog de Preguntas Prioritarias**
+
+| Pregunta                                                                       | Por qué                                                         | Confianza | Riesgo | Impacto | Interés | Prioridad |
+| ------------------------------------------------------------------------------ | --------------------------------------------------------------- | --------- | ------ | ------- | ------- | --------- |
+| ¿Qué información es más decisiva para que un adoptante solicite una mascota?   | El As-Is muestra adopciones fallidas por expectativas erróneas. | 3         | 5      | 5       | 5       | Alta      |
+| ¿Los refugios aceptarán digitalizar su proceso con formularios estandarizados? | Se identificó desorganización y procesos manuales.              | 2         | 5      | 5       | 4       | Alta      |
+| ¿Los filtros avanzados reducen abandono?                                       | El abandono es un problema clave detectado.                     | 3         | 4      | 5       | 4       | Alta      |
+| ¿El historial médico visible genera más confianza?                             | Claim directo del Raw Material.                                 | 3         | 3      | 4       | 5       | Media     |
+| ¿El chat integrado reduce mensajes externos?                                   | Relacionado a la carga operativa del 40% mencionada.            | 2         | 3      | 4       | 3       | Media     |
+| ¿Los refugios están dispuestos a pagar por un plan premium?                    | Impacto directo en sostenibilidad del proyecto.                 | 2         | 4      | 5       | 4       | Media     |
+| ¿Las historias de éxito aumentan la intención de adoptar?                      | Mejora percepción y confianza.                                  | 4         | 2      | 3       | 3       | Baja      |
+
+---
+
+#### **Broad Backlog**
+
+Preguntas que permiten entender el contexto general:
+
+* Preferencias de adoptantes (edad, tamaño, salud, energía, historia).
+* Comportamiento de refugios respecto al registro y publicación de mascotas.
+* Motivaciones y fricciones en cada etapa del proceso de adopción.
+* Capacidad de digitalización y disposición tecnológica de refugios.
+
+#### **Deep Backlog**
+
+Preguntas directamente asociadas a decisiones de diseño y lanzamiento:
+
+* ¿Qué reduce específicamente el abandono en la búsqueda?
+* ¿Qué aumenta la confianza del adoptante?
+* ¿Qué funcionalidad reduce más carga administrativa?
+* ¿Qué variable aumenta más rápido la tasa de solicitudes?
+
+### **8.1.5. Experiment Cards**
+
+### **Experiment Card #1 — “Filtros Avanzados”**
+
+---
+
+### **LADO FRONTAL**
+
+**Pregunta:**
+¿Los filtros avanzados reducen la tasa de abandono en la búsqueda?
+
+**Por qué:**
+El As-Is muestra que la falta de herramientas eficientes de búsqueda genera abandono y frustración.
+
+**Hipótesis:**
+“Si añadimos filtros avanzados, la tasa de abandono se reducirá al menos en un 20%.”
+
+**Qué (Simplest Useful Thing):**
+Prototipo con filtros mínimos:
+
+* edad
+* tamaño
+* tipo de mascota
+* necesidades especiales
+* ubicación
+
+---
+
+### **LADO POSTERIOR**
+
+**Medidas:**
+
+* Tasa de abandono
+* Tiempo por búsqueda
+* Número de perfiles abiertos
+
+**Condiciones:**
+
+* 20 adoptantes reales
+* Pruebas remotas A/B
+* Límite: 10 minutos por sesión
+
+**Escala:**
+
+* 1 semana de experimentación
+* Mínimo 40 sesiones válidas
+
+---
+
+### **Experiment Card #2 — “Historial Médico Visible”**
+
+**Pregunta:**
+¿Mostrar historial médico aumenta la confianza y la intención de adopción?
+
+**Por qué:**
+El As-Is evidencia desconfianza por falta de información clara sobre salud.
+
+**Hipótesis:**
+“Los perfiles con historial médico visible generarán un incremento ≥ 25% en solicitudes.”
+
+**Qué (SUT):**
+Ficha con sección mínima de salud:
+
+* vacunas
+* esterilización
+* observaciones
+
+**Medidas:**
+
+* Tasa de clic en “Iniciar adopción”
+* Vistas del historial
+
+**Condiciones:**
+
+* 2 versiones del mismo perfil (con/sin historial)
+* Test con 30 adoptantes
+
+---
+
+### **Experiment Card #3 — “Chat Integrado”**
+
+**Pregunta:**
+¿El chat integrado reduce la cantidad de mensajes externos?
+
+**Por qué:**
+Refugios reportan sobrecarga del 40% por WhatsApp.
+
+**Hipótesis:**
+“El chat integrado reducirá en ≥ 30% los mensajes externos.”
+
+**Qué (SUT):**
+Chat básico dentro del prototipo.
+
+**Medidas:**
+
+* número de mensajes externos
+* número de conversaciones internas
+
+**Condiciones:**
+
+* 5 refugios piloto
+* 1 mes
+
+
+### **8.2.1. Hypotheses**
+
+**H1 — Filtros Avanzados**
+“Si se aplican filtros avanzados, el adoptante encontrará una coincidencia adecuada en menos de 3 minutos.”
+**H0:** No existe diferencia significativa.
+
+**H2 — Historial Médico Visible**
+“Las fichas con historial médico generarán ≥ 25% más solicitudes.”
+**H0:** No genera cambios significativos.
+
+**H3 — Onboarding Guiado**
+“El onboarding reducirá el tiempo hasta la primera solicitud en ≥ 20%.”
+**H0:** No reduce tiempos.
+
+**H4 — Chat Integrado**
+“El chat integrado reducirá mensajes externos en ≥ 30%.”
+**H0:** No reduce mensajes.
+
+---
+
+### **8.2.2. Domain Business Metrics**
+
+| Métrica                  | Fórmula                                      | Recolección | Meta          |
+| ------------------------ | -------------------------------------------- | ----------- | ------------- |
+| Adoption Conversion Rate | adopciones completadas / solicitudes totales | backend     | ≥ 10% mensual |
+| Request Start Rate       | sesiones que llegan a “Iniciar adopción”     | frontend    | ≥ 25%         |
+| Time to Match            | min. desde búsqueda hasta primer match       | tracking    | ≤ 3 min       |
+| Refugios Activos         | refugios con ≥1 publicación semanal          | logs        | ≥ 10          |
+| Admin Load Reduction     | (horas antes − horas después) / antes        | entrevistas | ≥ 50%         |
+| Messaging Effort         | mensajes externos / semana                   | refugios    | −30%          |
+
+---
+
+# ## **8.2.3. Measures**
+
+* **Tasa de abandono:**
+  sesiones sin interacción significativa / total de sesiones.
+
+* **Interacción significativa:**
+  apertura de perfil, aplicación de filtro, inicio de solicitud.
+
+* **Tiempo hasta match:**
+  diferencia entre timestamp de inicio y primer clic relevante.
+
+* **Solicitudes generadas:**
+  clics en “Iniciar adopción”.
+
+* **Carga operativa:**
+  número de mensajes externos + tiempo invertido en gestiones.
+
+* **Adopciones completadas:**
+  solicitudes aprobadas + verificación con refugio.
+
+### **8.2.4. Conditions**
+
+**Población:**
+
+* 20 adoptantes
+* 5 refugios (mínimo 1 administrador activo cada uno)
+
+**Ambiente:**
+
+* Prototipo navegable en móvil y desktop
+* Datos representativos (no reales)
+
+**Canal:**
+
+* Sesiones remotas y presenciales
+* Instrumentación por tracking automático
+
+**Duración por sesión:**
+
+* 8–10 minutos
+
+**Controles:**
+
+* Misma introducción y flujo inicial para todos
+* Misma mascota para pruebas comparativas A/B
+
+**Restricciones:**
+
+* No intervienen adopciones reales
+* Los datos son anonimizados y simulados
+
+
+
 # Conclusiones
 
 <div align = "justify">
