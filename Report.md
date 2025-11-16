@@ -3330,7 +3330,7 @@ Menor retrabajo, mayor consistencia del API, reducción de riesgos de seguridad 
 
 
 
-# Capítulo VI: *DevOps Practices*
+# Capítulo VII: *DevOps Practices*
 ## 7.1. *Continuous Integration*
 ### 7.1.1. *Tools and Practices*
 Para esta sección tuvimos en cuenta la **Integración Continua** como una práctica esencial dentro del desarrollo ágil.  
@@ -3490,8 +3490,59 @@ Escalado: Issue crítico sin actividad >4 h etiqueta escalate; >8 h sugiere roll
 
 Resumen semanal: Consolidado manual con conteo de alertas críticas, causas y acciones aplicado a seguimiento interno.
 
+# Capítulo VIII: *Experiment-Driven Development*
+## 8.1. *Experiment Planning*
+### 8.1.1. *As-Is Summary*
+En la actualidad, el proceso de adopción de mascotas en el Perú se caracteriza por la **informalidad, dispersión de información y falta de herramientas digitales especializadas**:
 
+**Coordinación fragmentada:** Refugios, rescatistas y adoptantes interactúan principalmente a través de **publicaciones en redes sociales (Facebook, Instagram)**, mensajes de WhatsApp y llamadas telefónicas, sin un canal centralizado ni estandarizado.
 
+**Registro manual y desorganizado:** La información de las mascotas (edad, estado de salud, comportamiento, historial médico) se almacena en documentos físicos, cuadernos o notas dispersas en dispositivos personales, sin respaldo digital ni acceso compartido.
+
+**Procesos de adopción poco transparentes:** No existe un formulario estandarizado ni un sistema de seguimiento del estado de las solicitudes. Los adoptantes no saben si su postulación fue recibida, está en evaluación o fue rechazada, generando incertidumbre y abandono del proceso.
+
+**Trazabilidad limitada:** No hay un historial consolidado de adopciones exitosas, animales devueltos o seguimiento post-adopción. Los refugios pierden visibilidad sobre el bienestar de las mascotas una vez entregadas.
+
+**Decisiones basadas en intuición:** Los rescatistas y refugios carecen de datos estructurados para identificar patrones (tipos de animales más adoptados, tiempo promedio de adopción, perfiles de adoptantes más comprometidos), limitando la capacidad de mejorar procesos y estrategias.
+
+Este escenario provoca:
+
+- **Adopciones fallidas o deserciones:** Falta de información clara sobre necesidades especiales o comportamiento del animal genera expectativas erróneas y devoluciones.
+- **Desconfianza en adoptantes:** La ausencia de validación de identidad o historial del solicitante aumenta el riesgo de negligencia o maltrato animal.
+- **Sobrepoblación en refugios:** Mascotas con necesidades especiales permanecen hasta **3 veces más tiempo** en espera de adopción debido a la baja visibilidad y falta de filtros adecuados.
+- **Carga operativa excesiva:** Rescatistas invierten más del **40% de su tiempo** en gestiones manuales (responder mensajes, coordinar visitas, completar formularios repetitivos) en lugar de dedicarse al cuidado directo de los animales.
+- **Pérdida de oportunidades de donación:** Al no existir un canal claro y confiable, muchos interesados en apoyar económicamente a refugios desisten por falta de transparencia o acceso limitado a información sobre necesidades específicas.
+
+### 8.1.2. *Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.*
+
+Antes de definir experimentos o prototipos, reunimos todo el "material en bruto" que da origen a nuestro backlog. Este inventario combina:
+
+**Suposiciones (A)** → Lo que creemos cierto, pero aún no hemos validado.  
+**Lagunas de conocimiento (K)** → Datos que necesitamos recopilar para tomar buenas decisiones.  
+**Ideas (I)** → Propuestas de funcionalidad o mejora surgidas de la observación del problema.  
+**Claims (C)** → Afirmaciones de valor que tendremos que demostrar con evidencia.
+
+Cada ítem se registra con una acción siguiente concreta para facilitar su priorización y, sobre todo, su validación empírica en los próximos sprints de experimentación.
+
+| **Tipo** | **Formulación** | **Acción** |
+|----------|-----------------|------------|
+| **Suposición** | Los refugios aceptarán un formulario digital como prueba suficiente del compromiso del adoptante. | Realizar entrevistas con 5 refugios para validar requisitos de evaluación. |
+| **Laguna** | No conocemos el tiempo promedio que toma completar una adopción desde la búsqueda hasta la entrega. | Analizar 30 solicitudes históricas e identificar cuellos de botella. |
+| **Idea** | Implementar notificaciones cuando cambie el estado de una solicitud (recibida, en revisión, aprobada). | Prototipar flujo de notificaciones y medir tasa de apertura. |
+| **Idea** | Integrar filtros avanzados por tipo, tamaño, edad, necesidades especiales y ubicación del refugio. | Comparar búsqueda con filtros vs manual en 3 grupos piloto. |
+| **Idea** | Diseñar onboarding guiado para adoptantes y refugios. | A/B test con y sin tutorial; medir tiempo hasta primera solicitud. |
+| **Claim** | Un historial médico visible aumentará la confianza del adoptante. | Definir métricas: vistas del historial y reducción de consultas por WhatsApp. |
+| **Claim** | Mostrar estadísticas de adopción durante prueba gratuita incrementará conversión a plan premium. | Experimento de 30 días; medir uplift ≥ 15%. |
+| **Idea** | Chat interno entre adoptante y refugio centralizará comunicación. | Probar WebSocket y monitorear reducción de mensajes externos > 30%. |
+| **Idea** | Dashboard con KPIs (solicitudes, adopciones, tiempo promedio) motivará uso continuo. | Diseñar panel mínimo y medir visitas semanales. |
+| **Suposición** | Los adoptantes prefieren videos y fotos de alta calidad antes de solicitar. | A/B test: perfiles con video vs solo fotos; medir tasa de solicitudes. |
+| **Laguna** | No sabemos qué porcentaje de solicitudes son rechazadas por datos incompletos. | Recopilar datos de 20 refugios sobre rechazos y motivos. |
+| **Idea** | Seguimiento post-adopción a los 30, 60 y 90 días para verificar bienestar. | Prototipar recordatorios y formularios breves; medir tasa de respuesta. |
+| **Claim** | Facilitar adopciones transparentes reducirá el tiempo de permanencia en refugios en 40%. | Medir tiempo antes y después en 10 refugios piloto durante 3 meses. |
+| **Idea** | Sección "Casos Urgentes" para mascotas en situación crítica o con necesidades especiales. | Evaluar incremento de visitas y solicitudes vs no destacadas. |
+| **Suposición** | Los refugios están dispuestos a pagar por funcionalidades premium. | Encuestas de disposición a pagar con 10 refugios interesados. |
+| **Laguna** | No sabemos qué características valoran más al elegir mascota (edad, tamaño, historia, salud). | Analizar comportamiento de búsqueda en primeros 100 usuarios. |
+| **Claim** | Digitalizar el proceso reducirá carga administrativa >50%, liberando tiempo para cuidado directo. | Medir horas semanales antes y después de usar la plataforma en 5 refugios. |
 
 # Conclusiones
 
