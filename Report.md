@@ -3326,6 +3326,124 @@ Menor retrabajo, mayor consistencia del API, reducción de riesgos de seguridad 
 3. ¿La recomendarías a otros cuidadores o centros de adopción? ¿Por qué?
 
 ### 6.3.2. *Registro de Entrevistas*
+
+**Segmento Objetivo #1: Personal de Refugios y Rescatistas de Animales (Administradores, Cuidadores y Voluntarios)**
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Jhon</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Pinto</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>22 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Ate</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular, laptop</td>
+  </tr>
+
+  <tr>
+    <td>Entrevistador</td>
+    <td>Christian Espinoza</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="Images/chapter6/Jhon pinto entrevsita val.png" alt="Jhon Pinto"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAlChXr5pf3Ta4YAdoYcb9xAQQ6OutlLV0lJu6tHeb5gw8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FTeQdu" title="Title">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAlChXr5pf3Ta4YAdoYcb9xAQQ6OutlLV0lJu6tHeb5gw8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FTeQdu</a></p></td> 
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>7:09 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Jhon Pinto, rescatista independiente, valora una plataforma que priorice la transparencia y el bienestar animal. Aunque encuentra la navegación clara, necesita información más completa: historial médico, estado de vacunación/esterilización y comportamiento. También requiere filtros más visibles por especie, un proceso de adopción con pasos claros de validación y seguimiento post-adopción, y reportes transparentes en donaciones. Considera útil la app para buscar y difundir, pero solo confiaría plenamente si garantiza trazabilidad y compromiso del adoptante.</td>
+  </tr>
+</tbody>
+</table>
+<br/>
+
+
+**Segmento Objetivo #2: Adoptantes Potenciales (Personas interesadas en adoptar animales)**
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Álvaro</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Acero</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>24 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>La Molina</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular, laptop</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Christian Espinoza</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="Images/chapter6/alvaro acero entrevista val.png" alt="Álvaro Acero"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAEEmI7ZuQHR5K7qoVDpdR1AdITH48H9ECuwLq-3FYfac4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=m3LXmI" title="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAEEmI7ZuQHR5K7qoVDpdR1AdITH48H9ECuwLq-3FYfac4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=m3LXmI">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAEEmI7ZuQHR5K7qoVDpdR1AdITH48H9ECuwLq-3FYfac4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=m3LXmI</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>7:39 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Álvaro Acero considera la plataforma clara y fácil de navegar, pero insuficiente en información clave para adoptar con seguridad. Necesita ver historial médico, validación del refugio y un flujo completo del proceso de adopción, ya que solo encuentra el botón “Request adoption” sin requisitos ni pasos previos. Aunque los filtros funcionan, pide uno más visible para diferenciar perros y gatos, además de un botón de favoritos y un ícono que indique si existe información de salud. En donaciones requiere transparencia y reportes, y su confianza aumentaría con sellos de verificación y reseñas. Para él, la plataforma sería más útil si añadiera seguimiento post-adopción y mayor claridad en todo el proceso.</td>
+  </tr>
+</tbody>
+</table>
+
+<br/>
+
+
+
+
 ### 6.3.3. *Evaluaciones según heurísticas*
 
 
