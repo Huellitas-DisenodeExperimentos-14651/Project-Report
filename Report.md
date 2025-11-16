@@ -3448,8 +3448,63 @@ Menor retrabajo, mayor consistencia del API, reducción de riesgos de seguridad 
   </tr>
 </tbody>
 </table>
+
 <br/>
 
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Camila</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Paredes</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>21 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Juan de Lurigancho</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular, laptop</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Harrison Payesa</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="https://github.com/user-attachments/assets/e67bed95-d7bc-48be-bfe5-7ceff78f2fd2" alt="Camila Paredes"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/EdTBapRNLA1AqA5Q4qIUHlwBOpdAERrRh4iirG3ggYEcGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jddj0T" title="Title">Ver Entrevista</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>4:00</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Camila Paredes, estudiante con experiencia en adopción, encontró la plataforma "Huellitas Conectadas" con una navegación muy intuitiva, pero su principal preocupación es la falta de información clara sobre la salud de las mascotas; específicamente, exige que la plataforma indique de forma visible si el animal está vacunado y esterilizado. Además, para evitar su frustración con la burocracia, necesita que la plataforma detalle los pasos del proceso de adopción y los requisitos antes de iniciar la solicitud, sugiriendo agregar un chat directo para comunicación rápida y un sistema de seguimiento post-adopción para aumentar su confianza y la utilidad de la aplicación.</td>
+  </tr>
+</tbody>
+</table>
+
+</div>
 
 **Segmento Objetivo #2: Adoptantes Potenciales (Personas interesadas en adoptar animales)**
 
@@ -3507,6 +3562,60 @@ Menor retrabajo, mayor consistencia del API, reducción de riesgos de seguridad 
 </table>
 
 <br/>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Camila</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Paredes</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>21 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Juan de Lurigancho</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular, laptop</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Harrison Payesa</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="https://github.com/user-attachments/assets/e67bed95-d7bc-48be-bfe5-7ceff78f2fd2" alt="Camila Paredes"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/EdTBapRNLA1AqA5Q4qIUHlwBOpdAERrRh4iirG3ggYEcGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jddj0T" title="Title">Ver Entrevista</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>4:00</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Camila Paredes, con experiencia previa en rescate de mascotas, busca adoptar un perro mediano, pero su interés principal es la confiabilidad de la plataforma, pues teme la burocracia y la información incompleta. Su enfoque digital es lograr una experiencia lo más ágil y transparente posible, pidiendo perfiles detallados que incluyan la garantía de que el animal esté sano, vacunado y esterilizado. Además, dado que valora la orientación, confía en que una plataforma sea útil si ofrece filtros de adoptantes rigurosos para asegurar buenos hogares y, crucialmente, si establece un seguimiento post-adopción claro y activo que brinde acompañamiento en los primeros meses. En esencia, busca una herramienta que valide tanto a los animales como a los adoptantes para minimizar riesgos y maximizar el bienestar.</td>
+  </tr>
+</tbody>
+</table>
+</div>
 
 ### 6.3.3. *Evaluaciones según heurísticas*
 #### TAREAS A EVALUAR:
