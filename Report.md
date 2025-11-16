@@ -3441,11 +3441,198 @@ Menor retrabajo, mayor consistencia del API, reducción de riesgos de seguridad 
 
 <br/>
 
-
-
-
 ### 6.3.3. *Evaluaciones según heurísticas*
+#### TAREAS A EVALUAR:
+El alcance de esta evaluación incluye una revisión exhaustiva de la usabilidad en las siguientes tareas clave dentro de la aplicación web:
 
+- **Registro de Usuarios y Selección de Rol**: Evaluaremos la facilidad con la que los usuarios pueden registrarse y seleccionar su rol (adoptante, refugio, rescatista). Esto incluye la claridad de las instrucciones y la accesibilidad de los formularios.
+
+- **Búsqueda y Filtrado de Mascotas**: Analizaremos cómo los usuarios pueden buscar y filtrar mascotas disponibles para adopción. La evaluación se centrará en la efectividad de los filtros, la visibilidad de la información y la facilidad de uso del sistema de búsqueda.
+
+- **Proceso de Adopción**: Revisaremos la claridad y la facilidad del proceso de adopción, incluyendo la presentación de requisitos y pasos a seguir. Esto incluye la evaluación de la información proporcionada y la navegación entre las diferentes etapas del proceso.
+
+- **Gestión de Donaciones**: Evaluaremos cómo los usuarios pueden realizar donaciones y la transparencia del proceso. Esto incluye la claridad de la información sobre cómo se utilizan las donaciones y la facilidad para completar la transacción.
+
+- **Interacción con el Dashboard**: Revisaremos la interfaz del dashboard para asegurar que los usuarios puedan acceder fácilmente a la información relevante sobre mascotas, adopciones y donaciones. Esto incluye la presentación de datos críticos y la eficiencia en la navegación.
+
+---
+
+#### ESCALA DE SEVERIDAD
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+#### TABLA RESUMEN:
+
+| # | Problema | Escala de Severidad | Heurística/Principio violado |
+|---|----------|---------------------|------------------------------|
+| 1 | Dificultad para encontrar información sobre mascotas | 3 | Usabilidad: Visibilidad del estado del sistema |
+| 2 | Proceso de adopción confuso y poco claro | 3 | Usabilidad: Flexibilidad y eficiencia de uso |
+| 3 | Falta de opciones de filtrado en la búsqueda de mascotas | 2 | Arquitectura de Información: ¿Es encontrable? |
+| 4 | Información sobre donaciones poco clara | 2 | Usabilidad: Diseño estético y minimalista |
+| 5 | Interfaz del dashboard sobrecargada | 3 | Usabilidad: Diseño estético y minimalista |
+
+---
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+##### PROBLEMA #1: Dificultad para encontrar información sobre mascotas
+- **Severidad**: 3  
+- **Heurística violada**: Usabilidad - Visibilidad del estado del sistema  
+- **Problema**: Los usuarios tienen dificultades para localizar información específica sobre las mascotas disponibles para adopción. La falta de una presentación clara y accesible de los datos puede llevar a confusión y frustración.  
+- **Recomendación**:  
+  - Implementar un diseño más claro y organizado para la presentación de información sobre mascotas.  
+  - Incluir etiquetas y descripciones que faciliten la identificación rápida de cada mascota.  
+  - Agregar un sistema de búsqueda y filtrado más robusto.
+
+##### PROBLEMA #2: Proceso de adopción confuso y poco claro
+- **Severidad**: 3  
+- **Heurística violada**: Usabilidad - Flexibilidad y eficiencia de uso  
+- **Problema**: El proceso de adopción no está claramente definido, lo que puede llevar a que los usuarios se sientan perdidos o inseguros sobre los pasos a seguir.  
+- **Recomendación**:  
+  - Crear un flujo de trabajo visual que guíe a los usuarios a través del proceso de adopción.  
+  - Proporcionar información detallada sobre los requisitos y pasos necesarios en cada etapa.
+
+##### PROBLEMA #3: Falta de opciones de filtrado en la búsqueda de mascotas
+- **Severidad**: 2  
+- **Heurística violada**: Arquitectura de Información - ¿Es encontrable?  
+- **Problema**: La ausencia de filtros efectivos en la búsqueda de mascotas limita la capacidad de los usuarios para encontrar rápidamente lo que buscan.  
+- **Recomendación**:  
+  - Implementar filtros por tipo de mascota, tamaño, edad y otros criterios relevantes.  
+  - Asegurar que los filtros sean fácilmente accesibles y visibles en la interfaz.
+
+##### PROBLEMA #4: Información sobre donaciones poco clara
+- **Severidad**: 2  
+- **Heurística violada**: Usabilidad - Diseño estético y minimalista  
+- **Problema**: La información relacionada con las donaciones no es lo suficientemente clara, lo que puede generar desconfianza en los usuarios.  
+- **Recomendación**:  
+  - Proporcionar detalles claros sobre cómo se utilizan las donaciones y el impacto que tienen.  
+  - Simplificar la presentación de la información para que sea más accesible.
+
+##### PROBLEMA #5: Interfaz del dashboard sobrecargada
+- **Severidad**: 3  
+- **Heurística violada**: Usabilidad - Diseño estético y minimalista  
+- **Problema**: La interfaz del dashboard presenta demasiada información simultáneamente, dificultando la identificación rápida de datos relevantes.  
+- **Recomendación**:  
+  - Simplificar la interfaz mostrando solo la información esencial.  
+  - Implementar un diseño más limpio y organizado que facilite la navegación y el acceso a la información.
+
+
+## 6.4 *Auditoría de Experiencias de Usuario*
+### 6.4.1. *Auditoría realizada.*
+#### 6.4.1.1 *Información del grupo auditado.*
+| Campo | Detalle |
+|------|---------|
+| Nombre del grupo | ClinicCode (Producto: Dentify) |
+| Integrantes | - Aponte Cruzado, Andrea Marielena<br>- Belahonia Miranda, Fabrisio<br>- Bohorquez Lerzundi, Gerardo Sebastian<br>- Cutiri Agüero, Fabrizio Alexander<br>- Berrocal Ramirez, Omar Christian |
+#### 6.4.1.2 *Cronograma de auditoría realizada.*
+
+| Fecha        | Actividad                                                                 | Responsable                          |
+|--------------|---------------------------------------------------------------------------|--------------------------------------|
+| 14-nov-2025  | Planificación, Revisión de Documentación (Requisitos y Arquitectura)      | Espinoza Saenz, Christian Renato     |
+| 14-nov-2025  | Ejecución de Pruebas Heurísticas de Usabilidad (Interfaz Móvil y Web)     | Payesa Torres, Harrison Hubert       |
+| 15-nov-2025  | Simulación de Flujos Críticos (Gestión de Pacientes, Odontograma)         | Navarro Correa, César Augusto        |
+| 15-nov-2025  | Consolidación, Clasificación y Priorización de Hallazgos                  | Espinoza Saenz, Christian Renato     |
+| 15-nov-2025  | Cierre de Auditoría y Entrega de Recomendaciones Finales                 | Payesa Torres, Harrison Hubert       |
+#### 6.4.1.3. *Contenido de auditoría realizada.*
+**Tareas evaluadas (alcance):**
+- Ausencia de doble confirmación en modificación de datos sensibles.
+- Poca visibilidad de recordatorios de citas y tratamientos pendientes.
+- Incapacidad de operar la agenda o historial en modo offline.
+- Falta de guía visual para el registro de diagramas dentales (odontograma).
+- Dificultad en la generación de reportes financieros y de productividad.
+
+**Descripción de problemas y recomendaciones:**
+
+- PROBLEMA #1: Ausencia de doble confirmación en datos sensibles del paciente  
+  Severidad: 4 (Crítica)  
+  Heurística violada: Usabilidad – Prevención de errores  
+  Problema: El sistema permite modificar o eliminar el historial clínico (p. ej., alergias, diagnósticos) o datos de facturación sin requerir una confirmación de doble paso ni registro de autenticación. Esto eleva el riesgo de errores médicos o pérdida de información financiera.  
+  Recomendación: Implementar diálogos de confirmación obligatorios y un registro de auditoría (log) detallado para rastrear cambios en historial clínico y facturación.
+
+- PROBLEMA #2: Poca visibilidad de recordatorios de citas y tratamientos pendientes  
+  Severidad: 3 (Mayor)  
+  Heurística violada: Usabilidad – Reconocimiento antes que recuerdo  
+  Problema: El dashboard no resalta claramente citas canceladas, no-shows o tratamientos con seguimiento (recall), afectando la gestión de agenda y productividad.  
+  Recomendación: Usar códigos de color y widgets de alerta en la vista principal para estados críticos; agregar filtro rápido “Citas de seguimiento pendientes”.
+
+- PROBLEMA #3: Incapacidad de operar la agenda/historial en modo offline  
+  Severidad: 3 (Mayor)  
+  Heurística violada: Usabilidad – Coincidencia entre el sistema y el mundo real  
+  Problema: La aplicación deja de ser funcional ante pérdida temporal de conectividad, impidiendo ver fichas agendadas o tomar notas clínicas.  
+  Recomendación: Desarrollar modo de contingencia (offline) con acceso a agenda del día e historiales recientes y sincronización automática al restablecer conexión.
+
+- PROBLEMA #4: Falta de guía visual para el registro del odontograma  
+  Severidad: 2 (Menor)  
+  Heurística violada: Usabilidad – Flexibilidad y eficiencia de uso  
+  Problema: El módulo de odontograma carece de leyendas, tooltips o guías visuales que expliquen simbología y flujo de registro, ralentizando el trabajo clínico.  
+  Recomendación: Integrar guía de simbología de acceso rápido y tooltips contextuales sobre el diagrama dental para describir uso y evitar errores.
+
+- PROBLEMA #5: Dificultad en la generación de reportes financieros y de productividad  
+  Severidad: 2 (Menor)  
+  Heurística violada: Arquitectura de Información – ¿Es utilizable?  
+  Problema: La generación de informes (facturación por dentista, ingresos por tratamiento) requiere muchos pasos y filtros poco intuitivos.  
+  Recomendación: Crear sección “Reportes de Gestión” con plantillas predefinidas (p. ej., “Ingresos mensuales”) y simplificar exportación (Excel/CSV).
+
+### 6.4.2. *Auditoría recibida.*
+#### 6.4.2.1 *Información del grupo auditor.*
+ Campo | Detalle |
+|------|---------|
+| Nombre de la Startup | Huellitas Conectadas |
+| Producto | Adopta! |
+| Integrantes | - Espinoza Saenz, Christian Renato – U202213208<br>- Payesa Torres, Harrison Hubert – U202221024<br>- Navarro Correa, César Augusto – U202310129 |
+
+#### 6.4.2.2 *Cronograma de auditoría recibida.*
+| Fecha       | Actividad                                                                                 | Responsable                                |
+|------------|--------------------------------------------------------------------------------------------|--------------------------------------------|
+| 14-nov-2025| Revision general del producto(Landing, Web y Mobile)                                     | Aponte Cruzado, Andrea Marielena           |
+| 14-nov-2025| Evaluación de heuristicas                              | Belahonia Miranda, Fabrisio                |
+| 15-nov-2025| Walkthrough y pruebas de flujos críticos (Búsqueda, Adopciones, Donaciones)                | Bohorquez Lerzundi, Gerardo Sebastian      |
+| 15-nov-2025| Consolidación de hallazgos, clasificación y priorización                                   | Cutiri Agüero, Fabrizio Alexander          |
+| 15-nov-2025| Presentación de resultados y entrega de informe con recomendaciones                        | Berrocal Ramirez, Omar Christian           |
+#### 6.4.2.3 *Contenido de auditoría recibida*
+**Tareas a Evaluar:**
+El alcance de esta evaluación incluyó una revisión exhaustiva de la usabilidad en las siguientes tareas clave dentro de la aplicación web:
+- Registro de usuarios y selección de rol
+- Registro de mascotas y llenado de información relevante
+- Registro de refugios y gestión de animales
+- Coherencia entre publicaciones, animales registrados y solicitudes de adopción
+
+**Descripción de Problemas:**
+
+- Problema #01: Opciones de rol con fondo transparente que se sobreponen al formulario  
+  - Severidad: 2  
+  - Heurística violada: Visibilidad del estado del sistema  
+  - Problema: Al registrar un usuario, el menú desplegable para seleccionar el rol presenta opciones con fondo transparente, lo que hace que el texto se mezcle con el contenido del formulario. Esto dificulta la lectura, genera incertidumbre y puede llevar a la selección incorrecta de un rol.  
+  - Recomendación: Corregir estilos del dropdown: fondo sólido, sombra, z-index adecuado y evitar que contenedores recorten el menú.
+
+- Problema #02: Campos ambiguos “Vacunación” y “Necesidades Especiales” al registrar una mascota  
+  - Severidad: 3  
+  - Heurística violada: Correspondencia entre el sistema y el mundo real  
+  - Problema: Estos campos no especifican qué tipo de información espera la plataforma. El usuario nuevo no sabe si debe escribir texto, indicar fechas o colocar descripciones específicas. La falta de contexto lleva a respuestas inconsistentes, confusión y datos de baja calidad que pueden afectar procesos como adopción o búsqueda.  
+  - Recomendación: Reemplazar campos ambiguos por opciones guiadas (checkboxes, radio buttons, listas predefinidas) y añadir pequeños textos de ayuda o ejemplos.
+
+- Problema #03: Uso del mismo formulario para roles diferentes  
+  - Severidad: 2  
+  - Heurísticas violadas: Prevención de errores / Consistencia y estándares  
+  - Problema: La plataforma muestra el mismo formulario para todos los roles, aunque algunos campos son irrelevantes o confusos dependiendo del rol seleccionado. Campos como “Capacidad máxima de mascotas” o “Animales actualmente disponibles” parecen ser específicos para “Refugio”, pero también se presentan al registrar un “Adoptante”. De igual forma, “Tipo de Hogar” debería ser específico para “Adoptante”, pero también aparece en “Refugio”. Esto aumenta la carga cognitiva, confunde al usuario y genera posibles errores o información innecesaria.  
+  - Recomendación: Implementar formularios dinámicos según el rol seleccionado: mostrar solo campos relevantes y validar únicamente la información correspondiente a ese rol.
+
+#### 6.4.2.4 *Resumen de modificaciones para subsanar hallazgos*
+Se corrigió el selector de rol en el registro de usuarios aplicando estilos de fondo sólido, borde y sombra, además de ajustar el z-index y la posición del contenedor para evitar superposiciones con el formulario. Se habilitó overflow visible en el padre cuando corresponde y se añadieron estados de foco/hover para mejorar la legibilidad. Con ello, el menú dejó de mezclarse con el contenido y la selección del rol resultó clara en desktop y mobile.
+
+Se reemplazaron los campos ambiguos “Vacunación” y “Necesidades Especiales” por controles guiados: en “Vacunación”, un selector con opciones estructuradas (Completa, Parcial, No aplica) y campo opcional de última fecha; en “Necesidades Especiales”, una lista de chequeo predefinida con opción “Otra” y texto complementario. Se añadieron ayudas contextuales (helper text) y validaciones en cliente; en el backend se alinearon DTO y enums para evitar entradas libres inconsistentes.
+
+Se implementaron formularios dinámicos según rol (Adoptante, Refugio, Rescatista). El front muestra solo campos relevantes por rol y valida requisitos específicos (por ejemplo, “Capacidad máxima” solo para Refugio y “Tipo de hogar” solo para Adoptante). En el backend se agregaron validaciones diferenciadas por payload y se ignoraron campos no aplicables para reducir errores y carga cognitiva.
+
+Adicionalmente, se reforzó la coherencia entre publicaciones, animales registrados y solicitudes: se validó que toda publicación esté asociada a una mascota existente y que las solicitudes apunten a estados válidos, evitando inconsistencias de datos. Tras los cambios, se reejecutaron pruebas heurísticas y smoke tests post-despliegue, confirmando la mitigación de los hallazgos.
 
 
 # Capítulo VII: *DevOps Practices*
