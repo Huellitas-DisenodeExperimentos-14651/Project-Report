@@ -4344,6 +4344,121 @@ Principios
 - Usar identificadores anónimos.
 - Mantener la misma estructura de eventos en web y mobile.
 
+## 8.3. *Experimentation*
+
+## 8.3.1. To-Be User Stories
+
+<table>
+  <thead>
+    <tr>
+      <th>Storie ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Acceptance Criteria</th>
+      <th>Epic ID</th>
+    </tr>
+  </thead>
+  <tbody>
+      <td>04</td>
+      <td>Buscar mascotas</td>
+      <td>Como adoptante, quiero buscar mascotas por filtros para encontrar una adecuada.</td>
+      <td>
+        Escenario 1: Filtro de búsqueda exitoso<br>
+        Given que el usuario accede a la sección de búsqueda.<br>
+        When aplica los filtros.<br>
+        Then se muestran mascotas que cumplen con los criterios seleccionados.<br><br>
+        Escenario 2: No se encuentran resultados<br>
+        Given que el usuario aplica filtros muy específicos.<br>
+        When presiona "Buscar".<br>
+        Then el sistema muestra un mensaje indicando que no se encontraron resultados.
+      </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>07</td>
+      <td>Solicitar adopción</td>
+      <td>Como adoptante, quiero enviar una solicitud para adoptar una mascota.</td>
+      <td>
+        Escenario 1: Solicitud enviada exitosamente<br>
+        Given que el usuario ha completado el formulario de solicitud.<br>
+        When presiona "Enviar solicitud".<br>
+        Then la solicitud es enviada al refugio con los datos del adoptante.<br><br>
+        Escenario 2: Solicitud incompleta<br>
+        Given que el usuario no ha completado todos los campos obligatorios del formulario.<br>
+        When presiona "Enviar solicitud".<br>
+        Then el sistema muestra un mensaje de error solicitando completar los campos faltantes.
+      </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Ver historial médico de mascota</td>
+      <td>Como adoptante, quiero ver el historial médico de una mascota.</td>
+      <td>
+        Escenario 1: Acceso al historial<br>
+        Given que el usuario accede al perfil de la mascota.<br>
+        When navega a la sección de salud.<br>
+        Then se muestra el historial médico disponible.
+      </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Ver recomendaciones de adopción</td>
+      <td>Como adoptante, quiero recibir recomendaciones de mascotas según mi perfil.</td>
+      <td>
+        Escenario 1: Recomendación automática<br>
+        Given que el usuario ha completado su perfil.<br>
+        When accede a la página de inicio.<br>
+        Then se muestran recomendaciones personalizadas basadas en sus preferencias y búsquedas.
+      </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Ver preferencias de adopción</td>
+      <td>Como adoptante, quiero poder actualizar mis preferencias de adopción.</td>
+      <td>
+        Escenario 1: Actualización exitosa<br>
+        Given que el usuario está autenticado.<br>
+        When actualiza sus preferencias.<br>
+        Then el sistema guarda los cambios y muestra un mensaje de confirmación.
+      </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Ver estadísticas básicas de adopción</td>
+      <td>Como administrador, quiero ver estadísticas básicas de adopciones realizadas en la plataforma.</td>
+      <td>
+        Escenario 1: Estadísticas disponibles<br>
+        Given que existen datos de adopciones.<br>
+        When accede al panel.<br>
+        Then visualiza gráficos o números con datos básicos.<br><br>
+        Escenario 2: Sin datos disponibles<br>
+        Given que no hay adopciones registradas.<br>
+        When accede al panel.<br>
+        Then se muestra un mensaje indicando que no existen estadísticas aún.
+      </td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+
+## 8.3.2. To-Be Product Backlog
+
+<div align = "justify">
+
+| Storie ID | Título                              | Descripción                                                                                       | Acceptance Criteria | Epic ID |
+|-----------|-------------------------------------|---------------------------------------------------------------------------------------------------|---------------------|---------|
+| 04        | Buscar mascotas                     | Como adoptante, quiero buscar mascotas por filtros para encontrar una adecuada.                   | Escenario 1: Filtro exitoso (muestra resultados).<br>Escenario 2: Sin resultados (muestra mensaje informativo). | 2 |
+| 07        | Solicitar adopción                  | Como adoptante, quiero enviar una solicitud para adoptar una mascota.                             | Escenario 1: Solicitud enviada (datos completos).<br>Escenario 2: Incompleta (muestra error de campos faltantes). | 3 |
+| 16        | Ver historial médico de mascota     | Como adoptante, quiero ver el historial médico de una mascota.                                    | Escenario 1: Acceso al historial (sección salud en perfil). | 2 |
+| 19        | Ver recomendaciones de adopción     | Como adoptante, quiero recibir recomendaciones de mascotas según mi perfil.                       | Escenario 1: Recomendación automática (según perfil y búsquedas). | 2 |
+| 20        | Ver preferencias de adopción        | Como adoptante, quiero poder actualizar mis preferencias de adopción.                             | Escenario 1: Actualización exitosa (guarda cambios y confirma). | 2 |
+| 27        | Ver estadísticas básicas de adopción| Como administrador, quiero ver estadísticas básicas de adopciones.                                | Escenario 1: Estadísticas disponibles (gráficos o números).<br>Escenario 2: Sin datos (muestra aviso). | 6 |
+
+</div>
 
 # Conclusiones
 
