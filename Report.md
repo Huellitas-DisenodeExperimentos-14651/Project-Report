@@ -4475,6 +4475,67 @@ Principios
 
 </div>
 
+
+## 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+### 8.3.3.1. To-Be Sprint Backlogs
+
+## Sprint 2 - Experiment-Driven Development
+
+**Sprint Planning Background:**
+
+| Sprint # | Sprint 2 |
+|----------|----------|
+| **Sprint Planning Background** | |
+| Date | 2025-11-12 |
+| Time | 3:00 PM |
+| Location | Reunión virtual vía Google Meet |
+| Prepared By | Christian Espinoza |
+| Attendees (to planning meeting) | Christian Espinoza, Harrison Payesa, César Navarro |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | Implementar y validar experimentalmente las funcionalidades críticas identificadas en el Experiment Planning: filtros avanzados de búsqueda, visualización de historial médico, sistema de recomendaciones y mejoras en el proceso de adopción basadas en datos de usuarios reales |
+| Sprint 2 Velocity | 42 Story Points |
+| Sum of Story Points | 42 |
+
+---
+
+**Sprint Backlog 2:**
+
+| Sprint # | Sprint 2 | | | | | | |
+|----------|----------|---|---|---|---|---|---|
+| **User Story** | **Work-Item / Task** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| **US04 - Buscar mascotas con filtros avanzados** | | | | | | | |
+| | Implementar filtros básicos | T31 | Backend filtros múltiples | Desarrollar endpoint `/api/v1/pets/search` con query params: tipo, tamaño, edad, ubicación, necesidades especiales | 8 | César Navarro | Done |
+| | Diseñar UI de filtros | T32 | Interfaz de filtros responsiva | Crear componente de filtros colapsable con checkboxes, sliders y selectores múltiples | 6 | Christian Espinoza | Done |
+| | Integrar filtros con backend | T33 | Conexión filtros-API | Implementar llamadas dinámicas según filtros seleccionados con debounce para optimizar requests | 5 | Harrison Payesa | Done |
+| | Implementar tracking de uso | T34 | Analytics de filtros | Registrar qué filtros se usan más frecuentemente y cuáles generan más conversiones | 4 | Harrison Payesa | Done |
+| | Crear índices de búsqueda | T35 | Optimización BD | Implementar índices compuestos en PostgreSQL para mejorar performance de queries complejas | 5 | César Navarro | Done |
+| | Experimento A/B filtros | T36 | Test filtros vs búsqueda libre | Configurar experimento comparando búsqueda con filtros vs búsqueda por texto libre | 6 | Christian Espinoza | In-Process |
+| **US16 - Ver historial médico de mascota** | | | | | | | |
+| | Diseñar sección de salud | T37 | UI historial médico | Crear acordeón expandible con vacunas, esterilización, tratamientos y observaciones | 5 | Christian Espinoza | Done |
+| | Modelar datos médicos | T38 | Entidad MedicalHistory | Definir modelo de datos para historial médico con relaciones a Pet y timestamps | 4 | César Navarro | Done |
+| | Crear endpoint historial | T39 | Backend `/api/v1/pets/{id}/medical-history` | Implementar API para obtener historial médico completo de una mascota | 6 | César Navarro | Done |
+| | Integrar visualización | T40 | Conexión frontend-backend | Renderizar historial médico en perfil de mascota con estados de carga y error | 4 | Harrison Payesa | Done |
+| | Implementar tracking vistas | T41 | Analytics historial | Registrar cuántos usuarios ven el historial y tiempo de permanencia en la sección | 4 | Harrison Payesa | Done |
+| | Experimento impacto historial | T42 | A/B test con/sin historial | Comparar tasa de solicitudes en perfiles con historial visible vs sin historial | 7 | Christian Espinoza | To-Review |
+| **US19 - Sistema de recomendaciones** | | | | | | | |
+| | Diseñar algoritmo básico | T48 | Recomendaciones por perfil | Implementar lógica de matching basada en preferencias de usuario y características de mascotas | 8 | César Navarro | To-Review |
+| | Crear sección recomendaciones | T49 | UI "Para ti" | Diseñar carrusel de mascotas recomendadas en página principal | 5 | Christian Espinoza | Done |
+| | Endpoint recomendaciones | T50 | Backend `/api/v1/recommendations` | API que retorna top 5 mascotas basadas en perfil del usuario | 7 | César Navarro | To-Review |
+| | Integrar en dashboard | T51 | Vista recomendaciones | Mostrar recomendaciones personalizadas al iniciar sesión | 4 | Harrison Payesa | Done |
+| | Tracking efectividad | T52 | Analytics recomendaciones | Medir tasa de clic y conversión de mascotas recomendadas vs búsqueda manual | 5 | Harrison Payesa | Done |
+| **US20 - Actualizar preferencias adopción** | | | | | | | |
+| | Diseñar formulario preferencias | T53 | UI configuración | Crear interfaz para definir tipo, tamaño, edad, energía preferida de mascota | 5 | Christian Espinoza | Done |
+| | Modelar preferencias usuario | T54 | Entidad AdoptionPreferences | Definir modelo de datos vinculado a User con campos configurables | 4 | César Navarro | Done |
+| | Endpoint preferencias | T55 | Backend `/api/v1/users/{id}/preferences` | CRUD completo para gestionar preferencias de adopción | 6 | César Navarro | Done |
+| | Conectar con recomendaciones | T56 | Integración preferencias-matching | Usar preferencias para refinar algoritmo de recomendaciones | 5 | César Navarro | In-Process |
+| **US27 - Dashboard estadísticas adopción** | | | | | | | |
+| | Diseñar panel estadísticas | T57 | UI dashboard admin | Crear vista con gráficos de adopciones por mes, refugios más activos, mascotas más solicitadas | 7 | Christian Espinoza | To-Review |
+| | Agregar queries reportes | T58 | Backend analytics | Implementar queries agregadas en PostgreSQL para obtener métricas de adopción | 6 | César Navarro | To-Review |
+| | Endpoint estadísticas | T59 | Backend `/api/v1/admin/stats` | API que retorna datos consolidados para dashboard | 5 | César Navarro | To-Review |
+| | Integrar gráficos | T60 | Librería Chart.js | Implementar visualizaciones interactivas con Chart.js en dashboard | 6 | Harrison Payesa | To-Review |
+
+
 # Conclusiones
 
 <div align = "justify">
