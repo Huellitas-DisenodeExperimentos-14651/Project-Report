@@ -3632,88 +3632,144 @@ Menor retrabajo, mayor consistencia del API, reducción de riesgos de seguridad 
 </div>
 
 ### 6.3.3. *Evaluaciones según heurísticas*
-#### TAREAS A EVALUAR:
-El alcance de esta evaluación incluye una revisión exhaustiva de la usabilidad en las siguientes tareas clave dentro de la aplicación web:
 
-- **Registro de Usuarios y Selección de Rol**: Evaluaremos la facilidad con la que los usuarios pueden registrarse y seleccionar su rol (adoptante, refugio, rescatista). Esto incluye la claridad de las instrucciones y la accesibilidad de los formularios.
+#### UX Heuristics & Principles Evaluation  
+**Usability – Inclusive Design – Information Architecture**
 
-- **Búsqueda y Filtrado de Mascotas**: Analizaremos cómo los usuarios pueden buscar y filtrar mascotas disponibles para adopción. La evaluación se centrará en la efectividad de los filtros, la visibilidad de la información y la facilidad de uso del sistema de búsqueda.
-
-- **Proceso de Adopción**: Revisaremos la claridad y la facilidad del proceso de adopción, incluyendo la presentación de requisitos y pasos a seguir. Esto incluye la evaluación de la información proporcionada y la navegación entre las diferentes etapas del proceso.
-
-- **Gestión de Donaciones**: Evaluaremos cómo los usuarios pueden realizar donaciones y la transparencia del proceso. Esto incluye la claridad de la información sobre cómo se utilizan las donaciones y la facilidad para completar la transacción.
-
-- **Interacción con el Dashboard**: Revisaremos la interfaz del dashboard para asegurar que los usuarios puedan acceder fácilmente a la información relevante sobre mascotas, adopciones y donaciones. Esto incluye la presentación de datos críticos y la eficiencia en la navegación.
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Diseño de Experimentos de Ingeniería de Software  
+**SECCIÓN:** 14651  
+**PROFESORES:** Juan Carlos Tinoco Licas  
+**AUDITOR:** ClinicCode (Dentify)  
+**CLIENTE(S):** Christian Espinoza Saenz, Harrison Payesa Torres, César Navarro Correa  
 
 ---
 
-#### ESCALA DE SEVERIDAD
+**SITE o APP A EVALUAR:**  
+Adopta! – Plataforma web y móvil de adopción responsable de mascotas
+
+---
+
+**TAREAS A EVALUAR:**  
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de usuario nuevo y selección de rol (Adoptante, Refugio, Rescatista)
+2. Búsqueda de mascotas con filtros avanzados
+3. Visualización de perfil detallado de mascota
+4. Envío de solicitud de adopción
+5. Publicación de mascota en adopción (Refugio/Rescatista)
+6. Gestión de solicitudes de adopción recibidas
+7. Visualización de historial médico de mascotas
+8. Actualización de preferencias de adopción
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Sistema de donaciones a refugios
+2. Chat en tiempo real entre adoptantes y refugios
+3. Seguimiento post-adopción automatizado
+4. Sistema de notificaciones push personalizadas
+5. Integración con veterinarias externas
+
+---
+
+**ESCALA DE SEVERIDAD:**  
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 | Nivel | Descripción |
 |-------|-------------|
-| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
-| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
 
 ---
 
-#### TABLA RESUMEN:
+**TABLA RESUMEN:**
 
-| # | Problema | Escala de Severidad | Heurística/Principio violado |
-|---|----------|---------------------|------------------------------|
-| 1 | Dificultad para encontrar información sobre mascotas | 3 | Usabilidad: Visibilidad del estado del sistema |
-| 2 | Proceso de adopción confuso y poco claro | 3 | Usabilidad: Flexibilidad y eficiencia de uso |
-| 3 | Falta de opciones de filtrado en la búsqueda de mascotas | 2 | Arquitectura de Información: ¿Es encontrable? |
-| 4 | Información sobre donaciones poco clara | 2 | Usabilidad: Diseño estético y minimalista |
-| 5 | Interfaz del dashboard sobrecargada | 3 | Usabilidad: Diseño estético y minimalista |
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|----------|---------------------|----------------------------------|
+| 1 | Opciones de rol con fondo transparente que se sobreponen al formulario de registro | 2 | Usability: Visibilidad del estado del sistema |
+| 2 | Campos ambiguos "Vacunación" y "Necesidades Especiales" al registrar una mascota | 3 | Usability: Correspondencia entre el sistema y el mundo real |
+| 3 | Uso del mismo formulario para roles diferentes (Adoptante, Refugio, Rescatista) | 2 | Usability: Prevención de errores / Consistencia y estándares |
+| 4 | No hay opción de regresar a búsqueda desde solicitud de adopción sin perder datos | 3 | Usability: Libertad y control del usuario |
 
 ---
 
-#### DESCRIPCIÓN DE PROBLEMAS:
+**DESCRIPCIÓN DE PROBLEMAS:**
 
-##### PROBLEMA #1: Dificultad para encontrar información sobre mascotas
-- **Severidad**: 3  
-- **Heurística violada**: Usabilidad - Visibilidad del estado del sistema  
-- **Problema**: Los usuarios tienen dificultades para localizar información específica sobre las mascotas disponibles para adopción. La falta de una presentación clara y accesible de los datos puede llevar a confusión y frustración.  
-- **Recomendación**:  
-  - Implementar un diseño más claro y organizado para la presentación de información sobre mascotas.  
-  - Incluir etiquetas y descripciones que faciliten la identificación rápida de cada mascota.  
-  - Agregar un sistema de búsqueda y filtrado más robusto.
+---
 
-##### PROBLEMA #2: Proceso de adopción confuso y poco claro
-- **Severidad**: 3  
-- **Heurística violada**: Usabilidad - Flexibilidad y eficiencia de uso  
-- **Problema**: El proceso de adopción no está claramente definido, lo que puede llevar a que los usuarios se sientan perdidos o inseguros sobre los pasos a seguir.  
-- **Recomendación**:  
-  - Crear un flujo de trabajo visual que guíe a los usuarios a través del proceso de adopción.  
-  - Proporcionar información detallada sobre los requisitos y pasos necesarios en cada etapa.
+**PROBLEMA #1:** Opciones de rol con fondo transparente que se sobreponen al formulario de registro
 
-##### PROBLEMA #3: Falta de opciones de filtrado en la búsqueda de mascotas
-- **Severidad**: 2  
-- **Heurística violada**: Arquitectura de Información - ¿Es encontrable?  
-- **Problema**: La ausencia de filtros efectivos en la búsqueda de mascotas limita la capacidad de los usuarios para encontrar rápidamente lo que buscan.  
-- **Recomendación**:  
-  - Implementar filtros por tipo de mascota, tamaño, edad y otros criterios relevantes.  
-  - Asegurar que los filtros sean fácilmente accesibles y visibles en la interfaz.
+**Severidad:** 2
 
-##### PROBLEMA #4: Información sobre donaciones poco clara
-- **Severidad**: 2  
-- **Heurística violada**: Usabilidad - Diseño estético y minimalista  
-- **Problema**: La información relacionada con las donaciones no es lo suficientemente clara, lo que puede generar desconfianza en los usuarios.  
-- **Recomendación**:  
-  - Proporcionar detalles claros sobre cómo se utilizan las donaciones y el impacto que tienen.  
-  - Simplificar la presentación de la información para que sea más accesible.
+**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
 
-##### PROBLEMA #5: Interfaz del dashboard sobrecargada
-- **Severidad**: 3  
-- **Heurística violada**: Usabilidad - Diseño estético y minimalista  
-- **Problema**: La interfaz del dashboard presenta demasiada información simultáneamente, dificultando la identificación rápida de datos relevantes.  
-- **Recomendación**:  
-  - Simplificar la interfaz mostrando solo la información esencial.  
-  - Implementar un diseño más limpio y organizado que facilite la navegación y el acceso a la información.
+**Problema:**  
+Al momento de registrar un usuario nuevo, el menú desplegable para seleccionar el rol (Adoptante, Refugio o Rescatista) presenta opciones con fondo transparente, lo que hace que el texto de las opciones se mezcle con el contenido del formulario subyacente. Esto dificulta la lectura del nombre del rol, genera incertidumbre visual y puede llevar a que el usuario seleccione incorrectamente un rol que no corresponde a sus intenciones. El problema se agrava en dispositivos móviles donde el espacio es más reducido.
 
+**Recomendación:**  
+Corregir los estilos CSS del dropdown aplicando un fondo sólido (por ejemplo, #FFFFFF o #EDE6DB de la paleta) con sombra (`box-shadow`) para dar profundidad. Ajustar el `z-index` para asegurar que el menú se superponga correctamente sin ser cortado por otros contenedores. Además, habilitar `overflow: visible` en el contenedor padre cuando sea necesario y añadir estados de foco/hover con cambio de color de fondo (#A3B18A o #F4A261) para mejorar la legibilidad y la experiencia de selección tanto en desktop como en mobile.
+
+---
+
+**PROBLEMA #2:** Campos ambiguos "Vacunación" y "Necesidades Especiales" al registrar una mascota
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad - Correspondencia entre el sistema y el mundo real
+
+**Problema:**  
+Al momento de que un refugio o rescatista publica una mascota en adopción, los campos "Vacunación" y "Necesidades Especiales" no especifican qué tipo de información espera la plataforma. Un usuario nuevo no sabe si debe escribir texto libre, indicar fechas específicas, colocar descripciones detalladas o simplemente responder "Sí/No". Esta ambigüedad lleva a respuestas inconsistentes entre diferentes usuarios (algunos escriben "todas", otros "completa", otros listan nombres de vacunas), lo que genera confusión en los adoptantes, datos de baja calidad que afectan las búsquedas y filtros, y dificulta procesos posteriores como verificación de historial médico o recomendaciones automáticas.
+
+**Recomendación:**  
+- Añadir textos de ayuda contextual (helper text) debajo de cada control explicando brevemente qué información se espera.
+- Implementar validaciones en el cliente para prevenir envíos incompletos.
+- Alinear en el backend los DTOs y enums correspondientes para evitar entradas libres inconsistentes.
+
+---
+
+**PROBLEMA #3:** Uso del mismo formulario para roles diferentes (Adoptante, Refugio, Rescatista)
+
+**Severidad:** 2
+
+**Heurísticas violadas:** Usabilidad - Prevención de errores / Consistencia y estándares
+
+**Problema:**  
+La plataforma muestra el mismo formulario de registro para todos los roles, aunque algunos campos son irrelevantes o confusos dependiendo del rol seleccionado. Por ejemplo:
+- Campos como "Capacidad máxima de mascotas" o "Animales actualmente disponibles" parecen específicos para "Refugio", pero también se presentan al registrar un "Adoptante", generando confusión sobre si deben completarlos o dejarlos vacíos.
+- De igual forma, "Tipo de Hogar" debería ser específico para "Adoptante" (casa, departamento, con jardín, etc.), pero también aparece en el registro de "Refugio" y "Rescatista", donde no tiene sentido funcional.
+
+Esta falta de diferenciación aumenta la carga cognitiva del usuario, lo confunde sobre qué información es realmente necesaria para su rol, y genera posibles errores o información innecesaria en la base de datos que después afecta la calidad de los perfiles y las recomendaciones del sistema.
+
+**Recomendación:**  
+Implementar formularios dinámicos según el rol seleccionado:
+- Diseñar tres variantes de formulario adaptadas a cada rol (Adoptante, Refugio, Rescatista), mostrando solo campos relevantes y solicitando únicamente la información correspondiente.
+- Validar únicamente la información correspondiente a ese rol en el backend.
+- Ocultar o deshabilitar campos no aplicables para reducir errores y mejorar la experiencia de usuario.
+
+---
+
+**PROBLEMA #4:** No hay opción de regresar a búsqueda desde solicitud de adopción sin perder datos
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad - Libertad y control del usuario
+
+**Problema:**  
+Al momento de que un adoptante está completando el formulario de solicitud de adopción para una mascota específica, no existe un control claro (botón o enlace) que le permita regresar a la página de búsqueda de mascotas o al perfil de la mascota sin perder los datos que ya ingresó en el formulario. Si el usuario decide revisar otras opciones o comparar con otras mascotas antes de confirmar su solicitud, se ve obligado a:
+- Abandonar el formulario completamente (perdiendo toda la información ingresada)
+- O completar la solicitud aunque no esté completamente seguro, incrementando el número de solicitudes que luego son canceladas
+
+Esto genera frustración en el usuario, incrementa el esfuerzo necesario para completar la tarea, y puede llevar a decisiones apresuradas que no benefician ni al adoptante ni al refugio.
+
+**Recomendación:**  
+Implementar las siguientes mejoras:
+- Añadir un botón "Guardar borrador" que permita al usuario guardar temporalmente sus datos y regresar a la búsqueda.
+- Considerar abrir el formulario de solicitud en un modal o panel lateral que permita cerrarlo y regresar sin perder contexto.
+- Añadir un mensaje de confirmación si el usuario intenta salir del formulario sin guardar: "¿Estás seguro de que deseas salir? Los datos ingresados se perderán."
+
+---
 
 ## 6.4 *Auditoría de Experiencias de Usuario*
 ### 6.4.1. *Auditoría realizada.*
