@@ -5,10 +5,10 @@
     <br>
     <strong>Ingeniería de Software - 2025-02</strong><br>
     <br>
-    <strong>Diseño de Experimentos de Ingeniería de Software - 14651</strong><br>  
+    <strong>Diseño de Experimentos de Ingeniería de Software - 1ASI0732 </strong><br>  
     <br>
     <strong>Profesor: Juan Carlos Tinoco Licas</strong><br>
-    <br> <strong>INFORME DE TB2</strong> 
+    <br> <strong>Informe de Trabajo Final</strong> 
 </p>
 <p align="center">
     <strong>Startup: Huellitas Conectadas</strong><br>
@@ -72,6 +72,9 @@
 ### [Project Report Collaboration Insights](#project-report-collaboration-insights)
 ### [Contenido](#contenido)
 ### [Student Outcome](#student-outcome-1)
+
+## Part I: As-Is Software Project
+
 ### [Capítulo I: Introducción](#capítulo-i-introducción-1)
 - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -104,8 +107,8 @@
 ### [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
 - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
 - [3.2. User Stories](#32-user-stories)
-- [3.3. Product Backlog](#33-impact-mapping)
-- [3.4. Impact Mapping](#34-product-backlog)
+- [3.3. Product Backlog](#33-product-backlog)
+- [3.4. Impact Mapping](#34-impact-mapping)
 
 ### [Capítulo IV: Product Design](#capítulo-iv-product-design)
 - [4.1. Style Guidelines](#41-style-guidelines)  
@@ -164,6 +167,8 @@
     - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)  
 - [5.3. Video About-the-Product](#53-video-about-the-product)  
 
+## Part II: Verification, Validation & Pipeline
+
 ### [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
 - [6.1. Testing Suites & Validation](#61-testing-suites--validation)  
     - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)  
@@ -205,6 +210,8 @@
     - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)  
     - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)  
     - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)  
+
+## Part III: Experiment-Driven Lifecycle
     
 ### [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
 - [8.1. Experiment Planning](#81-experiment-planning)  
@@ -225,6 +232,13 @@
 - [8.3. Experimentation](#83-experimentation)  
     - [8.3.1. To-Be User Stories](#831-to-be-user-stories)  
     - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)  
+    - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)  
+        - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)  
+        - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)  
+        - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)  
+        - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)  
+        - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)  
+        - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)  
 
 
 ### [Conclusiones](#conclusiones-1)
@@ -4183,6 +4197,7 @@ Chat básico dentro del prototipo.
 * 5 refugios piloto
 * 1 mes
 
+## **8.2. *Experiment Designs*
 
 ### **8.2.1. Hypotheses**
 
