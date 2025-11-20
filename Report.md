@@ -4274,21 +4274,13 @@ Chat básico dentro del prototipo.
 
 ### **8.2.1. Hypotheses**
 
-**H1 — Filtros Avanzados**
-“Si se aplican filtros avanzados, el adoptante encontrará una coincidencia adecuada en menos de 3 minutos.”
-**H0:** No existe diferencia significativa.
 
-**H2 — Historial Médico Visible**
-“Las fichas con historial médico generarán ≥ 25% más solicitudes.”
-**H0:** No genera cambios significativos.
-
-**H3 — Onboarding Guiado**
-“El onboarding reducirá el tiempo hasta la primera solicitud en ≥ 20%.”
-**H0:** No reduce tiempos.
-
-**H4 — Chat Integrado**
-“El chat integrado reducirá mensajes externos en ≥ 30%.”
-**H0:** No reduce mensajes.
+| ID | Feature | Question | Belief | Hypothesis | H0 | Métricas primarias | Regla de decisión (MDE) | Método |
+|----|---------|----------|--------|------------|----|---------------------|--------------------------|--------|
+| H1 | Filtros avanzados | ¿Los filtros avanzados reducen abandono y aceleran el Time to Match vs búsqueda básica? | Filtrar por tipo, tamaño, edad, ubicación y necesidades especiales reduce fricción. | Abandono ↓ ≥ 20% y mediana Time to Match ≤ 3 min vs control. | No se alcanza alguno de esos umbrales. | Tasa de abandono; Time to Match. | Validada si se cumplen ambos MDE (−20% abandono y ≤ 3 min). | A/B en prototipo (búsqueda básica vs filtros) |
+| H2 | Historial médico visible | ¿Mostrar historial médico aumenta la intención (Request Start Rate)? | Transparencia clínica eleva confianza. | Request Start Rate ↑ ≥ 25% vs sin historial. | No hay aumento ≥ 25%. | Request Start Rate. | Validada si el uplift es ≥ 25%. | A/B con perfiles equivalentes (con/sin historial) |
+| H3 | Onboarding guiado | ¿El onboarding guiado reduce tiempo al primer request y mejora intención? | La guía reduce carga cognitiva inicial. | Tiempo a primer request ↓ ≥ 20% y Request Start Rate ↑ ≥ 15% vs control. | No se alcanza alguno de esos umbrales. | Time to first request; Request Start Rate. | Validada si se cumplen ambos MDE (−20% y +15%). | A/B en primera sesión |
+| H4 | Chat integrado | ¿El chat integrado reduce mensajería externa y acelera primera respuesta? | Centralizar comunicación reduce dispersión y latencia. | Mensajes externos ↓ ≥ 30% y tiempo a primera respuesta ↓ ≥ 20% vs sin chat. | No se alcanza alguno de esos umbrales. | Messaging Effort; tiempo a primera respuesta. | Validada si se cumplen ambos MDE (−30% y −20%). | Piloto con ≥ 5 refugios (2–4 semanas) |
 
 ---
 
