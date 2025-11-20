@@ -63,6 +63,23 @@
 </div>
 
 ---
+# Project Report Collaboration Insights
+
+Se documento la colaboración del equipo para la elaboración del informe del proyecto. Incluye el URL oficial del repositorio del informe.
+
+• Repositorio del informe: https://github.com/Huellitas-DisenodeExperimentos-14651/Project-Report
+
+
+
+
+Evidencias :
+Se adjunta captura de los ultimos commits trabajados al igual que los usuarios y los contribuidores.
+
+![Evidence 1](Images/chapter1/Evidence1.png)
+![Evidence 2](Images/chapter1/evidence2.png)
+![Evidence 3](Images/chapter1/Evidence3.png)
+![Evidence 4](Images/chapter1/Evidence4.png)
+
 
 <div style="page-break-after: always;"></div>
 
