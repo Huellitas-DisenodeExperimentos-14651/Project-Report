@@ -4823,7 +4823,6 @@ Para validar el rendimiento y la experiencia de usuario de la plataforma **Adopt
 Los resultados demuestran un **rendimiento excelente** (92/100) con tiempos de carga rápidos y alta estabilidad visual, garantizando una experiencia de usuario óptima para los adoptantes y refugios. Las oportunidades de optimización identificadas permitirán mejorar aún más el rendimiento en futuras iteraciones.
 
 
-
 ## 8.4.2. Re-scored and Re-prioritized Question Backlog
 
 # 8.5. *Continuous Learning*
@@ -4873,7 +4872,11 @@ Los resultados demuestran un **rendimiento excelente** (92/100) con tiempos de c
 + Repositorio GitHub del Informe: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/Project-Report)<br><br>
 + Repositorio GitHub de la Landing Page: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/LandingPage)
 <br><br>
++ Deployment de la Landing Page: [Ver Deployment](https://huellitas-disenodeexperimentos-14651.github.io/LandingPage/)
+<br><br>
 + Repositorio GitHub del Forntend: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/Frontend)
+<br><br>
++ Deployment del frontend: [Ver Deployment](https://huellitasconectas.netlify.app/)
 <br><br>
 + Repositorio GitHub del Backend: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/Backend)
 <br><br>
