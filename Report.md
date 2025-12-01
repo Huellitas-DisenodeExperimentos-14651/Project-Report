@@ -4614,6 +4614,9 @@ Principios
 
 ### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
+<p align="center"><img width="auto" height="auto" src="https://github.com/user-attachments/assets/2520d9a5-2e81-4f86-8101-79f34ab813d3">
+
+
 ### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
 Se adjuntan capturas del frontend deplouyado mostrando cada pantalla.
@@ -4883,6 +4886,79 @@ Esta re-priorización orienta el siguiente ciclo de desarrollo hacia **mejorar a
 
 # 8.5. *Continuous Learning*
 ## 8.5.1 Shareback Session Artifacts: Learning Workflow
+
+### Step 1: Enough Evidence
+
+Contamos con evidencia cuantitativa técnica (Reporte de PageSpeed Insights con puntuación de 92/100) y evidencia cualitativa de usuario (validación de hipótesis sobre la importancia del historial médico y los filtros a través de entrevistas y pruebas de prototipo).
+
+### Step 2: Examine Evidence
+
+#### Organize: 
+
+Hemos clasificado los resultados en dos categorías principales:
+- Rendimiento Técnico: Métricas de Core Web Vitals (LCP, TBT, CLS).
+- Validación de Valor: Feedback de adoptantes sobre confianza y usabilidad.
+
+#### Answer the question:
+
+Pregunta: ¿Es la plataforma técnicamente viable y útil para el usuario?
+Respuesta: Sí, ya que el rendimiento es excelente (Carga en 0.6s). Por ejemplo, los usuarios validaron que la información médica y los filtros avanzados son críticos para la decisión de adopción.
+
+#### Check the Health metrics:
+
+| Métrica de Salud         | Resultado | Estado    |
+| ------------------------ | --------- | --------- |
+| Puntuación Global        | 92 / 100  | Excelente |
+| Velocidad (FCP)          | 0.6 s     | Rápido    |
+| Estabilidad Visual (CLS) | 0.034     | Estable   |
+| Interactividad (TBT)     | 30 ms     | Muy buena |
+
+### Step 3: Consider Implications
+
+Hemos confirmado que la confianza del adoptante depende directamente de la transparencia de la información. Además, sabemos técnicamente que podemos ahorrar ~1.5 MB optimizando imágenes, lo cual es crucial para usuarios móviles.
+
+¿Cómo cambia la pregunta lo que pensábamos que sabíamos? 
+
+Antes pensábamos que características como el Chat Integrado o los Planes Premium eran prioritarios. La evidencia muestra que el usuario prefiere filtros eficientes y datos de salud antes que herramientas de comunicación social o modelos de pago. Esto desplaza el foco de "Monetización/Social" a "Confianza/Búsqueda".
+
+### Step 4: Reaching conclusions and making decisions
+
+La hipótesis de que "más información médica genera más confianza" ha sido validada (Confianza subió a 4/5).
+
+Decisión:
+- Proceder al desarrollo de las historias de usuario de alta prioridad (Búsqueda, Solicitud, Historial).
+- Posponer el desarrollo de funcionalidades de monetización (Premium) hasta consolidar la base de usuarios y refugios.
+- Implementar optimizaciones técnicas (imágenes y CSS) detectadas en el análisis.
+
+### After the experiment
+
+#### Step 1: Re-score and re-prioritize
+
+Suben de Prioridad (Alta):
+- Información decisiva (Historial médico).
+- Filtros avanzados (Reducción de abandono).
+
+Bajan de Prioridad (Baja/Media):
+- Planes Premium (Riesgo alto, interés bajo por ahora).
+- Historias de éxito (Impacto emocional validado, pero secundario a la funcionalidad core).
+
+#### Step 2: Reshape the backlog
+
+| Prioridad | ID Story | Título                    | Epic ID |
+| --------- | -------- | ------------------------- | ------- |
+| MÁXIMA    | 04       | Buscar mascotas (Filtros) | 2       |
+| MÁXIMA    | 16       | Ver historial médico	   | 2       |
+| ALTA	    | 07       | Solicitar adopción	       | 3       |
+| MEDIA	    | 19       | Ver recomendaciones	   | 2       |
+| MEDIA	    | 20       | Preferencias de adopción  | 2       |
+| BAJA	    | 27       | Estadísticas (Admin)	   | 6       |
+
+#### Step 3: Consider new raw material
+
+- Nuevas tareas generadas a partir del análisis técnico ("Oportunidades de Optimización"):
+- Deuda Técnica: Tarea para remover CSS y JS no utilizado (ahorro ~114 KiB).
+- Optimización: Implementar compresión de imágenes (ahorro ~1,454 KiB).
+- Investigación Futura: Diseñar un nuevo experimento específico para validar la disposición de pago de los refugios (ya que la evidencia actual fue insuficiente).
 
 # 8.6. *To-Be Software Platform Pre-launch*
 ## 8.6.1. About-the-Product Intro Video
