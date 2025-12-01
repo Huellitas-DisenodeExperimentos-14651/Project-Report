@@ -4819,9 +4819,120 @@ Se mejoró la eficiencia reduciendo tareas duplicadas y estableciendo responsabl
 
 <br/>
 
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Julieta</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Cárdenas</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>25 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Ate</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular, laptop y tablet</td>
+  </tr>
+
+  <tr>
+    <td>Entrevistador</td>
+    <td>Harrison Payesa</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img width="1914" height="1003" alt="Image" src="https://github.com/user-attachments/assets/bea37122-a447-4806-8d09-6e24cff67e0c" /></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/IQDalhUmtOe1SZ3CAFACZkLOAc5s1A9Q3cdTC9eIe5OL_xU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YfXdbR" title="Title">Enlace a Entrevista Refugio</a></p></td> 
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>4:30 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+   Julieta Cárdenas, responsable de un refugio de perritos en Huaycán y emprendedora dedicada a la venta de artículos para mascotas, valora que la plataforma agilice la visibilidad de los animales que tiene a su cuidado. Destaca que la app es ordenada, fácil de usar y que le permite publicar perfiles completos rápidamente, algo esencial para un refugio con alta demanda. Considera especialmente útil la posibilidad de añadir información detallada sobre salud, tamaño y necesidades específicas, lo que ayuda a atraer adoptantes responsables. Sugiere como mejora incorporar herramientas que faciliten la coordinación logística en zonas periféricas como Huaycán, así como un espacio para promocionar alimentos o accesorios recomendados para cada caso. En general, percibe que la aplicación le ahorra tiempo, mejora la transparencia del proceso de adopción y fortalece el vínculo entre los refugios y las familias adoptantes.</td>
+  </tr>
+</tbody>
+</table>
+
+
+<br/>
+
 
 
 **Segmento Objetivo #2: Adoptantes Potenciales (Personas interesadas en adoptar animales)**
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Camila</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Paredes</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>20 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>SJL</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular, laptop</td>
+  </tr>
+
+  <tr>
+    <td>Entrevistador</td>
+    <td>Harrison Payesa</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img width="1919" height="989" alt="Harrison P" src="https://github.com/user-attachments/assets/c702c007-c380-43b8-817c-dab4265018d4" /></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/IQDlBWKnlnULSKawk5SzCHMrAVE4ZNbWm94FNjgOgf5oZUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KorGBT" title="Title">Enlace a Entrevista Adoptante</a></p></td> 
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>6:32 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+   Camila Paredes, estudiante de veterinaria, aprecia una plataforma que le permita conocer a fondo las necesidades de cada animal antes de adoptar. Destaca que la aplicación es clara y que la navegación facilita comparar distintos perfiles, algo importante para elegir un compañero que se adapte a su vida en un departamento. Valora especialmente las fichas con información de salud, comportamiento y nivel de actividad, ya que le ayudan a tomar una decisión responsable. Como sugerencia, menciona que sería útil incluir más fotografías y pequeñas historias sobre la vida previa de cada mascota. En general, siente que la herramienta le da confianza, ordena el proceso de adopción y la acerca de manera transparente a refugios y rescatistas, haciéndola sentir acompañada en cada paso hacia la adopción.</td>
+  </tr>
+</tbody>
+</table>
 
 
 </div>
