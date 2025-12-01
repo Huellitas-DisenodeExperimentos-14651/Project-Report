@@ -42,7 +42,7 @@
 </div>
 <br>
 <p align="center">
-    <strong>Noviembre 2025 </strong>
+    <strong>Diciembre 2025 </strong>
 </p>
 <br>
 
@@ -59,6 +59,7 @@
 | TB1    | 19/09/2025 | Todo el equipo | Capítulo I, II, III, IV y V | 
 | TP1    | 10/10/2025 | Christian Espinoza, Harrison Payesa, César Navarro | Capítulo VI y Capítulo VII |
 | TB2    | 15/11/2025 | Todo el equipo | Capítulo VI, VII y VIII |
+| TP1    | 30/11/2025 | Todo el equipo | Capítulo VIII |
 
 </div>
 
@@ -304,33 +305,39 @@ del ABET – EAC - Student Outcome 4.
     <td>
       <strong>Espinoza Saenz, Christian Renato (TB1):</strong> Me enfoqué en el <em>Startup Business Model</em> y en el <em>Needfinding</em>, asegurando que la recolección de información de los usuarios se realizara de manera ética y transparente, evitando sesgos y respetando la privacidad de los participantes.<br><br>
       <strong>Espinoza Saenz, Christian Renato (TP1):</strong> Cumplí con este principio al trabajar en Testing Suites & Validation, Continuous Integration y Build & Test Suite Pipeline Components, garantizando la integridad y confiabilidad de las pruebas.<br><br>
-      <strong>Espinoza Saenz, Christian Renato (TB2):</strong> Aseguré la calidad del código mediante el establecimiento de estándares de codificación y convenciones en Coding Standard & Code Conventions, además de implementar prácticas de seguridad en Code Quality & Code Security. En el monitoreo continuo, desarrollé herramientas y prácticas éticas que garantizan la transparencia operativa del sistema.<br><br>
-      <strong>Payesa Torres, Harrison Hubert (TB1):</strong> Asumí la responsabilidad en el diseño de la base de datos y la documentación técnica, cuidando la gestión adecuada de datos sensibles y aplicando principios de ética profesional en la protección de la información.<br><br>
-      <strong>Payesa Torres, Harrison Hubert (TP1):</strong> Evidencié mi responsabilidad profesional al encargarme de Continuous Deployment, Tools and Practices y Production Deployment Pipeline Components, asegurando que las implementaciones en producción respetaran las buenas prácticas y estándares éticos de ingeniería de software.<br><br>
-      <strong>Payesa Torres, Harrison Hubert (TB2):</strong> Contribuí de manera ética en la formulación de preguntas experimentales y la priorización del Question Backlog, garantizando que las hipótesis planteadas respetaran la privacidad de los usuarios y promovieran un diseño responsable de experimentos.<br><br>
-      <strong>Navarro Correa, César Augusto (TB1):</strong> Reconocí mi responsabilidad ética y profesional al desarrollar la sección de Continuous Delivery, Tools and Practices y Stages Deployment Pipeline Components, asegurando que los procesos de despliegue se implementaran de manera correcta y segura.<br><br>
-      <strong>Navarro Correa, César Augusto (TP1):</strong> En la implementación de la app móvil y el backend, apliqué estándares de calidad y buenas prácticas de programación, asumiendo la responsabilidad de entregar un producto seguro, eficiente y confiable.<br><br>
-      <strong>Navarro Correa, César Augusto (TB2):</strong> Apliqué principios éticos en la selección de métodos experimentales y en el diseño del tracking plan, asegurando que la recolección de datos respete la privacidad del usuario y cumpla con estándares profesionales de analítica responsable.
+      <strong>Espinoza Saenz, Christian Renato (TB2):</strong> Aseguré la calidad del código mediante el establecimiento de estándares de codificación y convenciones en Coding Standard & Code Conventions. En el monitoreo continuo, desarrollé prácticas éticas que garantizan la transparencia operativa.<br><br>
+      <strong>Espinoza Saenz, Christian Renato (TF):</strong> Lideré la planificación y análisis experimental (8.3.3–8.4), la re-priorización del question backlog (8.4.2) y la sesión de aprendizaje continuo (8.5.1), manteniendo trazabilidad ética de entrevistas To‑Be y uso responsable de datos simulados.<br><br>
+      <strong>Payesa Torres, Harrison Hubert (TB1):</strong> Asumí la responsabilidad en el diseño de la base de datos y la documentación técnica, cuidando la gestión adecuada de datos sensibles.<br><br>
+      <strong>Payesa Torres, Harrison Hubert (TP1):</strong> Continuous Deployment y Production Pipeline asegurando buenas prácticas y estándares éticos.<br><br>
+      <strong>Payesa Torres, Harrison Hubert (TB2):</strong> Priorización del Question Backlog respetando privacidad y enfoque responsable de experimentos.<br><br>
+      <strong>Payesa Torres, Harrison Hubert (TF):</strong> Implementé y validé evidencias To‑Be en frontend y mobile (8.3.3.2–8.3.3.4), registré entrevistas finales (8.3.4.2) y capturé métricas de rendimiento sin exponer datos reales, reforzando transparencia en la presentación del producto (8.6.1).<br><br>
+      <strong>Navarro Correa, César Augusto (TB1):</strong> Desarrollo de Continuous Delivery con prácticas seguras y correctas.<br><br>
+      <strong>Navarro Correa, César Augusto (TP1):</strong> Implementación de app móvil y backend con estándares de calidad y seguridad.<br><br>
+      <strong>Navarro Correa, César Augusto (TB2):</strong> Métodos experimentales y tracking plan con respeto a principios de analítica responsable.<br><br>
+      <strong>Navarro Correa, César Augusto (TF):</strong> Desarrollo y refuerzo del backend y API To‑Be (8.3.3.5), soporte a experimentos (endpoints para métricas), ajustes de rendimiento antes del pre‑launch y colaboración técnica ética documentada (8.3.3.6).<br>
     </td>
     <td>
-      Cada integrante asumió un rol ético y profesional en su ámbito de trabajo, aplicando principios de transparencia, accesibilidad, seguridad de datos y buenas prácticas de desarrollo, tanto en las fases iniciales como en la implementación de experimentos y monitoreo continuo.
+      Cada integrante asumió un rol ético y profesional aplicando principios de transparencia, seguridad y trazabilidad en todas las fases, incluyendo la etapa final (TF) donde se garantizó uso responsable de datos experimentales y publicación de evidencias verificables.
     </td> 
   </tr>
   <tr>
     <td>Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
     <td>
-      <strong>Espinoza Saenz, Christian Renato (TB1):</strong> Relacioné el proyecto con su impacto social, destacando la importancia de fomentar adopciones responsables de mascotas y el beneficio que esto genera en la comunidad.<br><br>
-      <strong>Espinoza Saenz, Christian Renato (TP1):</strong> Evalué críticamente el impacto de la calidad y validación del software, considerando las implicaciones económicas y sociales de errores o fallas.<br><br>
-      <strong>Espinoza Saenz, Christian Renato (TB2):</strong> Realicé un análisis del estado actual (As-Is Summary) identificando brechas sociales y económicas en los procesos de adopción. Además, documenté suposiciones y vacíos de conocimiento que permiten diseñar experimentos con impacto social positivo y sostenibilidad a largo plazo.<br><br>
-      <strong>Payesa Torres, Harrison Hubert (TB1):</strong> Analicé el modelo de monetización y evalué su efecto económico en adoptantes y refugios, procurando que fuera accesible para los usuarios y sostenible para la plataforma.<br><br>
-      <strong>Payesa Torres, Harrison Hubert (TP1):</strong> Tomé decisiones conscientes sobre las implementaciones en producción, analizando los efectos globales y ambientales de las soluciones desplegadas.<br><br>
-      <strong>Payesa Torres, Harrison Hubert (TB2):</strong> Emití juicios informados al diseñar hipótesis y métricas de negocio que consideran el impacto social de las adopciones responsables, evaluando las condiciones experimentales para maximizar el bienestar animal y la satisfacción de los usuarios.<br><br>
-      <strong>Navarro Correa, César Augusto (TB1):</strong> Evalué la viabilidad técnica de un backend escalable y su impacto en la eficiencia de recursos, priorizando la sostenibilidad tecnológica y el desempeño a largo plazo.<br><br>
-      <strong>Navarro Correa, César Augusto (TP1):</strong> Emití juicios informados sobre la configuración de los pipelines de despliegue, evaluando cómo mis decisiones podían afectar la eficiencia y seguridad del sistema en diferentes contextos.<br><br>
-      <strong>Navarro Correa, César Augusto (TB2):</strong> Evalué el impacto global de las decisiones experimentales mediante cálculos de escala, selección de métodos y definición de KPIs analíticos, considerando cómo la recolección de datos y las historias de usuario generan valor económico y social en el ecosistema de adopción.
+      <strong>Espinoza Saenz, Christian Renato (TB1):</strong> Relacioné el proyecto con su impacto social fomentando adopciones responsables.<br><br>
+      <strong>Espinoza Saenz, Christian Renato (TP1):</strong> Evaluación crítica de calidad y validación considerando implicaciones económicas y sociales.<br><br>
+      <strong>Espinoza Saenz, Christian Renato (TB2):</strong> Identificación de brechas sociales y económicas para diseño experimental con impacto positivo.<br><br>
+      <strong>Espinoza Saenz, Christian Renato (TF):</strong> Interpreté resultados (8.4.1), ajusté prioridades para maximizar reducción de abandono y mejorar confianza (8.4.2), orientando decisiones hacia bienestar animal y eficiencia operativa futura.<br><br>
+      <strong>Payesa Torres, Harrison Hubert (TB1):</strong> Análisis de modelo de monetización accesible y sostenible.<br><br>
+      <strong>Payesa Torres, Harrison Hubert (TP1):</strong> Decisiones conscientes en despliegue evaluando eficiencia y seguridad en diferentes contextos.<br><br>
+      <strong>Payesa Torres, Harrison Hubert (TB2):</strong> Diseño de métricas y condiciones para maximizar bienestar animal.<br><br>
+      <strong>Payesa Torres, Harrison Hubert (TF):</strong> Validación práctica de funcionalidades To‑Be que impactan adopciones (filtros, historial, recomendaciones), aportando datos cualitativos para futura optimización económica sin comprometer accesibilidad social.<br><br>
+      <strong>Navarro Correa, César Augusto (TB1):</strong> Viabilidad técnica de backend escalable y sostenible.<br><br>
+      <strong>Navarro Correa, César Augusto (TP1):</strong> Configuración de pipelines con impacto en eficiencia y seguridad.<br><br>
+      <strong>Navarro Correa, César Augusto (TB2):</strong> Selección de KPIs y métodos analíticos con enfoque de valor social y económico.<br><br>
+      <strong>Navarro Correa, César Augusto (TF):</strong> Refuerzo de endpoints y optimizaciones para soportar métricas experimentales, preparando base para decisiones futuras sobre escalabilidad y costos operativos con impacto positivo en refugios y usuarios.<br>
     </td>
     <td>
-      Los juicios emitidos por cada miembro permitieron evaluar los impactos sociales, económicos y técnicos de la plataforma, fortaleciendo su relevancia y sostenibilidad en distintos contextos. La incorporación de experimentos y métricas de negocio amplió la capacidad de tomar decisiones basadas en datos que benefician tanto a usuarios como al bienestar animal.
+      Los juicios informados en la fase final (TF) consolidaron decisiones sobre qué funcionalidades generan mayor impacto social (confianza, transparencia), optimizando prioridades antes de monetizar y favoreciendo sostenibilidad y bienestar animal.
     </td>
   </tr>
 </table>
@@ -381,8 +388,8 @@ Imaginamos un futuro donde ninguna mascota viva sin un hogar, donde cada adopci�
 
 | Integrante                | Perfil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Foto                                                |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| Navarro Correa, César Augusto  | .                                                                                                                                                                                                                                                                                                                                                                                                                                     |                   ![alt text](image.png)                    |
-| Payesa Torres, Harrison Hubert|  .                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                   |
+| Navarro Correa, César Augusto  | Mi nombre es César Auguto Navarro Correa                                                                                                                                                                                                                                                                                                                                                                                                                                     |                   ![alt text](image.png)                    |
+||                                                                                                                                                                                                                                                                                                                                                                                                                                                               |                                   |
 | Payesa Torres, Harrison Hubert (U202221024) | Mi nombre es Harrison Payesa. Soy estudiante de la carrera de Ingeniería de Software. Tengo conocimientos en lenguaje Python, C++ y JavaScript, ademas de haber hecho proyectos con FrontEnd usando HTML, CSS y JS. En mi tiempo libre suelo ver películas y escuchar música.                                                                                           |           ![alt text](https://github.com/user-attachments/assets/e8811cac-47fb-4239-ad7e-3c89240cdf9e)           |
 | Espinoza Saenz, Christian Renato (U202213208) | Mi nombre es Christian Espinoza, soy un estudiante de 21 años que cursa el 8vo ciclo de la carrera Ingeniería de Software. Poseo ideas únicas e innovadoras para que el trabajo logre sobresalir. Tengo experiencia en la creación de distintos tipos de diagramas, editar diferentes tipos de multimedia como videos, y un conocimiento general en programación de C++, HTML, CSS y SQL. Además, se me facilita desarrollar interfaces intuitivas en el frontend, lo cual será beneficioso para el proyecto.                                                                                                                                                                                                                                                 |          ![alt text](Images/chapter1/image-3.png)           |
 
@@ -5079,13 +5086,40 @@ El siguiente video presenta una introducción completa, explicando el propósito
 **Video About the Product:**  
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAf5HJVDy6hQoPOfq6JtHgaAVpoTO065cB2eaZtBsq2rnI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KReNy9](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAf5HJVDy6hQoPOfq6JtHgaAVpoTO065cB2eaZtBsq2rnI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KReNy9)
 
+
 # Conclusiones
 
 <div align = "justify">
 <br>- Las prácticas de verificación, validación e integración continua aplicadas garantizaron la calidad y estabilidad del sistema. A través de pruebas unitarias, de integración, BDD y de rendimiento, se comprobó el correcto funcionamiento de los módulos y flujos principales. Asimismo, la adopción de DevOps con herramientas como JUnit 5, Cucumber, Docker, Jenkins y GitHub Actions permitió automatizar los procesos de prueba, compilación y despliegue, logrando una entrega continua, ágil y confiable del producto.
+<br> - El enfoque de experimentación guiada por datos permitió re-priorizar funcionalidades de mayor impacto para refugios y adoptantes, incrementando el valor entregado en cada iteración.
+<br> - La arquitectura modular basada en DDD y las prácticas de seguridad aplicadas dejaron una base escalable, mantenible y lista para integrar nuevas capacidades.
 <br>  <br>
 
 </div>
+
+<br>
+
+# Recomendaciones
+1. Consolidar gobierno del producto: definir roadmap trimestral, responsables por módulo y métricas núcleo (conversiones, tiempo a adopción, retención de refugios) para decisiones basadas en datos.
+2. Escalar con calidad sostenible: ampliar cobertura de pruebas y preparar desacoplamiento gradual hacia servicios independientes si aumenta el tráfico.
+3. Reforzar confianza del ecosistema: estandarizar formato de historial médico, formalizar seguimiento post-adopción (30/60/90 días) y publicar panel transparente de actividad y uso de donaciones para mejorar credibilidad y adopciones exitosas.
+
+# Video App Validation
+## Validation Interviews (As-Is)
+- [Jhon Pinto](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAlChXr5pf3Ta4YAdoYcb9xAQQ6OutlLV0lJu6tHeb5gw8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FTeQdu)
+- [Camila Paredes](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/EdTBapRNLA1AqA5Q4qIUHlwBOpdAERrRh4iirG3ggYEcGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=Jddj0T)
+- [Álvaro Acero](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/EawCTTHMUWxFh29ohhHwO8ABWlcGJZHV-KMcEBqkhroo4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=piEtME)
+- [Alejandra Ramírez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/EUDkrkSqlqBIvRShQkAQxKUBZHhzG0G6DLpM5a7ZLBuNIg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=QwtEUp)
+
+### To-Be Validation Interviews
+- [Jhon Pinto](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAZu9olZ7vIR72YV8tXhzjpAYGJXpRmsDzHa3sfV9xCfME?e=Pj8ip9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- [Julieta Cárdenas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/IQDalhUmtOe1SZ3CAFACZkLOAc5s1A9Q3cdTC9eIe5OL_xU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=YfXdbR)
+- [Camila Paredes](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/IQDlBWKnlnULSKawk5SzCHMrAVE4ZNbWm94FNjgOgf5oZUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=KorGBT)
+- [Álvaro Acero](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/EawCTTHMUWxFh29ohhHwO8ABWlcGJZHV-KMcEBqkhroo4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=piEtME)
+
+# Video About the team
+
+
 
 <br>
 
