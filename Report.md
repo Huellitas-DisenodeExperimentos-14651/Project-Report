@@ -4963,6 +4963,11 @@ Bajan de Prioridad (Baja/Media):
 # 8.6. *To-Be Software Platform Pre-launch*
 ## 8.6.1. About-the-Product Intro Video
 
+El siguiente video presenta una introducción completa, explicando el propósito de la plataforma, sus funcionalidades principales y cómo conecta a adoptantes responsables con refugios y rescatistas. Este material audiovisual facilita la comprensión del producto y su impacto en el proceso de adopción de mascotas.
+
+**Video About the Product:**  
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAf5HJVDy6hQoPOfq6JtHgaAVpoTO065cB2eaZtBsq2rnI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KReNy9](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAf5HJVDy6hQoPOfq6JtHgaAVpoTO065cB2eaZtBsq2rnI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KReNy9)
+
 # Conclusiones
 
 <div align = "justify">
@@ -5003,6 +5008,8 @@ Bajan de Prioridad (Baja/Media):
 
 + Repositorio GitHub del Informe: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/Project-Report)<br><br>
 + Repositorio GitHub de la Landing Page: [Ver Repositorio](https://github.com/Huellitas-DisenodeExperimentos-14651/LandingPage)
+<br><br>
++ Video About the Product: [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAf5HJVDy6hQoPOfq6JtHgaAVpoTO065cB2eaZtBsq2rnI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pTIYtO)
 <br><br>
 + Deployment de la Landing Page: [Ver Deployment](https://huellitas-disenodeexperimentos-14651.github.io/LandingPage/)
 <br><br>
