@@ -3435,6 +3435,8 @@ Menor retrabajo, mayor consistencia del API, reducción de riesgos de seguridad 
 
 ### 6.3.2. *Registro de Entrevistas*
 
+<div align="justify">
+
 **Segmento Objetivo #1: Personal de Refugios y Rescatistas de Animales (Administradores, Cuidadores y Voluntarios)**
 <table>
 <colgroup>
@@ -4672,9 +4674,122 @@ Principios
 1. ¿Crees que la plataforma reduciría tiempo o errores en tu refugio?
 2. ¿Qué factor podría dificultar su adopción continua?
 
-
-
 ### 8.3.4.2. Registro de Entrevistas
+
+**Segmento Objetivo #1: Personal de Refugios y Rescatistas de Animales (Administradores, Cuidadores y Voluntarios)**
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Jhon</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Pinto</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>22 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Ate</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular, laptop</td>
+  </tr>
+
+  <tr>
+    <td>Entrevistador</td>
+    <td>Christian Espinoza</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="Images/chapter8/Jhon Pinto.png" alt="Jhon Pinto"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAZu9olZ7vIR72YV8tXhzjpAYGJXpRmsDzHa3sfV9xCfME?e=Pj8ip9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" title="Title">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAZu9olZ7vIR72YV8tXhzjpAYGJXpRmsDzHa3sfV9xCfME?e=Pj8ip9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></p></td> 
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>4:30 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Jhon Pinto, rescatista independiente, valora una plataforma que sea clara, ordenada y que facilite una adopción responsable. Destaca que la navegación es intuitiva y que las secciones para su labor están bien definidas. Considera que la información solicitada para publicar mascotas es adecuada, aunque siempre encuentra útil poder añadir breves notas de comportamiento o salud. Señala como sugerencia menor hacer más visibles algunos filtros y contar con pequeños apoyos automáticos en el seguimiento post-adopción. En general, percibe que la herramienta le ahorra tiempo, mejora la organización de solicitudes y aporta transparencia al proceso, lo que fortalece su confianza en la plataforma.</td>
+  </tr>
+</tbody>
+</table>
+
+<br/>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Camila</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Paredes</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>21 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Juan de Lurigancho</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Celular, laptop</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Harrison Payesa</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="https://github.com/user-attachments/assets/e67bed95-d7bc-48be-bfe5-7ceff78f2fd2" alt="Camila Paredes"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/EdTBapRNLA1AqA5Q4qIUHlwBOpdAERrRh4iirG3ggYEcGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jddj0T" title="Title">Ver Entrevista</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>4:00</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Camila Paredes, estudiante con experiencia en adopción, encontró la plataforma "Huellitas Conectadas" con una navegación muy intuitiva, pero su principal preocupación es la falta de información clara sobre la salud de las mascotas; específicamente, exige que la plataforma indique de forma visible si el animal está vacunado y esterilizado. Además, para evitar su frustración con la burocracia, necesita que la plataforma detalle los pasos del proceso de adopción y los requisitos antes de iniciar la solicitud, sugiriendo agregar un chat directo para comunicación rápida y un sistema de seguimiento post-adopción para aumentar su confianza y la utilidad de la aplicación.</td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+
+
+
 # 8.4. *Experiment Aftermath & Analysis*
 ## 8.4.1. Analysis and Interpretation of Results
 
