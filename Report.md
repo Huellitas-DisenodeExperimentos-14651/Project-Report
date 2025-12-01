@@ -4610,6 +4610,81 @@ Principios
 | | Endpoint estadísticas | T59 | Backend `/api/v1/admin/stats` | API que retorna datos consolidados para dashboard | 5 | César Navarro | To-Review |
 | | Integrar gráficos | T60 | Librería Chart.js | Implementar visualizaciones interactivas con Chart.js en dashboard | 6 | Harrison Payesa | To-Review |
 
+### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+### 8.3.3.6. Team Collaboration Insights
+
+## 8.3.4. To-Be Validation Interviews
+### 8.3.4.1. Diseño de Entrevistas
+
+#### Preguntas para Adoptantes
+
+##### 1) Diseño y navegación
+1. ¿Pudiste orientarte rápidamente desde la pantalla principal?
+2. ¿Alguna sección te generó confusión al navegar?
+
+##### 2) Exploración de Mascotas
+1. ¿La información mostrada por mascota fue suficiente para decidir abrir su ficha?
+2. ¿El sistema de filtros te ayudó a encontrar lo que buscabas?
+
+##### 3) Proceso de Adopción
+1. ¿Comprendiste los pasos del proceso de adopción sin necesidad de ayuda?
+2. ¿En qué parte del flujo sentiste mayor dificultad?
+
+##### 4) Donaciones
+1. ¿El diseño de la sección te transmitió confianza para donar?
+2. ¿Qué elemento te motivaría más a completar una donación?
+
+##### 5) Seguridad y percepción general
+1. ¿Hubo algo que incrementara o redujera tu confianza en la plataforma?
+2. ¿Qué parte te pareció más clara y cuál mejorarías?
+
+##### 6) Recomendación e interés futuro
+1. ¿Recomendarías esta plataforma a alguien interesado en adoptar o ayudar?
+2. ¿Qué funcionalidad adicional sería más útil para ti?
+
+
+#### Preguntas para Refugios / Cuidadores
+
+##### 1) Diseño y navegación
+1. ¿Identificaste sin dificultad las secciones destinadas para tu rol?
+2. ¿Algún botón o sección debería renombrarse o reubicarse?
+
+##### 2) Publicación de Mascotas
+1. ¿El flujo para publicar una mascota te resultó claro?
+2. ¿La información solicitada es suficiente para una publicación completa?
+
+##### 3) Gestión de Adopciones
+1. ¿Pudiste gestionar solicitudes (aceptar/rechazar/filtrar) sin complicaciones?
+2. ¿Qué parte del proceso te gustaría automatizar?
+
+##### 4) Funcionalidades y operación diaria
+1. ¿Qué herramienta adicional facilitaría más tu trabajo diario?
+2. ¿Qué sección te resultó más útil y cuál necesita mejoras?
+
+##### 5) Impacto y adopción
+1. ¿Crees que la plataforma reduciría tiempo o errores en tu refugio?
+2. ¿Qué factor podría dificultar su adopción continua?
+
+
+
+### 8.3.4.2. Registro de Entrevistas
+# 8.4. *Experiment Aftermath & Analysis*
+## 8.4.1. Analysis and Interpretation of Results
+
+## 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+# 8.5. *Continuous Learning*
+## 8.5.1 Shareback Session Artifacts: Learning Workflow
+
+# 8.6. *To-Be Software Platform Pre-launch*
+## 8.6.1. About-the-Product Intro Video
 
 # Conclusiones
 
