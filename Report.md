@@ -4671,6 +4671,38 @@ Se adjuntan capturas de pantallas de los endpoints desarrollados en el backend.
 
 
 ### 8.3.3.6. Team Collaboration Insights
+Durante la implementación del To-Be Experiment-Driven Lifecycle, el equipo mantuvo una dinámica de colaboración basada en comunicación constante, coordinación por roles y reuniones breves al inicio y cierre de cada jornada de trabajo.
+Entre los principales aspectos de colaboración se destacan:
+
+1. Coordinación y comunicación
+
+Uso de canales de comunicación (Discord / WhatsApp / Teams) para coordinar tareas diarias y resolver bloqueos rápidamente.
+
+Reuniones cortas tipo daily para actualizar progreso y asignar tareas de acuerdo con las necesidades del experimento.
+
+2. Control de versiones y trabajo técnico
+
+Aplicación disciplinada de GitFlow para la creación de feature branches relacionados directamente con las funcionalidades To-Be.
+
+Commits frecuentes siguiendo Conventional Commits, permitiendo claridad sobre qué se cambió, por qué y cómo aporta al experimento.
+
+3. Colaboración en diseño
+
+Sesiones colaborativas en Figma para ajustar pantallas y flujos derivados de las hipótesis del experimento.
+
+Revisión cruzada (peer review) para validar que cada propuesta respondiera directamente a las métricas y preguntas del experimento.
+
+4. Validación funcional
+
+Pruebas conjuntas en entornos de staging para validar funcionalidades antes de las entrevistas To-Be.
+
+Identificación y documentación inmediata de incidencias para ser corregidas dentro del sprint.
+
+5. Aprendizajes del Sprint
+
+La visibilidad de tareas mediante tableros Trello permitió priorizar correctamente el trabajo experimental.
+
+Se mejoró la eficiencia reduciendo tareas duplicadas y estableciendo responsables directos por cada hipótesis y variable del experimento.
 
 
 ## 8.3.4. To-Be Validation Interviews
@@ -4824,6 +4856,30 @@ Los resultados demuestran un **rendimiento excelente** (92/100) con tiempos de c
 
 
 ## 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+A partir de los resultados obtenidos durante la experimentación (prototipo con filtros avanzados, fichas con información clara y entrevistas de validación To-Be), se recalificó el **Question Backlog** definido en la sección 8.1.4, actualizando los niveles de **confianza**, **riesgo**, **impacto** e **interés** de cada pregunta.
+
+Las preguntas relacionadas con **búsqueda, transparencia de información y confianza del adoptante** mostraron evidencia más sólida, mientras que las preguntas vinculadas al **modelo de negocio (planes premium)** permanecen con menor validación empírica.
+
+#### Backlog re-puntualizado
+
+| Pregunta                                                                           | Evidencia post-experimento                                                                                                                                                                                                                                                     | Confianza<br>(antes → después) | Riesgo<br>(antes → después) | Impacto   | Interés   | Nueva Prioridad |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------ | --------------------------- | --------- | --------- | --------------- |
+| **¿Qué información es más decisiva para que un adoptante solicite una mascota?**   | Las entrevistas y pruebas con el prototipo mostraron que los adoptantes valoran especialmente la combinación de **historia**, **estado de salud** y **detalles de comportamiento**, confirmando la importancia de este punto en la decisión de iniciar una solicitud.          | 3 → **4**                      | 5 → **4**                   | 5         | 5         | **Alta**        |
+| **¿Los refugios aceptarán digitalizar su proceso con formularios estandarizados?** | El uso del flujo To-Be y la validación con rescatistas evidenciaron buena disposición a usar la plataforma siempre que **simplifique** el trabajo diario y no agregue carga adicional. Sin embargo, aún no se ha probado en un volumen grande de refugios.                     | 2 → **3**                      | 5 → **4**                   | 5         | 4         | **Alta**        |
+| **¿Los filtros avanzados reducen abandono?**                                       | En las sesiones con adoptantes, los filtros fueron percibidos como útiles para encontrar más rápido mascotas compatibles, y se señalaron como algo que “ayuda a encontrar lo que buscaban”, reforzando su rol en la reducción de fricción en la búsqueda.                      | 3 → **4**                      | 4 → **3**                   | 5         | 5         | **Alta**        |
+| **¿El historial médico visible genera más confianza?**                             | Los participantes indicaron que la información de salud clara y accesible aumenta la confianza en la plataforma y en el proceso de adopción, validando la hipótesis planteada en la Experiment Card de historial médico.                                                       | 3 → **4**                      | 3 → **2**                   | 4 → **5** | 5         | **Alta**        |
+| **¿El chat integrado reduce mensajes externos?**                                   | El experimento se centró principalmente en filtros, rendimiento y claridad de la información; el chat integrado tuvo menor protagonismo y no se recogió suficiente evidencia cuantitativa sobre reducción real de mensajes externos.                                           | 2 → **2**                      | 3 → **3**                   | 4 → **3** | 3         | **Media**       |
+| **¿Los refugios están dispuestos a pagar por un plan premium?**                    | El foco de esta iteración estuvo en validar **usabilidad y confianza**, no en monetización. No se realizaron pruebas específicas sobre disposición de pago, por lo que la incertidumbre se mantiene alta y su prioridad se desplaza a una fase futura.                         | 2 → **2**                      | 4 → **4**                   | 5 → **4** | 4 → **3** | **Baja**        |
+| **¿Las historias de éxito aumentan la intención de adoptar?**                      | Aunque se reconoce el valor emocional de las historias, en esta iteración no se diseñó un experimento directo para medir su impacto en la tasa de solicitud; se mantiene como una línea prometedora pero secundaria frente a los hallazgos sobre filtros e información médica. | 4 → **4**                      | 2 → **2**                   | 3         | 3         | **Baja**        |
+
+#### Interpretación de la nueva prioridad
+
+* Las preguntas relacionadas con **información crítica en la ficha de la mascota** y con **mecanismos de búsqueda (filtros avanzados)** se consolidan como las de **mayor prioridad**, al estar directamente respaldadas por la evidencia de entrevistas y pruebas con el prototipo.
+* La adopción de **procesos digitalizados por parte de refugios** mantiene prioridad alta, pero con una confianza moderada, al requerir más validación con un número mayor de organizaciones.
+* Las preguntas centradas en **chat integrado**, **planes premium** y **historias de éxito** permanecen en el backlog para futuras iteraciones, al no haber sido el foco principal del experimento actual y contar con menor evidencia cuantitativa.
+
+Esta re-priorización orienta el siguiente ciclo de desarrollo hacia **mejorar aún más la búsqueda, la transparencia de la información y la percepción de confianza en la plataforma**, dejando las preguntas de monetización y features complementarias para fases posteriores del producto.
 
 # 8.5. *Continuous Learning*
 ## 8.5.1 Shareback Session Artifacts: Learning Workflow
