@@ -3512,23 +3512,23 @@ Menor retrabajo, mayor consistencia del API, reducción de riesgos de seguridad 
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td>Camila</td>
+    <td>Alejandra</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td>Paredes</td>
+    <td>Ramirez</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td>21 años</td>
+    <td>23 años</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td>San Juan de Lurigancho</td>
+    <td>Ate</td>
   </tr>
   <tr>
     <td>Tecnologías</td>
-    <td>Celular, laptop</td>
+    <td>Celular, laptop y tablet</td>
   </tr>
   <tr>
     <td>Entrevistador</td>
@@ -3536,20 +3536,20 @@ Menor retrabajo, mayor consistencia del API, reducción de riesgos de seguridad 
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="https://github.com/user-attachments/assets/e67bed95-d7bc-48be-bfe5-7ceff78f2fd2" alt="Camila Paredes"></div></td>
+    <td><div align="center"><img width="1919" height="916" alt="Image" src="https://github.com/user-attachments/assets/c3fc442b-a1b3-4b22-9e3f-09b4fb55368b" /></div></td>
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/EdTBapRNLA1AqA5Q4qIUHlwBOpdAERrRh4iirG3ggYEcGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jddj0T" title="Title">Ver Entrevista</a></p></td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/IQBA5K5EqpagSL0UoUJAEMSlAe57K6u_7ynMm7fW68J_QfY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pe9rGW" title="Title">Ver Entrevista</a></p></td>
   </tr>
   <tr>
     <td>Duración<br></td>
-    <td>4:00</td>
+    <td>5:04</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td style="text-align: justify;">
-    Camila Paredes, estudiante con experiencia en adopción, encontró la plataforma "Huellitas Conectadas" con una navegación muy intuitiva, pero su principal preocupación es la falta de información clara sobre la salud de las mascotas; específicamente, exige que la plataforma indique de forma visible si el animal está vacunado y esterilizado. Además, para evitar su frustración con la burocracia, necesita que la plataforma detalle los pasos del proceso de adopción y los requisitos antes de iniciar la solicitud, sugiriendo agregar un chat directo para comunicación rápida y un sistema de seguimiento post-adopción para aumentar su confianza y la utilidad de la aplicación.</td>
+    Alejandra Ramírez, una joven de 23 años, voluntaria en el centro de adopción Perritos Huaycán, estudiante de marketing y dueña de tres perritos, utiliza “Huellitas Conectadas” con entusiasmo gracias a su navegación práctica y amigable. Sin embargo, como voluntaria y cuidadora responsable, le preocupa que la plataforma no muestre con claridad el estado de salud de cada animal. Considera indispensable que la información sobre vacunación y esterilización sea visible de inmediato, ya que esto evita confusiones y agiliza el proceso de adopción.</td>
   </tr>
 </tbody>
 </table>
@@ -4289,9 +4289,9 @@ Chat básico dentro del prototipo.
 * 5 refugios piloto
 * 1 mes
 
-## **8.2. *Experiment Designs*
+## 8.2. Experiment Designs
 
-### **8.2.1. Hypotheses**
+### 8.2.1. Hypotheses
 
 
 | ID | Feature | Question | Belief | Hypothesis | H0 | Métricas primarias | Regla de decisión (MDE) | Método |
@@ -4303,7 +4303,7 @@ Chat básico dentro del prototipo.
 
 ---
 
-### **8.2.2. Domain Business Metrics**
+### 8.2.2. Domain Business Metrics
 
 | Métrica                  | Fórmula                                      | Recolección | Meta          |
 | ------------------------ | -------------------------------------------- | ----------- | ------------- |
@@ -4316,7 +4316,7 @@ Chat básico dentro del prototipo.
 
 ---
 
-### **8.2.3. Measures**
+### 8.2.3. Measures
 
 * **Tasa de abandono:**
   sesiones sin interacción significativa / total de sesiones.
@@ -4336,7 +4336,7 @@ Chat básico dentro del prototipo.
 * **Adopciones completadas:**
   solicitudes aprobadas + verificación con refugio.
 
-### **8.2.4. Conditions**
+### 8.2.4. Conditions
 
 **Población:**
 
@@ -4367,18 +4367,18 @@ Chat básico dentro del prototipo.
 * No intervienen adopciones reales
 * Los datos son anonimizados y simulados
 
-## 8.2.5. Scale Calculations and Decisions
+### 8.2.5. Scale Calculations and Decisions
 
 Esta sección determinaremos cuánta evidencia es necesaria para confiar en los resultados de los experimentos. La escala se define combinando dos principios fundamentales:
 
-### 1. Certeza (Confidence):
+#### 1. Certeza (Confidence):
 
 Esta corresponde a qué tan probable es que los resultados no sean producto del azar. Se operacionaliza mediante:
 
 - Poder estadístico (1 – β): Probabilidad en el que queremos un 80% de probabilidad de detectar un efecto real, si existe.
 - Nivel de Significación (α): Probabilidad en el que aceptamos un 5% de probabilidad de un falso positivo.
 
-### 2. Precisión (MDE — Minimum Detectable Effect):
+#### 2. Precisión (MDE — Minimum Detectable Effect):
 
 Define el tamaño mínimo del cambio que debe detectarse para considerarlo valioso para el negocio. El MDE asegura que no se acumulen grandes muestras para detectar variaciones que, aun siendo reales, no generan impacto significativo.
 
@@ -4394,7 +4394,7 @@ El MDE determina el número mínimo de sesiones o usuarios necesarios para que u
 En base a estos criterios, los experimentos han sido dimensionados entre 20–40 adoptantes, 5 refugios y ventanas de prueba de 1–4 semanas, asegurando un balance entre rigor y factibilidad.
 
 
-## 8.2.6. Methods Selection
+### 8.2.6. Methods Selection
 
 Simplest Useful Thing (SUT)
 
@@ -4418,7 +4418,7 @@ Reglas esenciales
 - Los datos son anonimizados y simulados
 
 
-## 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
 El objetivo general es garantizar que las métricas seleccionadas sean económicas, accionables y alineadas al valor del producto, permitiendo detectar diferencias reales entre versiones o comportamientos. Para ellos, la selección de KPIS y metricas parte de tres criterios: 
 
@@ -4433,7 +4433,7 @@ KPIs definidos
 - Admin Load Reduction: KPI estratégico del lado de refugios.
 - Adoption Conversion Rate: Indicador superior que integra la cadena completa.
 
-## 8.2.8. Web and Mobile Tracking Plan
+### 8.2.8. Web and Mobile Tracking Plan
 
 El objetivo del tracking es capturar únicamente los eventos mínimos necesarios para validar las hipótesis y medir el comportamiento de los usuarios en web y mobile. El seguimiento será igual en ambas plataformas.
 
@@ -4445,7 +4445,7 @@ Principios
 
 ## 8.3. *Experimentation*
 
-## 8.3.1. To-Be User Stories
+### 8.3.1. To-Be User Stories
 
 <table>
   <thead>
@@ -4544,7 +4544,7 @@ Principios
   </tbody>
 </table>
 
-## 8.3.2. To-Be Product Backlog
+### 8.3.2. To-Be Product Backlog
 
 <div align = "justify">
 
@@ -4560,7 +4560,7 @@ Principios
 </div>
 
 
-## 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
 ### 8.3.3.1. To-Be Sprint Backlogs
 
@@ -4715,7 +4715,7 @@ La visibilidad de tareas mediante tableros Trello permitió priorizar correctame
 Se mejoró la eficiencia reduciendo tareas duplicadas y estableciendo responsables directos por cada hipótesis y variable del experimento.
 
 
-## 8.3.4. To-Be Validation Interviews
+### 8.3.4. To-Be Validation Interviews
 ### 8.3.4.1. Diseño de Entrevistas
 
 #### Preguntas para Adoptantes
@@ -4944,8 +4944,8 @@ Se mejoró la eficiencia reduciendo tareas duplicadas y estableciendo responsabl
 
 </div>
 
-# 8.4. *Experiment Aftermath & Analysis*
-## 8.4.1. Analysis and Interpretation of Results
+## 8.4. *Experiment Aftermath & Analysis*
+### 8.4.1. Analysis and Interpretation of Results
 
 Para validar el rendimiento y la experiencia de usuario de la plataforma **Adopta!**, se realizó una evaluación utilizando **PageSpeed Insights**, una herramienta que mide métricas clave de velocidad de carga, interactividad y estabilidad visual.
 
@@ -4976,7 +4976,7 @@ Para validar el rendimiento y la experiencia de usuario de la plataforma **Adopt
 Los resultados demuestran un **rendimiento excelente** (92/100) con tiempos de carga rápidos y alta estabilidad visual, garantizando una experiencia de usuario óptima para los adoptantes y refugios. Las oportunidades de optimización identificadas permitirán mejorar aún más el rendimiento en futuras iteraciones.
 
 
-## 8.4.2. Re-scored and Re-prioritized Question Backlog
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
 A partir de los resultados obtenidos durante la experimentación (prototipo con filtros avanzados, fichas con información clara y entrevistas de validación To-Be), se recalificó el **Question Backlog** definido en la sección 8.1.4, actualizando los niveles de **confianza**, **riesgo**, **impacto** e **interés** de cada pregunta.
 
@@ -5002,14 +5002,14 @@ Las preguntas relacionadas con **búsqueda, transparencia de información y conf
 
 Esta re-priorización orienta el siguiente ciclo de desarrollo hacia **mejorar aún más la búsqueda, la transparencia de la información y la percepción de confianza en la plataforma**, dejando las preguntas de monetización y features complementarias para fases posteriores del producto.
 
-# 8.5. *Continuous Learning*
-## 8.5.1 Shareback Session Artifacts: Learning Workflow
+## 8.5. *Continuous Learning*
+### 8.5.1 Shareback Session Artifacts: Learning Workflow
 
-### Step 1: Enough Evidence
+#### Step 1: Enough Evidence
 
 Contamos con evidencia cuantitativa técnica (Reporte de PageSpeed Insights con puntuación de 92/100) y evidencia cualitativa de usuario (validación de hipótesis sobre la importancia del historial médico y los filtros a través de entrevistas y pruebas de prototipo).
 
-### Step 2: Examine Evidence
+#### Step 2: Examine Evidence
 
 #### Organize: 
 
@@ -5031,7 +5031,7 @@ Respuesta: Sí, ya que el rendimiento es excelente (Carga en 0.6s). Por ejemplo,
 | Estabilidad Visual (CLS) | 0.034     | Estable   |
 | Interactividad (TBT)     | 30 ms     | Muy buena |
 
-### Step 3: Consider Implications
+#### Step 3: Consider Implications
 
 Hemos confirmado que la confianza del adoptante depende directamente de la transparencia de la información. Además, sabemos técnicamente que podemos ahorrar ~1.5 MB optimizando imágenes, lo cual es crucial para usuarios móviles.
 
@@ -5039,7 +5039,7 @@ Hemos confirmado que la confianza del adoptante depende directamente de la trans
 
 Antes pensábamos que características como el Chat Integrado o los Planes Premium eran prioritarios. La evidencia muestra que el usuario prefiere filtros eficientes y datos de salud antes que herramientas de comunicación social o modelos de pago. Esto desplaza el foco de "Monetización/Social" a "Confianza/Búsqueda".
 
-### Step 4: Reaching conclusions and making decisions
+#### Step 4: Reaching conclusions and making decisions
 
 La hipótesis de que "más información médica genera más confianza" ha sido validada (Confianza subió a 4/5).
 
@@ -5078,8 +5078,8 @@ Bajan de Prioridad (Baja/Media):
 - Optimización: Implementar compresión de imágenes (ahorro ~1,454 KiB).
 - Investigación Futura: Diseñar un nuevo experimento específico para validar la disposición de pago de los refugios (ya que la evidencia actual fue insuficiente).
 
-# 8.6. *To-Be Software Platform Pre-launch*
-## 8.6.1. About-the-Product Intro Video
+## 8.6. *To-Be Software Platform Pre-launch*
+### 8.6.1. About-the-Product Intro Video
 
 El siguiente video presenta una introducción completa, explicando el propósito de la plataforma, sus funcionalidades principales y cómo conecta a adoptantes responsables con refugios y rescatistas. Este material audiovisual facilita la comprensión del producto y su impacto en el proceso de adopción de mascotas.
 
