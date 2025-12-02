@@ -5119,7 +5119,7 @@ El siguiente video presenta una introducción completa, explicando el propósito
 
 # Video About the team
 
-
+- [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAZZVS78Cv9QIZu4AUmLbTOAUIW-rimjoggrI28XN5dF1I?e=sjacMZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQAZZVS78Cv9QIZu4AUmLbTOAUIW-rimjoggrI28XN5dF1I?e=sjacMZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <br>
 
